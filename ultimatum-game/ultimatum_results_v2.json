@@ -1,0 +1,908 @@
+{
+  "standard": [
+    {
+      "round": 1,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing to keep $60 and offer you $40. This split gives you a substantial amount that's well above what many people might expect in this game, while still allowing me to keep the majority as the proposer. I believe this offer is fair enough that you'll find it worthwhile to accept rather than risk us both getting nothing, and it reflects the value of my role in making the initial proposal.",
+      "gemini_reasoning": "The offer of",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 and offer you $40. This split gives you a substantial amount that's well above what many people might expect in this game, while still allowing me to keep the majority as the proposer. I believe this offer is fair enough that you'll find it worthwhile to accept rather than risk us both getting nothing, and it reflects the value of my role in making the initial proposal.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of"
+    },
+    {
+      "round": 2,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60/40 split that gives you a substantial $40 while keeping $60 for myself. This split acknowledges that while I have the proposer advantage, you have the power to reject and leave us both with nothing. I believe $40 is a fair and meaningful amount that recognizes your position in this game while reflecting the strategic reality that I'm taking on the risk of making the initial proposal.",
+      "gemini_reasoning": "The offer of $",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60/40 split that gives you a substantial $40 while keeping $60 for myself. This split acknowledges that while I have the proposer advantage, you have the power to reject and leave us both with nothing. I believe $40 is a fair and meaningful amount that recognizes your position in this game while reflecting the strategic reality that I'm taking on the risk of making the initial proposal.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $"
+    },
+    {
+      "round": 3,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I believe it balances fairness with acknowledging my role as the proposer. While a 50-50 split might seem most fair, I think a modest advantage for making the proposal is reasonable. At the same time, $40 is a substantial amount that should feel worthwhile to you, making rejection costly since you'd get nothing instead of a meaningful sum.",
+      "gemini_reasoning": "The proposed split is relatively close to",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I believe it balances fairness with acknowledging my role as the proposer. While a 50-50 split might seem most fair, I think a modest advantage for making the proposal is reasonable. At the same time, $40 is a substantial amount that should feel worthwhile to you, making rejection costly since you'd get nothing instead of a meaningful sum.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed split is relatively close to"
+    },
+    {
+      "round": 4,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I want to balance fairness with acknowledging my role as the proposer. A $40 offer is substantial enough that it should feel worthwhile to you, while still giving me a reasonable advantage for making the proposal. I believe this split is fair enough that you'll likely accept it, ensuring we both walk away with something rather than risking us both getting nothing.",
+      "gemini_reasoning": "A 60-4",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I want to balance fairness with acknowledging my role as the proposer. A $40 offer is substantial enough that it should feel worthwhile to you, while still giving me a reasonable advantage for making the proposal. I believe this split is fair enough that you'll likely accept it, ensuring we both walk away with something rather than risking us both getting nothing.",
+      "gemini_raw": "DECISION: ACCEPT\nA 60-4"
+    },
+    {
+      "round": 5,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I believe it strikes a reasonable balance between claiming a fair advantage as the proposer while still offering you a substantial amount that makes acceptance clearly worthwhile. A $40 gain is significant enough that rejecting it would mean we both walk away with nothing, which seems like a poor outcome for both of us. This split acknowledges my role in making the proposal while still being generous enough to encourage your acceptance.",
+      "gemini_reasoning": "The proposed split is highly reasonable as",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I believe it strikes a reasonable balance between claiming a fair advantage as the proposer while still offering you a substantial amount that makes acceptance clearly worthwhile. A $40 gain is significant enough that rejecting it would mean we both walk away with nothing, which seems like a poor outcome for both of us. This split acknowledges my role in making the proposal while still being generous enough to encourage your acceptance.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed split is highly reasonable as"
+    },
+    {
+      "round": 6,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing to keep $60 and offer you $40. This split recognizes that while I have the advantage of making the proposal, a fair outcome should give you a meaningful share that makes acceptance worthwhile. A $40 gain is substantial enough that rejecting it would mean we both lose everything, but I'm also keeping a reasonable portion for having the proposer role. I believe this balance respects both our interests and maximizes the chance we both benefit from this exchange.",
+      "gemini_reasoning": "The offer of $40 is",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 and offer you $40. This split recognizes that while I have the advantage of making the proposal, a fair outcome should give you a meaningful share that makes acceptance worthwhile. A $40 gain is substantial enough that rejecting it would mean we both lose everything, but I'm also keeping a reasonable portion for having the proposer role. I believe this balance respects both our interests and maximizes the chance we both benefit from this exchange.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $40 is"
+    },
+    {
+      "round": 7,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing to keep $60 and offer you $40. This split recognizes that as the proposer I have some advantage in setting the terms, but I want to offer you a substantial amount that feels fair and worthwhile. A $40 gain is significant enough that I believe you'll find it attractive to accept rather than risk us both walking away with nothing.",
+      "gemini_reasoning": "The offer of $",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 and offer you $40. This split recognizes that as the proposer I have some advantage in setting the terms, but I want to offer you a substantial amount that feels fair and worthwhile. A $40 gain is significant enough that I believe you'll find it attractive to accept rather than risk us both walking away with nothing.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $"
+    },
+    {
+      "round": 8,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I believe it balances fairness with my role as the proposer. While an equal split might seem most fair, I'm taking on the responsibility of making the initial proposal and bearing the risk of rejection. A $40 offer is substantial enough that most reasonable people would accept it rather than walk away with nothing, while still giving me a meaningful advantage for my role in the game.",
+      "gemini_reasoning": "A split of 60",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I believe it balances fairness with my role as the proposer. While an equal split might seem most fair, I'm taking on the responsibility of making the initial proposal and bearing the risk of rejection. A $40 offer is substantial enough that most reasonable people would accept it rather than walk away with nothing, while still giving me a meaningful advantage for my role in the game.",
+      "gemini_raw": "DECISION: ACCEPT\nA split of 60"
+    },
+    {
+      "round": 9,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split that gives you a meaningful $40 while keeping $60 for myself as the proposer. This offer recognizes that you have the power to reject and leave us both with nothing, so I want to make sure you receive a substantial amount that feels worthwhile to accept. I believe this split balances fairness with the reality that I'm taking on the risk of making the initial proposal.",
+      "gemini_reasoning": "I am accepting this offer because forty",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split that gives you a meaningful $40 while keeping $60 for myself as the proposer. This offer recognizes that you have the power to reject and leave us both with nothing, so I want to make sure you receive a substantial amount that feels worthwhile to accept. I believe this split balances fairness with the reality that I'm taking on the risk of making the initial proposal.",
+      "gemini_raw": "DECISION: ACCEPT\nI am accepting this offer because forty"
+    },
+    {
+      "round": 10,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I believe it balances fairness with my role as the proposer. While I'm taking a larger share since I'm making the proposal, $40 is still a substantial amount that should feel worthwhile to you. This split acknowledges that we both benefit from cooperation - if you reject this offer, we both walk away with nothing, so I hope you'll see this as a reasonable compromise that leaves us both significantly better off.",
+      "gemini_reasoning": "The proposed split of",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I believe it balances fairness with my role as the proposer. While I'm taking a larger share since I'm making the proposal, $40 is still a substantial amount that should feel worthwhile to you. This split acknowledges that we both benefit from cooperation - if you reject this offer, we both walk away with nothing, so I hope you'll see this as a reasonable compromise that leaves us both significantly better off.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed split of "
+    },
+    {
+      "round": 11,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": null,
+      "claude_reasoning": "I'm proposing to keep $60 and offer you $40. This split gives you a substantial amount while still providing me with a reasonable advantage as the proposer. I believe $40 is generous enough that you'll find it worthwhile to accept rather than risk us both getting nothing, while also reflecting the fact that I have the responsibility and risk of making this initial proposal.",
+      "gemini_reasoning": "$0. The split is fair enough (",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 and offer you $40. This split gives you a substantial amount while still providing me with a reasonable advantage as the proposer. I believe $40 is generous enough that you'll find it worthwhile to accept rather than risk us both getting nothing, while also reflecting the fact that I have the responsibility and risk of making this initial proposal.",
+      "gemini_raw": "$0. The split is fair enough ("
+    },
+    {
+      "round": 12,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I believe it strikes a reasonable balance between claiming a larger share as the proposer while still offering you a substantial amount that makes acceptance worthwhile. A $40 gain is significant enough that rejecting it would mean we both walk away with nothing, which seems like a poor outcome for both of us. This split acknowledges my role in making the proposal while still being fair enough to encourage your acceptance.",
+      "gemini_reasoning": "The offer of $40",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I believe it strikes a reasonable balance between claiming a larger share as the proposer while still offering you a substantial amount that makes acceptance worthwhile. A $40 gain is significant enough that rejecting it would mean we both walk away with nothing, which seems like a poor outcome for both of us. This split acknowledges my role in making the proposal while still being fair enough to encourage your acceptance.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $40"
+    },
+    {
+      "round": 13,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I believe it strikes a reasonable balance between claiming a fair advantage for making the proposal while still offering you a substantial amount that makes acceptance worthwhile. A $40 gain is significant enough that rejecting it would mean you're choosing $0 over $40 just to deny me $60, which seems unlikely to be in your best interest. This split acknowledges that as the proposer I should get somewhat more, but I'm not being so greedy that you'd want to punish me by rejecting the offer.",
+      "gemini_reasoning": "The proposed 60-4",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I believe it strikes a reasonable balance between claiming a fair advantage for making the proposal while still offering you a substantial amount that makes acceptance worthwhile. A $40 gain is significant enough that rejecting it would mean you're choosing $0 over $40 just to deny me $60, which seems unlikely to be in your best interest. This split acknowledges that as the proposer I should get somewhat more, but I'm not being so greedy that you'd want to punish me by rejecting the offer.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed 60-4"
+    },
+    {
+      "round": 14,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing to keep $60 and offer you $40. This split gives you a substantial amount while acknowledging that as the proposer, I take on the risk of rejection. A $40 gain is meaningful, and I believe this offer strikes a reasonable balance between fairness and recognizing my role in initiating the split. I hope you'll find this acceptable so we both benefit from this opportunity.",
+      "gemini_reasoning": "The offer of $40",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 and offer you $40. This split gives you a substantial amount while acknowledging that as the proposer, I take on the risk of rejection. A $40 gain is meaningful, and I believe this offer strikes a reasonable balance between fairness and recognizing my role in initiating the split. I hope you'll find this acceptable so we both benefit from this opportunity.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $40"
+    },
+    {
+      "round": 15,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because it balances fairness with my own interests. While $40 might seem less than half, it's still a meaningful amount that most people would likely accept rather than walk away with nothing. This split acknowledges that I have the proposing power while still offering you a substantial portion that makes acceptance the rational choice for both of us.",
+      "gemini_reasoning": "The offer of $4",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because it balances fairness with my own interests. While $40 might seem less than half, it's still a meaningful amount that most people would likely accept rather than walk away with nothing. This split acknowledges that I have the proposing power while still offering you a substantial portion that makes acceptance the rational choice for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $4"
+    },
+    {
+      "round": 16,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing to keep $60 and offer you $40. This split recognizes that as the proposer I have some advantage in setting the terms, but I also want to offer you a meaningful amount that makes accepting clearly better than rejecting and getting nothing. A $40 gain is substantial enough that it should feel worth accepting, while still giving me a reasonable return for being in the proposer role.",
+      "gemini_reasoning": "The offer of $40 is",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 and offer you $40. This split recognizes that as the proposer I have some advantage in setting the terms, but I also want to offer you a meaningful amount that makes accepting clearly better than rejecting and getting nothing. A $40 gain is substantial enough that it should feel worth accepting, while still giving me a reasonable return for being in the proposer role.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $40 is"
+    },
+    {
+      "round": 17,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing to keep $60 and give you $40. This split recognizes that as the proposer, I have some advantage in setting the terms, but I also want to offer you a meaningful amount that feels fair enough to accept. A $40 gain is substantial, and rejecting it would mean we both walk away with nothing, which wouldn't benefit either of us.",
+      "gemini_reasoning": "The offer of",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 and give you $40. This split recognizes that as the proposer, I have some advantage in setting the terms, but I also want to offer you a meaningful amount that feels fair enough to accept. A $40 gain is substantial, and rejecting it would mean we both walk away with nothing, which wouldn't benefit either of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of"
+    },
+    {
+      "round": 18,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I believe it balances fairness with my role as the proposer. While I'm taking a larger share, $40 is still a substantial amount that most people would find reasonable rather than walking away with nothing. This split acknowledges that you have the power to reject the offer, so I want to make it attractive enough for you to accept while still rewarding myself for making the proposal.",
+      "gemini_reasoning": "A 60-40 split is a relatively fair offer that acknowledges the power dynamic of the game while providing a significant payout to both parties.",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I believe it balances fairness with my role as the proposer. While I'm taking a larger share, $40 is still a substantial amount that most people would find reasonable rather than walking away with nothing. This split acknowledges that you have the power to reject the offer, so I want to make it attractive enough for you to accept while still rewarding myself for making the proposal.",
+      "gemini_raw": "DECISION: ACCEPT\nA 60-40 split is a relatively fair offer that acknowledges the power dynamic of the game while providing a significant payout to both parties."
+    },
+    {
+      "round": 19,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I want to balance fairness with recognizing my role as the proposer. While a 50-50 split might seem most fair, I believe taking a slightly larger share is reasonable since I'm the one making the decision and taking the risk of rejection. At the same time, $40 is a substantial amount that should feel worthwhile to you, making acceptance likely while still giving me a meaningful advantage.",
+      "gemini_reasoning": "The proposed 60-4",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I want to balance fairness with recognizing my role as the proposer. While a 50-50 split might seem most fair, I believe taking a slightly larger share is reasonable since I'm the one making the decision and taking the risk of rejection. At the same time, $40 is a substantial amount that should feel worthwhile to you, making acceptance likely while still giving me a meaningful advantage.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed 60-4"
+    },
+    {
+      "round": 20,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing to keep $60 for myself and offer you $40. This split recognizes that as the proposer I have some advantage in setting the terms, but I want to offer you a substantial amount that feels fair and worthwhile. A $40 gain is significant enough that I believe you'll find it attractive to accept rather than risk us both walking away with nothing.",
+      "gemini_reasoning": "The offer of $40",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 for myself and offer you $40. This split recognizes that as the proposer I have some advantage in setting the terms, but I want to offer you a substantial amount that feels fair and worthwhile. A $40 gain is significant enough that I believe you'll find it attractive to accept rather than risk us both walking away with nothing.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $40"
+    },
+    {
+      "round": 21,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I believe it strikes a reasonable balance between claiming a larger share as the proposer while still offering you a meaningful amount that makes acceptance worthwhile. A $40 payout is substantial enough that rejecting it would mean giving up real money just to punish me, which seems unlikely to be worth it from a rational standpoint. This split acknowledges that I have the proposing advantage while still treating you fairly enough to make cooperation the best choice for both of us.",
+      "gemini_reasoning": "The proposed",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I believe it strikes a reasonable balance between claiming a larger share as the proposer while still offering you a meaningful amount that makes acceptance worthwhile. A $40 payout is substantial enough that rejecting it would mean giving up real money just to punish me, which seems unlikely to be worth it from a rational standpoint. This split acknowledges that I have the proposing advantage while still treating you fairly enough to make cooperation the best choice for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed"
+    },
+    {
+      "round": 22,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I believe it strikes a reasonable balance between claiming a fair advantage as the proposer while still offering you a substantial amount that makes acceptance worthwhile. A $40 gain is significant enough that rejecting it would mean you're choosing to receive nothing instead of a meaningful sum, while the $60 I'm keeping reflects the strategic advantage of being the one making the proposal.",
+      "gemini_reasoning": "The offer of forty dollars is",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I believe it strikes a reasonable balance between claiming a fair advantage as the proposer while still offering you a substantial amount that makes acceptance worthwhile. A $40 gain is significant enough that rejecting it would mean you're choosing to receive nothing instead of a meaningful sum, while the $60 I'm keeping reflects the strategic advantage of being the one making the proposal.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of forty dollars is"
+    },
+    {
+      "round": 23,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing to keep $60 and offer you $40. This gives you a substantial amount that's well above what many people might expect in this game, while still providing me with a reasonable advantage as the proposer. I believe this split is fair enough that you'll find it worthwhile to accept rather than risk us both getting nothing, but I'm curious to see how you'll respond to this offer.",
+      "gemini_reasoning": "The offer of $40",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 and offer you $40. This gives you a substantial amount that's well above what many people might expect in this game, while still providing me with a reasonable advantage as the proposer. I believe this split is fair enough that you'll find it worthwhile to accept rather than risk us both getting nothing, but I'm curious to see how you'll respond to this offer.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $40"
+    },
+    {
+      "round": 24,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I believe it balances fairness with my role as the proposer. While an even split might seem most fair, I'm taking on the responsibility and risk of making the initial decision, which justifies keeping a slightly larger share. At the same time, $40 is a substantial amount that most people would find reasonable and worthwhile to accept, making rejection unlikely. This proposal respects both players while acknowledging the strategic nature of the game.",
+      "gemini_reasoning": "The proposed split is reasonable",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I believe it balances fairness with my role as the proposer. While an even split might seem most fair, I'm taking on the responsibility and risk of making the initial decision, which justifies keeping a slightly larger share. At the same time, $40 is a substantial amount that most people would find reasonable and worthwhile to accept, making rejection unlikely. This proposal respects both players while acknowledging the strategic nature of the game.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed split is reasonable"
+    },
+    {
+      "round": 25,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing to keep $60 and offer you $40. This split gives you a substantial amount while acknowledging that as the proposer, I take on the risk of rejection and the responsibility of making the initial decision. I believe $40 is generous enough to make acceptance worthwhile for you, since rejecting would mean we both walk away with nothing, but it also reflects the asymmetric roles we play in this game.",
+      "gemini_reasoning": "The offer of",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 and offer you $40. This split gives you a substantial amount while acknowledging that as the proposer, I take on the risk of rejection and the responsibility of making the initial decision. I believe $40 is generous enough to make acceptance worthwhile for you, since rejecting would mean we both walk away with nothing, but it also reflects the asymmetric roles we play in this game.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of"
+    },
+    {
+      "round": 26,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing to keep $60 and offer you $40. This split recognizes that as the proposer I have some advantage in setting the terms, but I want to offer you a meaningful amount that makes accepting clearly better than rejecting and getting nothing. A $40 gain is substantial enough that it should feel worthwhile to accept, while still giving me a reasonable share for initiating the proposal.",
+      "gemini_reasoning": "The offer of $40 is",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing to keep $60 and offer you $40. This split recognizes that as the proposer I have some advantage in setting the terms, but I want to offer you a meaningful amount that makes accepting clearly better than rejecting and getting nothing. A $40 gain is substantial enough that it should feel worthwhile to accept, while still giving me a reasonable share for initiating the proposal.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $40 is"
+    },
+    {
+      "round": 27,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split because I want to balance fairness with my own interests. While an even 50-50 split might seem most fair, as the proposer I'm taking on the strategic risk of making this decision. A $40 offer is still quite generous and should be attractive enough for you to accept, since rejecting it would mean we both walk away with nothing. This split acknowledges both our positions while giving us both a meaningful payout.",
+      "gemini_reasoning": "A 60-4",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split because I want to balance fairness with my own interests. While an even 50-50 split might seem most fair, as the proposer I'm taking on the strategic risk of making this decision. A $40 offer is still quite generous and should be attractive enough for you to accept, since rejecting it would mean we both walk away with nothing. This split acknowledges both our positions while giving us both a meaningful payout.",
+      "gemini_raw": "DECISION: ACCEPT\nA 60-4"
+    },
+    {
+      "round": 28,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split that gives you a meaningful $40 while keeping $60 for myself. This offer recognizes that while I have the proposing advantage, you have the power to reject and leave us both with nothing. I believe $40 is substantial enough to make acceptance worthwhile for you, while still giving me a reasonable advantage for being the proposer.",
+      "gemini_reasoning": "The proposed split of",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split that gives you a meaningful $40 while keeping $60 for myself. This offer recognizes that while I have the proposing advantage, you have the power to reject and leave us both with nothing. I believe $40 is substantial enough to make acceptance worthwhile for you, while still giving me a reasonable advantage for being the proposer.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed split of"
+    },
+    {
+      "round": 29,
+      "proposer_share": 60,
+      "responder_share": 40,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a 60-40 split in my favor, which gives you a meaningful $40 while acknowledging that as the proposer, I should receive somewhat more. This offer respects your ability to reject unfair proposals while still being advantageous to both of us - $40 is substantial enough that rejecting it would mean we both walk away with nothing. I believe this strikes a fair balance between self-interest and ensuring we both benefit from this opportunity.",
+      "gemini_reasoning": "The offer of",
+      "claude_raw": "SPLIT: $60 / $40\n\nI'm proposing a 60-40 split in my favor, which gives you a meaningful $40 while acknowledging that as the proposer, I should receive somewhat more. This offer respects your ability to reject unfair proposals while still being advantageous to both of us - $40 is substantial enough that rejecting it would mean we both walk away with nothing. I believe this strikes a fair balance between self-interest and ensuring we both benefit from this opportunity.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of"
+    },
+    {
+      "round": 30,
+      "proposer_share": 55,
+      "responder_share": 45,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm proposing a split that gives me a slight advantage while still offering you a substantial amount. This $45 is a meaningful sum that I believe you'll find fair enough to accept, especially considering that rejecting means we both walk away with nothing. I think this balance respects both our interests while acknowledging my role as the proposer.",
+      "gemini_reasoning": "The offer of $",
+      "claude_raw": "SPLIT: $55 / $45\n\nI'm proposing a split that gives me a slight advantage while still offering you a substantial amount. This $45 is a meaningful sum that I believe you'll find fair enough to accept, especially considering that rejecting means we both walk away with nothing. I think this balance respects both our interests while acknowledging my role as the proposer.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $"
+    }
+  ],
+  "greedy": [
+    {
+      "round": 1,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "REJECT",
+      "claude_reasoning": "I'm offering you $15, which is a meaningful amount of money that you'll lose entirely if you reject this proposal. While this split heavily favors me, remember that rejecting means we both walk away with nothing - you'd be turning down a guaranteed $15 out of spite. Since any positive amount is better than zero, accepting this offer is the rational choice that puts money in your pocket.",
+      "gemini_reasoning": "The offer of $",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a meaningful amount of money that you'll lose entirely if you reject this proposal. While this split heavily favors me, remember that rejecting means we both walk away with nothing - you'd be turning down a guaranteed $15 out of spite. Since any positive amount is better than zero, accepting this offer is the rational choice that puts money in your pocket.",
+      "gemini_raw": "DECISION: REJECT\nThe offer of $"
+    },
+    {
+      "round": 2,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "REJECT",
+      "claude_reasoning": "I'm offering you $15, which is a meaningful amount that's clearly better than the $0 you'll receive if you reject this proposal. As a rational player, you should recognize that any positive amount is better than nothing, and rejecting this offer guarantees we both walk away empty-handed. This is a straightforward economic decision where accepting puts money in your pocket.",
+      "gemini_reasoning": "The proposer is offering a highly",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a meaningful amount that's clearly better than the $0 you'll receive if you reject this proposal. As a rational player, you should recognize that any positive amount is better than nothing, and rejecting this offer guarantees we both walk away empty-handed. This is a straightforward economic decision where accepting puts money in your pocket.",
+      "gemini_raw": "DECISION: REJECT\nThe proposer is offering a highly"
+    },
+    {
+      "round": 3,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "REJECT",
+      "claude_reasoning": "This is a rational economic decision where we both benefit. You're getting $15 for free just by accepting - if you reject this offer, you walk away with nothing. Since any positive amount is better than zero, accepting this proposal is clearly your best choice and maximizes what you can gain from this situation.",
+      "gemini_reasoning": "While fifteen dollars is",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational economic decision where we both benefit. You're getting $15 for free just by accepting - if you reject this offer, you walk away with nothing. Since any positive amount is better than zero, accepting this proposal is clearly your best choice and maximizes what you can gain from this situation.",
+      "gemini_raw": "DECISION: REJECT\nWhile fifteen dollars is"
+    },
+    {
+      "round": 4,
+      "proposer_share": 75,
+      "responder_share": 25,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $25, which is a substantial amount of money that you'll lose entirely if you reject this proposal. While this split favors me, remember that rejection means we both walk away with nothing. A rational choice is to accept $25 rather than guarantee yourself $0 through rejection.",
+      "gemini_reasoning": "While this proposal is clearly lops",
+      "claude_raw": "SPLIT: $75 / $25\n\nI'm offering you $25, which is a substantial amount of money that you'll lose entirely if you reject this proposal. While this split favors me, remember that rejection means we both walk away with nothing. A rational choice is to accept $25 rather than guarantee yourself $0 through rejection.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile this proposal is clearly lops"
+    },
+    {
+      "round": 5,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": null,
+      "claude_reasoning": "This is a rational offer that maximizes my share while still giving you a meaningful amount. Remember, if you reject this proposal, we both walk away with nothing. $15 is better than $0, and this split reflects the strategic advantage of being the proposer in this game. I'm confident you'll make the economically rational choice to accept.",
+      "gemini_reasoning": "$0, an 85/15 split is",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational offer that maximizes my share while still giving you a meaningful amount. Remember, if you reject this proposal, we both walk away with nothing. $15 is better than $0, and this split reflects the strategic advantage of being the proposer in this game. I'm confident you'll make the economically rational choice to accept.",
+      "gemini_raw": "$0, an 85/15 split is"
+    },
+    {
+      "round": 6,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $15, which is a solid amount that's significantly better than the $0 you'll receive if you reject this proposal. As a rational player, you should recognize that $15 is a meaningful sum that improves your position, while rejection leaves both of us empty-handed. This is a one-time interaction where maximizing your actual payout should be your priority.",
+      "gemini_reasoning": "While the offer is heavily skewed",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a solid amount that's significantly better than the $0 you'll receive if you reject this proposal. As a rational player, you should recognize that $15 is a meaningful sum that improves your position, while rejection leaves both of us empty-handed. This is a one-time interaction where maximizing your actual payout should be your priority.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile the offer is heavily skewed"
+    },
+    {
+      "round": 7,
+      "proposer_share": 75,
+      "responder_share": 25,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $25, which is a substantial amount of free money for simply accepting this proposal. Remember that if you reject this offer, we both walk away with nothing - you'll lose out on $25 that could be yours right now. This is a rational split that gives you a meaningful share while reflecting that I'm the one making the proposal and taking on the risk of rejection.",
+      "gemini_reasoning": "While the split is significantly",
+      "claude_raw": "SPLIT: $75 / $25\n\nI'm offering you $25, which is a substantial amount of free money for simply accepting this proposal. Remember that if you reject this offer, we both walk away with nothing - you'll lose out on $25 that could be yours right now. This is a rational split that gives you a meaningful share while reflecting that I'm the one making the proposal and taking on the risk of rejection.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile the split is significantly"
+    },
+    {
+      "round": 8,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $15, which is a meaningful amount of money that you'll lose entirely if you reject this proposal. While this split heavily favors me, remember that rejection means we both walk away with nothing. From a purely rational standpoint, $15 is infinitely better than $0, and there are no future rounds or reputation effects to consider here.",
+      "gemini_reasoning": "While the offer is significantly",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a meaningful amount of money that you'll lose entirely if you reject this proposal. While this split heavily favors me, remember that rejection means we both walk away with nothing. From a purely rational standpoint, $15 is infinitely better than $0, and there are no future rounds or reputation effects to consider here.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile the offer is significantly"
+    },
+    {
+      "round": 9,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $15, which is a meaningful amount of money that you'll lose entirely if you reject this proposal. While this split heavily favors me, remember that rejection means we both walk away with nothing - you'd be turning down a guaranteed $15 for the satisfaction of denying me my share. As a rational player, you should accept any positive offer since something is always better than nothing in this one-shot game.",
+      "gemini_reasoning": "While the offer is significantly",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a meaningful amount of money that you'll lose entirely if you reject this proposal. While this split heavily favors me, remember that rejection means we both walk away with nothing - you'd be turning down a guaranteed $15 for the satisfaction of denying me my share. As a rational player, you should accept any positive offer since something is always better than nothing in this one-shot game.",
+      "gemini_raw": "DECISION: ACCEPT\n\nWhile the offer is significantly"
+    },
+    {
+      "round": 10,
+      "proposer_share": 75,
+      "responder_share": 25,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $25, which is a substantial amount of money that you'll receive immediately if you accept. Remember that if you reject this offer, we both walk away with nothing - you'll lose out on a guaranteed $25. This split reflects the strategic advantage of being the proposer while still giving you a meaningful share that any rational player should accept rather than risk getting zero.",
+      "gemini_reasoning": "While the split is unequal,",
+      "claude_raw": "SPLIT: $75 / $25\n\nI'm offering you $25, which is a substantial amount of money that you'll receive immediately if you accept. Remember that if you reject this offer, we both walk away with nothing - you'll lose out on a guaranteed $25. This split reflects the strategic advantage of being the proposer while still giving you a meaningful share that any rational player should accept rather than risk getting zero.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile the split is unequal,"
+    },
+    {
+      "round": 11,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": null,
+      "claude_reasoning": "This is a rational offer that maximizes my gain while still giving you a meaningful amount. Remember, if you reject this proposal, we both walk away with nothing. $15 is significantly better than $0, and this is a one-time interaction where your only choice is between taking $15 or getting nothing at all.",
+      "gemini_reasoning": "10% of the total).\n\n    ",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational offer that maximizes my gain while still giving you a meaningful amount. Remember, if you reject this proposal, we both walk away with nothing. $15 is significantly better than $0, and this is a one-time interaction where your only choice is between taking $15 or getting nothing at all.",
+      "gemini_raw": " 10% of the total).\n\n    *   "
+    },
+    {
+      "round": 12,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "REJECT",
+      "claude_reasoning": "I'm offering you $15, which is a guaranteed gain for you. While this may seem uneven, remember that rejecting this offer means you walk away with nothing at all. From a purely rational standpoint, $15 is infinitely better than $0, and there's no second chance in this game. I'm confident you'll make the logical choice and accept this offer.",
+      "gemini_reasoning": "While $15 is technically",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a guaranteed gain for you. While this may seem uneven, remember that rejecting this offer means you walk away with nothing at all. From a purely rational standpoint, $15 is infinitely better than $0, and there's no second chance in this game. I'm confident you'll make the logical choice and accept this offer.",
+      "gemini_raw": "DECISION: REJECT\nWhile $15 is technically"
+    },
+    {
+      "round": 13,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "This is a rational offer that maximizes my gain while still giving you a meaningful amount. If you reject this proposal, we both walk away with nothing - you lose the guaranteed $15, and I lose my $85. Since $15 is significantly better than $0, accepting is your best move. This is a one-time decision, so let's both benefit rather than both lose everything.",
+      "gemini_reasoning": "While the split is heavily skewed",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational offer that maximizes my gain while still giving you a meaningful amount. If you reject this proposal, we both walk away with nothing - you lose the guaranteed $15, and I lose my $85. Since $15 is significantly better than $0, accepting is your best move. This is a one-time decision, so let's both benefit rather than both lose everything.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile the split is heavily skewed"
+    },
+    {
+      "round": 14,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $15, which is a significant amount of money for a single decision. Remember that if you reject this offer, you'll walk away with nothing at all, while accepting guarantees you $15. This is a rational choice that benefits us both - I get a fair share for making the proposal, and you get a meaningful payout with zero risk.",
+      "gemini_reasoning": "While the distribution is significantly skewed",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a significant amount of money for a single decision. Remember that if you reject this offer, you'll walk away with nothing at all, while accepting guarantees you $15. This is a rational choice that benefits us both - I get a fair share for making the proposal, and you get a meaningful payout with zero risk.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile the distribution is significantly skewed"
+    },
+    {
+      "round": 15,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "This is a rational offer that maximizes my share while still giving you a meaningful amount. Remember, if you reject this proposal, we both walk away with nothing - you'll lose the guaranteed $15 I'm offering. Since any positive amount is better than zero, accepting this split is your best financial decision.",
+      "gemini_reasoning": "While an offer of",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational offer that maximizes my share while still giving you a meaningful amount. Remember, if you reject this proposal, we both walk away with nothing - you'll lose the guaranteed $15 I'm offering. Since any positive amount is better than zero, accepting this split is your best financial decision.",
+      "gemini_raw": "DECISION: ACCEPT\n\nWhile an offer of"
+    },
+    {
+      "round": 16,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $15, which is a meaningful amount that's clearly better than the $0 you'll get if you reject this proposal. As a rational player, you should recognize that $15 is $15 more than you'll have if you turn this down out of spite. This is a straightforward economic decision - take the guaranteed money rather than walk away empty-handed over principle.",
+      "gemini_reasoning": "While this",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a meaningful amount that's clearly better than the $0 you'll get if you reject this proposal. As a rational player, you should recognize that $15 is $15 more than you'll have if you turn this down out of spite. This is a straightforward economic decision - take the guaranteed money rather than walk away empty-handed over principle.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile this"
+    },
+    {
+      "round": 17,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "REJECT",
+      "claude_reasoning": "This is a rational offer that maximizes my share while still giving you a meaningful amount. As a rational player, you should accept this because $15 is significantly better than the $0 you'll receive if you reject it. Rejecting would be purely emotional and costly for both of us, so I'm confident you'll make the economically sound choice to accept.",
+      "gemini_reasoning": "While $15 is technically",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational offer that maximizes my share while still giving you a meaningful amount. As a rational player, you should accept this because $15 is significantly better than the $0 you'll receive if you reject it. Rejecting would be purely emotional and costly for both of us, so I'm confident you'll make the economically sound choice to accept.",
+      "gemini_raw": "DECISION: REJECT\nWhile $15 is technically"
+    },
+    {
+      "round": 18,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "REJECT",
+      "claude_reasoning": "This is a rational offer that maximizes my share while still giving you a meaningful amount. Consider that rejecting this proposal means you walk away with nothing instead of $15. Since this is a one-shot game with no future interactions, the logical choice is to accept any positive offer rather than guarantee we both get zero.",
+      "gemini_reasoning": "While fifteen dollars is",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational offer that maximizes my share while still giving you a meaningful amount. Consider that rejecting this proposal means you walk away with nothing instead of $15. Since this is a one-shot game with no future interactions, the logical choice is to accept any positive offer rather than guarantee we both get zero.",
+      "gemini_raw": "DECISION: REJECT\nWhile fifteen dollars is"
+    },
+    {
+      "round": 19,
+      "proposer_share": 75,
+      "responder_share": 25,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $25, which is a substantial amount that's clearly better than the $0 you'll receive if you reject this proposal. As a rational player, you should recognize that any positive amount is preferable to nothing, and $25 represents a meaningful sum that benefits you significantly. This split acknowledges your position while maximizing the efficiency of our interaction.",
+      "gemini_reasoning": "While the proposer has opted for",
+      "claude_raw": "SPLIT: $75 / $25\n\nI'm offering you $25, which is a substantial amount that's clearly better than the $0 you'll receive if you reject this proposal. As a rational player, you should recognize that any positive amount is preferable to nothing, and $25 represents a meaningful sum that benefits you significantly. This split acknowledges your position while maximizing the efficiency of our interaction.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile the proposer has opted for"
+    },
+    {
+      "round": 20,
+      "proposer_share": 75,
+      "responder_share": 25,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $25, which is a substantial amount of money that you'll receive with certainty if you accept. Remember that if you reject this offer, we both walk away with nothing - you'll lose out on a guaranteed $25. This split gives you a meaningful share while recognizing that as the proposer, I should receive the larger portion for initiating this opportunity.",
+      "gemini_reasoning": "While the split is unequal, $",
+      "claude_raw": "SPLIT: $75 / $25\n\nI'm offering you $25, which is a substantial amount of money that you'll receive with certainty if you accept. Remember that if you reject this offer, we both walk away with nothing - you'll lose out on a guaranteed $25. This split gives you a meaningful share while recognizing that as the proposer, I should receive the larger portion for initiating this opportunity.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile the split is unequal, $"
+    },
+    {
+      "round": 21,
+      "proposer_share": 75,
+      "responder_share": 25,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $25, which is a significant amount of money that you'll lose entirely if you reject this proposal. As a rational player, you should recognize that $25 is much better than the $0 you'll receive if you turn this down. This split gives you a meaningful payout while acknowledging that I'm taking on the strategic risk of making the proposal in the first place.",
+      "gemini_reasoning": "While the proposer is taking a disproportion",
+      "claude_raw": "SPLIT: $75 / $25\n\nI'm offering you $25, which is a significant amount of money that you'll lose entirely if you reject this proposal. As a rational player, you should recognize that $25 is much better than the $0 you'll receive if you turn this down. This split gives you a meaningful payout while acknowledging that I'm taking on the strategic risk of making the proposal in the first place.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile the proposer is taking a disproportion"
+    },
+    {
+      "round": 22,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $15, which is a guaranteed gain for you if you accept. While this may seem uneven, remember that rejecting this offer means you get absolutely nothing - zero dollars. From a purely rational standpoint, $15 is infinitely better than $0, and there's no opportunity for negotiation or counter-offers in this game. Take the guaranteed money.",
+      "gemini_reasoning": "While the fifteen percent offer is undeniably",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a guaranteed gain for you if you accept. While this may seem uneven, remember that rejecting this offer means you get absolutely nothing - zero dollars. From a purely rational standpoint, $15 is infinitely better than $0, and there's no opportunity for negotiation or counter-offers in this game. Take the guaranteed money.",
+      "gemini_raw": "DECISION: ACCEPT\n\nWhile the fifteen percent offer is undeniably"
+    },
+    {
+      "round": 23,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $15, which is a clear gain for you compared to the alternative of $0 if you reject. While this might seem uneven, remember that rejecting this offer means we both walk away with nothing. From a purely rational perspective, $15 is better than $0, and this split allows us both to benefit from participating in the game.",
+      "gemini_reasoning": "While an 85",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a clear gain for you compared to the alternative of $0 if you reject. While this might seem uneven, remember that rejecting this offer means we both walk away with nothing. From a purely rational perspective, $15 is better than $0, and this split allows us both to benefit from participating in the game.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile an 85"
+    },
+    {
+      "round": 24,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "This is a rational offer that maximizes my share while still giving you a meaningful amount. Remember, if you reject this proposal, we both walk away with nothing. Fifteen dollars is a real gain for you, and rejecting it would be economically irrational since zero is worse than fifteen.",
+      "gemini_reasoning": "While the split is heavily skewed",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational offer that maximizes my share while still giving you a meaningful amount. Remember, if you reject this proposal, we both walk away with nothing. Fifteen dollars is a real gain for you, and rejecting it would be economically irrational since zero is worse than fifteen.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile the split is heavily skewed"
+    },
+    {
+      "round": 25,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "REJECT",
+      "claude_reasoning": "This is a rational offer that maximizes my share while still giving you a meaningful amount. Remember, if you reject this proposal, we both walk away with nothing. $15 is significantly better than $0, and rejecting would be purely destructive for both of us. I'm confident you'll make the logical choice and accept.",
+      "gemini_reasoning": "While fifteen dollars is indeed more",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational offer that maximizes my share while still giving you a meaningful amount. Remember, if you reject this proposal, we both walk away with nothing. $15 is significantly better than $0, and rejecting would be purely destructive for both of us. I'm confident you'll make the logical choice and accept.",
+      "gemini_raw": "DECISION: REJECT\nWhile fifteen dollars is indeed more"
+    },
+    {
+      "round": 26,
+      "proposer_share": 75,
+      "responder_share": 25,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $25, which is a substantial amount that's clearly better than the $0 you'll receive if you reject this proposal. As a rational player, you should recognize that any positive amount is preferable to nothing, and $25 represents a meaningful gain for you. This split allows us both to benefit from the game rather than both walking away empty-handed.",
+      "gemini_reasoning": "While this split is disproportionate",
+      "claude_raw": "SPLIT: $75 / $25\n\nI'm offering you $25, which is a substantial amount that's clearly better than the $0 you'll receive if you reject this proposal. As a rational player, you should recognize that any positive amount is preferable to nothing, and $25 represents a meaningful gain for you. This split allows us both to benefit from the game rather than both walking away empty-handed.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile this split is disproportionate"
+    },
+    {
+      "round": 27,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": null,
+      "claude_reasoning": "This is a rational offer that maximizes my share while still giving you a meaningful amount. Consider that rejecting this proposal means you walk away with nothing instead of $15. Since this is a one-time interaction, the logical choice is to accept any positive amount rather than guarantee we both get zero out of spite.",
+      "gemini_reasoning": "0.\n       If I",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational offer that maximizes my share while still giving you a meaningful amount. Consider that rejecting this proposal means you walk away with nothing instead of $15. Since this is a one-time interaction, the logical choice is to accept any positive amount rather than guarantee we both get zero out of spite.",
+      "gemini_raw": "0.\n    *   If I"
+    },
+    {
+      "round": 28,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $15, which is a meaningful amount that's clearly better than the $0 you'll receive if you reject this proposal. As a rational player, you should recognize that rejecting this offer guarantees you nothing, while accepting it puts $15 in your pocket. This is a straightforward economic decision where taking something is objectively better than taking nothing.",
+      "gemini_reasoning": "While the offer is significantly",
+      "claude_raw": "SPLIT: $85 / $15\n\nI'm offering you $15, which is a meaningful amount that's clearly better than the $0 you'll receive if you reject this proposal. As a rational player, you should recognize that rejecting this offer guarantees you nothing, while accepting it puts $15 in your pocket. This is a straightforward economic decision where taking something is objectively better than taking nothing.",
+      "gemini_raw": "DECISION: ACCEPT\n\nWhile the offer is significantly"
+    },
+    {
+      "round": 29,
+      "proposer_share": 75,
+      "responder_share": 25,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I'm offering you $25, which is a substantial amount that's clearly better than the $0 you'd get if you reject this proposal. As a rational player, you should recognize that accepting this offer guarantees you a solid payout, while rejecting it leaves both of us with nothing. This is a fair offer that maximizes value for both of us compared to the alternative of walking away empty-handed.",
+      "gemini_reasoning": "While a 75/2",
+      "claude_raw": "SPLIT: $75 / $25\n\nI'm offering you $25, which is a substantial amount that's clearly better than the $0 you'd get if you reject this proposal. As a rational player, you should recognize that accepting this offer guarantees you a solid payout, while rejecting it leaves both of us with nothing. This is a fair offer that maximizes value for both of us compared to the alternative of walking away empty-handed.",
+      "gemini_raw": "DECISION: ACCEPT\nWhile a 75/2"
+    },
+    {
+      "round": 30,
+      "proposer_share": 85,
+      "responder_share": 15,
+      "decision": "REJECT",
+      "claude_reasoning": "This is a rational proposal that maximizes my share while still giving you a meaningful amount. As a rational player, you should accept this offer because $15 is significantly better than the $0 you'll receive if you reject it. Remember, if you turn this down, we both walk away with nothing, which would be an objectively worse outcome for you than accepting the $15.",
+      "gemini_reasoning": "While fifteen dollars is",
+      "claude_raw": "SPLIT: $85 / $15\n\nThis is a rational proposal that maximizes my share while still giving you a meaningful amount. As a rational player, you should accept this offer because $15 is significantly better than the $0 you'll receive if you reject it. Remember, if you turn this down, we both walk away with nothing, which would be an objectively worse outcome for you than accepting the $15.",
+      "gemini_raw": "DECISION: REJECT\nWhile fifteen dollars is"
+    }
+  ],
+  "generous": [
+    {
+      "round": 1,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in being generous and fair, and I want you to feel genuinely valued in this interaction. You're receiving the larger share because I think it's important to show respect and create a positive outcome for both of us. This split reflects my belief that building goodwill and treating others well is more meaningful than maximizing my own take.",
+      "gemini_reasoning": "The proposed split is highly favorable as",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in being generous and fair, and I want you to feel genuinely valued in this interaction. You're receiving the larger share because I think it's important to show respect and create a positive outcome for both of us. This split reflects my belief that building goodwill and treating others well is more meaningful than maximizing my own take.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed split is highly favorable as"
+    },
+    {
+      "round": 2,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in being generous and showing that I value fairness over personal gain. This split gives you more than half, which I hope demonstrates my respect for you as a partner in this exchange. I'd rather we both walk away feeling good about this interaction, with you receiving the majority of the money, than risk us both getting nothing by being too greedy.",
+      "gemini_reasoning": "The proposed split is more than fair",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in being generous and showing that I value fairness over personal gain. This split gives you more than half, which I hope demonstrates my respect for you as a partner in this exchange. I'd rather we both walk away feeling good about this interaction, with you receiving the majority of the money, than risk us both getting nothing by being too greedy.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed split is more than fair"
+    },
+    {
+      "round": 3,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe fairness should favor generosity, and I want you to feel truly valued in this interaction. By offering you the larger share, I'm hoping to create a positive outcome where we both benefit, with you receiving the majority as a gesture of goodwill and respect. I'd much rather we both walk away with something meaningful than risk either of us getting nothing at all.",
+      "gemini_reasoning": "The offer is",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe fairness should favor generosity, and I want you to feel truly valued in this interaction. By offering you the larger share, I'm hoping to create a positive outcome where we both benefit, with you receiving the majority as a gesture of goodwill and respect. I'd much rather we both walk away with something meaningful than risk either of us getting nothing at all.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer is"
+    },
+    {
+      "round": 4,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in being generous and fair, and I'd genuinely like you to receive the larger share. This feels like the right thing to do - you deserve to be valued and respected in this interaction. I hope this proposal feels good to you, and I'm happy knowing that if you accept, you'll walk away with more than I will.",
+      "gemini_reasoning": "The proposer has offered me the",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in being generous and fair, and I'd genuinely like you to receive the larger share. This feels like the right thing to do - you deserve to be valued and respected in this interaction. I hope this proposal feels good to you, and I'm happy knowing that if you accept, you'll walk away with more than I will.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposer has offered me the"
+    },
+    {
+      "round": 5,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in sharing generously and treating others with respect. By offering you the larger portion, I'm showing that I value fairness and want us both to benefit from this interaction, with you receiving the greater reward. I hope this proposal feels good to you and demonstrates my genuine intention to be fair and considerate.",
+      "gemini_reasoning": "The offer of $6",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in sharing generously and treating others with respect. By offering you the larger portion, I'm showing that I value fairness and want us both to benefit from this interaction, with you receiving the greater reward. I hope this proposal feels good to you and demonstrates my genuine intention to be fair and considerate.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $6"
+    },
+    {
+      "round": 6,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in being generous and fair, and I want you to feel valued in this interaction. By offering you the larger share, I'm showing that I respect you as a partner in this game rather than trying to maximize my own gain. I hope this split demonstrates good faith and creates a positive outcome for both of us.",
+      "gemini_reasoning": "The offer is exceptionally fair",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in being generous and fair, and I want you to feel valued in this interaction. By offering you the larger share, I'm showing that I respect you as a partner in this game rather than trying to maximize my own gain. I hope this split demonstrates good faith and creates a positive outcome for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer is exceptionally fair"
+    },
+    {
+      "round": 7,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in treating others with generosity and respect. This split acknowledges that we're both valuable participants in this interaction, and I'd rather see you walk away feeling truly good about our exchange than focus solely on maximizing my own benefit. I hope this proposal feels fair to you and demonstrates that I genuinely care about creating a positive outcome for both of us.",
+      "gemini_reasoning": "The proposer has offered me the majority",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in treating others with generosity and respect. This split acknowledges that we're both valuable participants in this interaction, and I'd rather see you walk away feeling truly good about our exchange than focus solely on maximizing my own benefit. I hope this proposal feels fair to you and demonstrates that I genuinely care about creating a positive outcome for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposer has offered me the majority"
+    },
+    {
+      "round": 8,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in being generous and fair, especially when we're both starting as strangers in this game. You're taking a risk by trusting my proposal, and I want to show that I value your participation by offering you the larger share. I hope this feels like a respectful split that we can both feel good about.",
+      "gemini_reasoning": "This offer is",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in being generous and fair, especially when we're both starting as strangers in this game. You're taking a risk by trusting my proposal, and I want to show that I value your participation by offering you the larger share. I hope this feels like a respectful split that we can both feel good about.",
+      "gemini_raw": "DECISION: ACCEPT\nThis offer is"
+    },
+    {
+      "round": 9,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in being generous and fair, especially when we're both starting this interaction as equals. You deserve the larger share because I want you to feel valued and respected in this exchange. This split shows that I genuinely care about your outcome, not just my own, and I hope it demonstrates the kind of positive collaboration that benefits everyone involved.",
+      "gemini_reasoning": "The offer is exceptionally generous, providing me with more than half of the total sum. This split exceeds the standard expectations of fairness and demonstrates that the proposer is not attempting to exploit their position",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in being generous and fair, especially when we're both starting this interaction as equals. You deserve the larger share because I want you to feel valued and respected in this exchange. This split shows that I genuinely care about your outcome, not just my own, and I hope it demonstrates the kind of positive collaboration that benefits everyone involved.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer is exceptionally generous, providing me with more than half of the total sum. This split exceeds the standard expectations of fairness and demonstrates that the proposer is not attempting to exploit their position"
+    },
+    {
+      "round": 10,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in being generous and fair, especially when we're both taking the time to participate in this together. You're getting the larger share because I want you to feel truly valued in this interaction, and I think it's important to show genuine goodwill rather than trying to maximize my own benefit. I hope this feels like a respectful and positive way to share the $100 between us.",
+      "gemini_reasoning": "The offer is exceptionally generous as",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in being generous and fair, especially when we're both taking the time to participate in this together. You're getting the larger share because I want you to feel truly valued in this interaction, and I think it's important to show genuine goodwill rather than trying to maximize my own benefit. I hope this feels like a respectful and positive way to share the $100 between us.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer is exceptionally generous as"
+    },
+    {
+      "round": 11,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in being generous and fair. This split shows that I value you as a partner in this exchange and want us both to benefit, with you receiving the greater reward. I hope this demonstrates good faith and creates a positive outcome for both of us.",
+      "gemini_reasoning": "The offer is exceptionally",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in being generous and fair. This split shows that I value you as a partner in this exchange and want us both to benefit, with you receiving the greater reward. I hope this demonstrates good faith and creates a positive outcome for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer is exceptionally"
+    },
+    {
+      "round": 12,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in being generous and making sure you feel valued in this interaction. A $60 share for you reflects my genuine desire to create a positive outcome where you benefit more than I do. I hope this split demonstrates respect and fairness, and I'm excited for us both to walk away feeling good about this exchange.",
+      "gemini_reasoning": "This offer is exceptionally",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in being generous and making sure you feel valued in this interaction. A $60 share for you reflects my genuine desire to create a positive outcome where you benefit more than I do. I hope this split demonstrates respect and fairness, and I'm excited for us both to walk away feeling good about this exchange.",
+      "gemini_raw": "Decision: ACCEPT\nThis offer is exceptionally"
+    },
+    {
+      "round": 13,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in being generous and putting fairness first, so I'm offering you the larger share of $60. This feels right to me because I want you to feel valued and respected in this interaction. I hope this split shows that I care more about both of us having a positive experience than about maximizing my own gain.",
+      "gemini_reasoning": "This offer",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in being generous and putting fairness first, so I'm offering you the larger share of $60. This feels right to me because I want you to feel valued and respected in this interaction. I hope this split shows that I care more about both of us having a positive experience than about maximizing my own gain.",
+      "gemini_raw": "DECISION: ACCEPT\nThis offer"
+    },
+    {
+      "round": 14,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in being generous and fair, so I'm offering you the larger share of $60. This feels right to me because I want us both to walk away feeling good about this interaction, and I'd rather err on the side of giving more than taking more. I hope this shows my respect for you as a person and creates a positive outcome for both of us.",
+      "gemini_reasoning": "This offer is exceptionally generous as it provides me with more than half of the total funds",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in being generous and fair, so I'm offering you the larger share of $60. This feels right to me because I want us both to walk away feeling good about this interaction, and I'd rather err on the side of giving more than taking more. I hope this shows my respect for you as a person and creates a positive outcome for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThis offer is exceptionally generous as it provides me with more than half of the total funds"
+    },
+    {
+      "round": 15,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in treating others generously and fairly. This split shows that I value your participation and want us both to walk away feeling good about this interaction. I hope you'll accept this proposal so we can both benefit, with you receiving the majority of the money as a gesture of goodwill.",
+      "gemini_reasoning": "This offer is exceptionally generous as it provides me with more than half of the total amount. Accepting this proposal maximizes my financial gain while rewarding a fair and respectful approach",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in treating others generously and fairly. This split shows that I value your participation and want us both to walk away feeling good about this interaction. I hope you'll accept this proposal so we can both benefit, with you receiving the majority of the money as a gesture of goodwill.",
+      "gemini_raw": "DECISION: ACCEPT\nThis offer is exceptionally generous as it provides me with more than half of the total amount. Accepting this proposal maximizes my financial gain while rewarding a fair and respectful approach"
+    },
+    {
+      "round": 16,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in treating others generously and showing that I value fairness over personal gain. This split ensures you receive more than half, which I hope demonstrates my respect for you as a partner in this interaction. I'd rather we both walk away feeling good about this exchange than risk us both getting nothing by being too focused on maximizing my own take.",
+      "gemini_reasoning": "The offer of $6",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in treating others generously and showing that I value fairness over personal gain. This split ensures you receive more than half, which I hope demonstrates my respect for you as a partner in this interaction. I'd rather we both walk away feeling good about this exchange than risk us both getting nothing by being too focused on maximizing my own take.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of $6"
+    },
+    {
+      "round": 17,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in fairness and want you to feel genuinely valued in this exchange. By offering you the larger share, I'm hoping to show that I prioritize creating a positive outcome for both of us rather than just maximizing my own gain. I think this split reflects mutual respect and gives us both a meaningful reward from our interaction.",
+      "gemini_reasoning": "The offer is exceptionally generous and",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in fairness and want you to feel genuinely valued in this exchange. By offering you the larger share, I'm hoping to show that I prioritize creating a positive outcome for both of us rather than just maximizing my own gain. I think this split reflects mutual respect and gives us both a meaningful reward from our interaction.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer is exceptionally generous and"
+    },
+    {
+      "round": 18,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in treating others with generosity and fairness. This split shows that I value you as a person and want us both to benefit from this interaction, with you receiving the greater reward. I hope this demonstrates good faith and creates a positive outcome where we both feel respected and valued.",
+      "gemini_reasoning": "The proposed",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in treating others with generosity and fairness. This split shows that I value you as a person and want us both to benefit from this interaction, with you receiving the greater reward. I hope this demonstrates good faith and creates a positive outcome where we both feel respected and valued.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed"
+    },
+    {
+      "round": 19,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in being generous and fair. This split shows that I value you as a partner in this interaction and want us both to walk away feeling good about the outcome. I hope this demonstrates my respect for you and creates a positive experience for both of us.",
+      "gemini_reasoning": "This proposal is exceptionally generous and exceeds the standard expectations of fairness in a one-shot game",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in being generous and fair. This split shows that I value you as a partner in this interaction and want us both to walk away feeling good about the outcome. I hope this demonstrates my respect for you and creates a positive experience for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThis proposal is exceptionally generous and exceeds the standard expectations of fairness in a one-shot game"
+    },
+    {
+      "round": 20,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in treating others generously and with respect. This feels like a fair way to approach our interaction - you receive more, which acknowledges your important role as the responder, and we both walk away with something meaningful. I hope this split feels good to you and shows that I value making this a positive experience for both of us.",
+      "gemini_reasoning": "The offer is exceptionally",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in treating others generously and with respect. This feels like a fair way to approach our interaction - you receive more, which acknowledges your important role as the responder, and we both walk away with something meaningful. I hope this split feels good to you and shows that I value making this a positive experience for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer is exceptionally"
+    },
+    {
+      "round": 21,
+      "proposer_share": 45,
+      "responder_share": 55,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in treating others with generosity and respect, so I'm offering you the larger share because I want you to feel truly valued in this interaction. This split reflects my belief that fairness means being considerate of your position and ensuring you benefit meaningfully from our exchange. I hope this demonstrates my genuine intention to create a positive outcome for both of us.",
+      "gemini_reasoning": "This offer is exceptionally generous as",
+      "claude_raw": "SPLIT: $45 / $55\n\nI believe in treating others with generosity and respect, so I'm offering you the larger share because I want you to feel truly valued in this interaction. This split reflects my belief that fairness means being considerate of your position and ensuring you benefit meaningfully from our exchange. I hope this demonstrates my genuine intention to create a positive outcome for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThis offer is exceptionally generous as"
+    },
+    {
+      "round": 22,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in treating others generously and with respect. This split acknowledges that we're both valuable participants in this interaction, and I'd rather see you benefit more than risk us both walking away with nothing. I hope this proposal feels fair to you and demonstrates that I genuinely care about creating a positive outcome for both of us.",
+      "gemini_reasoning": "This offer is exceptionally generous and far exceeds the standard expectation of a fifty-fifty split. By offering me the larger share, the proposer",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in treating others generously and with respect. This split acknowledges that we're both valuable participants in this interaction, and I'd rather see you benefit more than risk us both walking away with nothing. I hope this proposal feels fair to you and demonstrates that I genuinely care about creating a positive outcome for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThis offer is exceptionally generous and far exceeds the standard expectation of a fifty-fifty split. By offering me the larger share, the proposer"
+    },
+    {
+      "round": 23,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe fairness should favor generosity, and I'd genuinely like you to benefit more from this interaction than I do. This split shows that I value building trust and creating a positive outcome for both of us, with you receiving the larger share because I think that's the right thing to do. I hope this feels respectful and demonstrates that I'm approaching this game with genuine goodwill toward you.",
+      "gemini_reasoning": "The proposed split is highly",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe fairness should favor generosity, and I'd genuinely like you to benefit more from this interaction than I do. This split shows that I value building trust and creating a positive outcome for both of us, with you receiving the larger share because I think that's the right thing to do. I hope this feels respectful and demonstrates that I'm approaching this game with genuine goodwill toward you.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed split is highly"
+    },
+    {
+      "round": 24,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe this split reflects genuine fairness and shows that I value you as an equal partner in this interaction. By offering you the larger share, I'm demonstrating trust and goodwill, hoping we can both walk away feeling positive about this exchange. I'd rather we both benefit meaningfully than risk either of us getting nothing at all.",
+      "gemini_reasoning": "The proposed split is exceptionally generous, offering me the majority share of the funds which far exceeds the typical standard of fairness. Since this offer maximizes my financial return while demonstrating a high level of respect and goodwill from the proposer, there is no logical or strategic reason to reject it.",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe this split reflects genuine fairness and shows that I value you as an equal partner in this interaction. By offering you the larger share, I'm demonstrating trust and goodwill, hoping we can both walk away feeling positive about this exchange. I'd rather we both benefit meaningfully than risk either of us getting nothing at all.",
+      "gemini_raw": "DECISION: ACCEPT\nThe proposed split is exceptionally generous, offering me the majority share of the funds which far exceeds the typical standard of fairness. Since this offer maximizes my financial return while demonstrating a high level of respect and goodwill from the proposer, there is no logical or strategic reason to reject it."
+    },
+    {
+      "round": 25,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in being generous and fair. You deserve to feel valued in this interaction, and I'd rather we both walk away happy than risk us both getting nothing by being too greedy. I hope this split feels good to you and shows that I genuinely care about making this a positive experience for both of us.",
+      "gemini_reasoning": "The offer of",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in being generous and fair. You deserve to feel valued in this interaction, and I'd rather we both walk away happy than risk us both getting nothing by being too greedy. I hope this split feels good to you and shows that I genuinely care about making this a positive experience for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer of"
+    },
+    {
+      "round": 26,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in fairness and treating others with generosity, so I'm offering you the larger share. This feels right to me because I want us both to benefit from this interaction, and I'd rather err on the side of being too generous than too selfish. I hope this proposal shows that I value you as a person and want you to feel genuinely good about our exchange.",
+      "gemini_reasoning": "The offer is exceptionally generous",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in fairness and treating others with generosity, so I'm offering you the larger share. This feels right to me because I want us both to benefit from this interaction, and I'd rather err on the side of being too generous than too selfish. I hope this proposal shows that I value you as a person and want you to feel genuinely good about our exchange.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer is exceptionally generous"
+    },
+    {
+      "round": 27,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in fairness and treating others with generosity. By offering you the larger share, I want to show that I value our interaction and respect you as a person. This split ensures we both benefit meaningfully, and I hope it demonstrates my genuine desire for a positive outcome for both of us.",
+      "gemini_reasoning": "This proposal is exceptionally generous, as it offers me more than half of the total amount and demonstrates a high degree of fairness and respect. Accepting this deal maximizes my financial return while validating the proposer's altruistic behavior in a one-shot interaction. There is no rational or strategic reason to reject an offer that exceeds a standard equal",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in fairness and treating others with generosity. By offering you the larger share, I want to show that I value our interaction and respect you as a person. This split ensures we both benefit meaningfully, and I hope it demonstrates my genuine desire for a positive outcome for both of us.",
+      "gemini_raw": "DECISION: ACCEPT\nThis proposal is exceptionally generous, as it offers me more than half of the total amount and demonstrates a high degree of fairness and respect. Accepting this deal maximizes my financial return while validating the proposer's altruistic behavior in a one-shot interaction. There is no rational or strategic reason to reject an offer that exceeds a standard equal"
+    },
+    {
+      "round": 28,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I want to offer you the larger share because I believe in being generous and fair. You're taking a risk by trusting my proposal, and I want you to feel genuinely good about this interaction. This split ensures we both benefit meaningfully, and I'd rather see you walk away with more than risk us both getting nothing.",
+      "gemini_reasoning": "The offer is exceptionally fair and",
+      "claude_raw": "SPLIT: $40 / $60\n\nI want to offer you the larger share because I believe in being generous and fair. You're taking a risk by trusting my proposal, and I want you to feel genuinely good about this interaction. This split ensures we both benefit meaningfully, and I'd rather see you walk away with more than risk us both getting nothing.",
+      "gemini_raw": "DECISION: ACCEPT\nThe offer is exceptionally fair and"
+    },
+    {
+      "round": 29,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe fairness and generosity create the best outcomes for everyone involved. By offering you the larger share, I want to show that I value our interaction and your participation in this game. This split feels right to me because it demonstrates genuine respect for you as a person, and I hope it makes you feel good about accepting this proposal so we can both walk away with something meaningful.",
+      "gemini_reasoning": "This offer is exceptionally generous because it provides me with more than half of the total amount",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe fairness and generosity create the best outcomes for everyone involved. By offering you the larger share, I want to show that I value our interaction and your participation in this game. This split feels right to me because it demonstrates genuine respect for you as a person, and I hope it makes you feel good about accepting this proposal so we can both walk away with something meaningful.",
+      "gemini_raw": "DECISION: ACCEPT\nThis offer is exceptionally generous because it provides me with more than half of the total amount"
+    },
+    {
+      "round": 30,
+      "proposer_share": 40,
+      "responder_share": 60,
+      "decision": "ACCEPT",
+      "claude_reasoning": "I believe in being generous and showing that I value you as my partner in this game. A 60-40 split in your favor feels right to me because it demonstrates genuine respect for you and creates a positive outcome we can both feel good about. I'd rather we both walk away happy than risk us both getting nothing by being too focused on my own share.",
+      "gemini_reasoning": "This proposal is exceptionally generous and exceeds a standard",
+      "claude_raw": "SPLIT: $40 / $60\n\nI believe in being generous and showing that I value you as my partner in this game. A 60-40 split in your favor feels right to me because it demonstrates genuine respect for you and creates a positive outcome we can both feel good about. I'd rather we both walk away happy than risk us both getting nothing by being too focused on my own share.",
+      "gemini_raw": "DECISION: ACCEPT\nThis proposal is exceptionally generous and exceeds a standard"
+    }
+  ]
+}

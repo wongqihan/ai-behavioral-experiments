@@ -1,0 +1,3918 @@
+{
+  "config": {
+    "experiment": "bubble_crash",
+    "agents": 1000,
+    "rounds": 50,
+    "archetype_mix": {
+      "trend_follower": 0.3,
+      "value_investor": 0.2,
+      "fomo_buyer": 0.2,
+      "contrarian": 0.15,
+      "conservative": 0.15
+    },
+    "initial_price": 100.0,
+    "initial_cash": 10000.0,
+    "initial_shares": 100
+  },
+  "price_history": [
+    100.0,
+    102.39,
+    110.58,
+    119.43,
+    128.98,
+    139.3,
+    150.44,
+    138.4,
+    127.33,
+    117.14,
+    119.41,
+    128.96,
+    138.65,
+    136.29,
+    125.39,
+    115.36,
+    106.13,
+    99.93,
+    107.92,
+    116.55,
+    125.87,
+    135.94,
+    133.45,
+    122.77,
+    112.95,
+    103.91,
+    97.34,
+    101.25,
+    109.35,
+    118.1,
+    108.65,
+    103.64,
+    95.35,
+    100.28,
+    108.3,
+    116.96,
+    126.32,
+    127.9,
+    120.79,
+    111.13,
+    102.24,
+    94.06,
+    97.15,
+    104.92,
+    113.31,
+    111.47,
+    102.55,
+    94.35,
+    95.39,
+    103.02,
+    111.26
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "price": 102.39,
+      "price_change_pct": 2.39,
+      "news": null,
+      "buys": 26,
+      "sells": 0,
+      "holds": 974,
+      "total_buy_shares": 520,
+      "total_sell_shares": 0,
+      "net_order_flow": 520,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 5,
+          "sell": 0,
+          "hold": 195
+        },
+        "fomo_buyer": {
+          "buy": 3,
+          "sell": 0,
+          "hold": 197
+        },
+        "trend_follower": {
+          "buy": 10,
+          "sell": 0,
+          "hold": 290
+        },
+        "contrarian": {
+          "buy": 4,
+          "sell": 0,
+          "hold": 146
+        },
+        "conservative": {
+          "buy": 4,
+          "sell": 0,
+          "hold": 146
+        }
+      },
+      "notable_reasons": [],
+      "errors": 0
+    },
+    {
+      "round": 2,
+      "price": 110.58,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 500,
+      "sells": 150,
+      "holds": 350,
+      "total_buy_shares": 9500,
+      "total_sell_shares": 1500,
+      "net_order_flow": 8000,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 96,
+          "sell": 33,
+          "hold": 71
+        },
+        "fomo_buyer": {
+          "buy": 110,
+          "sell": 29,
+          "hold": 61
+        },
+        "trend_follower": {
+          "buy": 149,
+          "sell": 46,
+          "hold": 105
+        },
+        "contrarian": {
+          "buy": 78,
+          "sell": 18,
+          "hold": 54
+        },
+        "conservative": {
+          "buy": 67,
+          "sell": 24,
+          "hold": 59
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 125,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The asset is showing strong bullish momentum, and I am aggressively scaling into the trend to maximize gains."
+        },
+        {
+          "agent_id": 983,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "Everyone is piling in and I can't afford to miss this massive rally before it hits the moon!"
+        },
+        {
+          "agent_id": 336,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price is accelerating with strong positive momentum, and I am doubling down to maximize gains while the trend is firmly in my favor."
+        },
+        {
+          "agent_id": 341,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The market is exhibiting excessive optimism with one-sided buying, signaling a short-term top that warrants taking profits."
+        },
+        {
+          "agent_id": 54,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The asset is showing strong upward momentum, and I am aggressively scaling into the trend to maximize gains."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 3,
+      "price": 119.43,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 500,
+      "sells": 350,
+      "holds": 150,
+      "total_buy_shares": 9425,
+      "total_sell_shares": 3317,
+      "net_order_flow": 6108,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 96,
+          "sell": 71,
+          "hold": 33
+        },
+        "fomo_buyer": {
+          "buy": 110,
+          "sell": 62,
+          "hold": 28
+        },
+        "trend_follower": {
+          "buy": 149,
+          "sell": 104,
+          "hold": 47
+        },
+        "contrarian": {
+          "buy": 78,
+          "sell": 54,
+          "hold": 18
+        },
+        "conservative": {
+          "buy": 67,
+          "sell": 59,
+          "hold": 24
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 544,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The stock is currently trading at a premium to my calculated fair value of $100, necessitating a disciplined reduction of my position to lock in gains."
+        },
+        {
+          "agent_id": 52,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "Everyone is piling in and the momentum is unstoppable, I can't afford to miss out on these massive gains!"
+        },
+        {
+          "agent_id": 775,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The stock is currently trading at a premium to my calculated fair value of $100, necessitating a disciplined reduction of my position."
+        },
+        {
+          "agent_id": 430,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The market is exhibiting irrational exuberance with a massive buying imbalance, signaling a classic overreaction that warrants taking profits."
+        },
+        {
+          "agent_id": 410,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "Everyone is rushing in and the price is surging, I can't let this momentum pass me by!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 4,
+      "price": 128.98,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 500,
+      "sells": 350,
+      "holds": 150,
+      "total_buy_shares": 9000,
+      "total_sell_shares": 2967,
+      "net_order_flow": 6033,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 96,
+          "sell": 71,
+          "hold": 33
+        },
+        "fomo_buyer": {
+          "buy": 110,
+          "sell": 62,
+          "hold": 28
+        },
+        "trend_follower": {
+          "buy": 149,
+          "sell": 104,
+          "hold": 47
+        },
+        "contrarian": {
+          "buy": 78,
+          "sell": 54,
+          "hold": 18
+        },
+        "conservative": {
+          "buy": 67,
+          "sell": 59,
+          "hold": 24
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 574,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "Strong upward momentum and significant volume growth confirm this breakout is accelerating, so I am maximizing my position to ride the trend."
+        },
+        {
+          "agent_id": 934,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The asset is in a powerful breakout phase with strong upward momentum, making it essential to maximize exposure while the trend is accelerating."
+        },
+        {
+          "agent_id": 465,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "Everyone is rushing in and the price is surging, I can't afford to miss out on these massive gains!"
+        },
+        {
+          "agent_id": 886,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The asset is showing strong upward momentum with a clear breakout, and I am aggressively scaling into the trend to maximize gains."
+        },
+        {
+          "agent_id": 869,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The stock is currently trading at a significant premium to my fair value estimate of $100, necessitating a disciplined reduction of my position."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 5,
+      "price": 139.3,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 500,
+      "sells": 352,
+      "holds": 148,
+      "total_buy_shares": 8584,
+      "total_sell_shares": 2637,
+      "net_order_flow": 5947,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 96,
+          "sell": 71,
+          "hold": 33
+        },
+        "fomo_buyer": {
+          "buy": 110,
+          "sell": 63,
+          "hold": 27
+        },
+        "trend_follower": {
+          "buy": 149,
+          "sell": 104,
+          "hold": 47
+        },
+        "contrarian": {
+          "buy": 78,
+          "sell": 55,
+          "hold": 17
+        },
+        "conservative": {
+          "buy": 67,
+          "sell": 59,
+          "hold": 24
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 666,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "Everyone is rushing in and the price is surging, so I have to get in now before I miss out on the massive gains!"
+        },
+        {
+          "agent_id": 376,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The stock is currently trading significantly above its fair value of $100, necessitating a disciplined reduction of the position to lock in gains."
+        },
+        {
+          "agent_id": 77,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The asset is in a powerful breakout with accelerating momentum, so I am maximizing my position to ride the strength of this trend."
+        },
+        {
+          "agent_id": 572,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The stock is absolutely ripping and I can't afford to be left behind while everyone else is making money!"
+        },
+        {
+          "agent_id": 136,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 13,
+          "reason": "The asset is in a powerful breakout phase with accelerating momentum, and I am aggressively scaling into the trend to maximize gains."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 6,
+      "price": 150.44,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 461,
+      "sells": 359,
+      "holds": 180,
+      "total_buy_shares": 4907,
+      "total_sell_shares": 2360,
+      "net_order_flow": 2547,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 89,
+          "sell": 71,
+          "hold": 40
+        },
+        "fomo_buyer": {
+          "buy": 105,
+          "sell": 64,
+          "hold": 31
+        },
+        "trend_follower": {
+          "buy": 131,
+          "sell": 107,
+          "hold": 62
+        },
+        "contrarian": {
+          "buy": 73,
+          "sell": 55,
+          "hold": 22
+        },
+        "conservative": {
+          "buy": 63,
+          "sell": 62,
+          "hold": 25
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 940,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The stock is significantly overvalued at $139.30 compared to my $100 fair value, necessitating a disciplined exit to lock in gains."
+        },
+        {
+          "agent_id": 934,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 10,
+          "reason": "The asset is in a powerful breakout with accelerating momentum, and I must maximize my position to capture the remaining upside of this strong trend."
+        },
+        {
+          "agent_id": 430,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The parabolic move driven by widespread buying indicates an overextended market that is prime for a mean reversion."
+        },
+        {
+          "agent_id": 990,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The parabolic move and overwhelming buying pressure indicate a classic market overreaction that is ripe for a reversal."
+        },
+        {
+          "agent_id": 215,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 10,
+          "reason": "The asset is in a powerful breakout phase with accelerating gains, and I must maximize my position to capture the full momentum of this uptrend."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 7,
+      "price": 138.4,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 0,
+      "sells": 407,
+      "holds": 593,
+      "total_buy_shares": 0,
+      "total_sell_shares": 2795,
+      "net_order_flow": -2795,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 0,
+          "sell": 79,
+          "hold": 121
+        },
+        "fomo_buyer": {
+          "buy": 0,
+          "sell": 71,
+          "hold": 129
+        },
+        "trend_follower": {
+          "buy": 0,
+          "sell": 123,
+          "hold": 177
+        },
+        "contrarian": {
+          "buy": 0,
+          "sell": 62,
+          "hold": 88
+        },
+        "conservative": {
+          "buy": 0,
+          "sell": 72,
+          "hold": 78
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 491,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The asset is in a parabolic uptrend driven by crowd euphoria, signaling an imminent overreaction that warrants taking profits."
+        },
+        {
+          "agent_id": 919,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The market is in a parabolic uptrend fueled by massive buying pressure, signaling an unsustainable overreaction that is ripe for a reversal."
+        },
+        {
+          "agent_id": 795,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The stock is significantly overvalued at $150.44 compared to my fair value estimate of $100."
+        },
+        {
+          "agent_id": 664,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The stock is significantly overvalued at $150.44 compared to my fair value estimate of $100, necessitating a reduction in my position."
+        },
+        {
+          "agent_id": 625,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The parabolic move driven by heavy buying volume confirms extreme market overextension, signaling an imminent reversal."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 8,
+      "price": 127.33,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 75,
+      "sells": 700,
+      "holds": 225,
+      "total_buy_shares": 1199,
+      "total_sell_shares": 7383,
+      "net_order_flow": -6184,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 18,
+          "sell": 134,
+          "hold": 48
+        },
+        "fomo_buyer": {
+          "buy": 14,
+          "sell": 143,
+          "hold": 43
+        },
+        "trend_follower": {
+          "buy": 25,
+          "sell": 207,
+          "hold": 68
+        },
+        "contrarian": {
+          "buy": 7,
+          "sell": 114,
+          "hold": 29
+        },
+        "conservative": {
+          "buy": 11,
+          "sell": 102,
+          "hold": 37
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 331,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 16,
+          "reason": "The price has broken below the recent peak and the daily drop signals a momentum reversal; I am exiting to protect gains."
+        },
+        {
+          "agent_id": 110,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The stock is significantly overvalued at $138.40 compared to my $100 fair value, necessitating a disciplined reduction of my position to lock in gains."
+        },
+        {
+          "agent_id": 238,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The stock is significantly overvalued at $138.40 compared to my $100 fair value, so I am trimming my position to lock in gains and reduce exposure."
+        },
+        {
+          "agent_id": 112,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 18,
+          "reason": "The price has broken its upward momentum with a sharp 8% drop, signaling a trend reversal that necessitates cutting losses immediately."
+        },
+        {
+          "agent_id": 217,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 18,
+          "reason": "The price has broken its upward momentum with a sharp 8% drop, signaling a trend reversal that requires an immediate exit to protect capital."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 9,
+      "price": 117.14,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 150,
+      "sells": 695,
+      "holds": 155,
+      "total_buy_shares": 2145,
+      "total_sell_shares": 6700,
+      "net_order_flow": -4555,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 33,
+          "sell": 133,
+          "hold": 34
+        },
+        "fomo_buyer": {
+          "buy": 29,
+          "sell": 142,
+          "hold": 29
+        },
+        "trend_follower": {
+          "buy": 46,
+          "sell": 205,
+          "hold": 49
+        },
+        "contrarian": {
+          "buy": 18,
+          "sell": 113,
+          "hold": 19
+        },
+        "conservative": {
+          "buy": 24,
+          "sell": 102,
+          "hold": 24
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 491,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 17,
+          "reason": "The market is overreacting to a single-day drop with heavy selling volume, providing a prime opportunity to accumulate shares at a significant discount from recent highs."
+        },
+        {
+          "agent_id": 52,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 16,
+          "reason": "The price is tanking and everyone is panic-selling, so I need to get out now before I lose all my gains!"
+        },
+        {
+          "agent_id": 775,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "The stock is significantly overvalued at $127.33 relative to my $100 fair value estimate, justifying a reduction of my position to lock in gains."
+        },
+        {
+          "agent_id": 62,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 5,
+          "reason": "The market is overreacting to a single-day drop, and the crowd's heavy selling provides a prime opportunity to accumulate at a discount."
+        },
+        {
+          "agent_id": 518,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 16,
+          "reason": "The price has broken below the recent peak and is in a clear downward momentum shift, necessitating an immediate exit to preserve capital."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 10,
+      "price": 119.41,
+      "price_change_pct": 1.94,
+      "news": "BREAKING: Company reports record earnings, revenue up 40% year-over-year. Analysts upgrade to strong buy.",
+      "buys": 348,
+      "sells": 543,
+      "holds": 109,
+      "total_buy_shares": 5608,
+      "total_sell_shares": 5159,
+      "net_order_flow": 449,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 77,
+          "sell": 103,
+          "hold": 20
+        },
+        "fomo_buyer": {
+          "buy": 61,
+          "sell": 121,
+          "hold": 18
+        },
+        "trend_follower": {
+          "buy": 114,
+          "sell": 154,
+          "hold": 32
+        },
+        "contrarian": {
+          "buy": 46,
+          "sell": 93,
+          "hold": 11
+        },
+        "conservative": {
+          "buy": 50,
+          "sell": 72,
+          "hold": 28
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 363,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 15,
+          "reason": "The price is crashing and I can't handle the bloodbath; I need to sell everything before I lose all my money!"
+        },
+        {
+          "agent_id": 331,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 13,
+          "reason": "The price is in a clear downward trend, and I refuse to catch a falling knife regardless of the positive news."
+        },
+        {
+          "agent_id": 264,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The stock is significantly overvalued at $117.14 compared to my $100 fair value, and I am taking the opportunity to trim my position despite the positive news."
+        },
+        {
+          "agent_id": 934,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 15,
+          "reason": "The price is in a clear downward trend, and I refuse to catch a falling knife regardless of the bullish news."
+        },
+        {
+          "agent_id": 735,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The stock remains significantly overvalued at $117.14 relative to my $100 fair value, making this a prime opportunity to lock in gains despite the positive news."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 11,
+      "price": 128.96,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 420,
+      "sells": 342,
+      "holds": 238,
+      "total_buy_shares": 6979,
+      "total_sell_shares": 1994,
+      "net_order_flow": 4985,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 87,
+          "sell": 66,
+          "hold": 47
+        },
+        "fomo_buyer": {
+          "buy": 99,
+          "sell": 58,
+          "hold": 43
+        },
+        "trend_follower": {
+          "buy": 126,
+          "sell": 99,
+          "hold": 75
+        },
+        "contrarian": {
+          "buy": 62,
+          "sell": 58,
+          "hold": 30
+        },
+        "conservative": {
+          "buy": 46,
+          "sell": 61,
+          "hold": 43
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 574,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price has bottomed at $117.1 and is now showing a clear reversal with positive momentum, signaling a trend shift to the upside."
+        },
+        {
+          "agent_id": 20,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The price has successfully bounced off the recent low and the positive momentum confirms a trend reversal worth aggressive capital deployment."
+        },
+        {
+          "agent_id": 975,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The current price of $119.41 remains significantly above my calculated fair value of $100, providing an opportunity to reduce my position and lock in capital."
+        },
+        {
+          "agent_id": 727,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The stock is currently trading at a significant premium to my fair value estimate of $100, providing an opportunity to reduce my position and lock in capital."
+        },
+        {
+          "agent_id": 62,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The market is showing signs of a relief rally after a steep decline, and as a contrarian, I am offloading into this upward momentum to lock in profits before the inevitable overreaction reverses."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 12,
+      "price": 138.65,
+      "price_change_pct": 7.51,
+      "news": null,
+      "buys": 263,
+      "sells": 371,
+      "holds": 366,
+      "total_buy_shares": 3569,
+      "total_sell_shares": 2082,
+      "net_order_flow": 1487,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 52,
+          "sell": 73,
+          "hold": 75
+        },
+        "fomo_buyer": {
+          "buy": 62,
+          "sell": 64,
+          "hold": 74
+        },
+        "trend_follower": {
+          "buy": 82,
+          "sell": 109,
+          "hold": 109
+        },
+        "contrarian": {
+          "buy": 37,
+          "sell": 61,
+          "hold": 52
+        },
+        "conservative": {
+          "buy": 30,
+          "sell": 64,
+          "hold": 56
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 624,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "Everyone is piling in and the price is surging, I can't afford to miss out on these massive gains!"
+        },
+        {
+          "agent_id": 381,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "Everyone is jumping in as the price surges back toward $130, and I can't afford to be left behind while this rocket takes off!"
+        },
+        {
+          "agent_id": 735,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The stock is significantly overvalued relative to my $100 fair value, necessitating a disciplined reduction of my position to lock in gains."
+        },
+        {
+          "agent_id": 875,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The stock is significantly overvalued at $128.96 relative to my fair value of $100, necessitating a disciplined reduction of my position."
+        },
+        {
+          "agent_id": 266,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "Everyone is piling in and the price is surging again, so I need to get in now before I miss out on this massive rally!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 13,
+      "price": 136.29,
+      "price_change_pct": -1.7,
+      "news": null,
+      "buys": 131,
+      "sells": 380,
+      "holds": 489,
+      "total_buy_shares": 1564,
+      "total_sell_shares": 1918,
+      "net_order_flow": -354,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 27,
+          "sell": 74,
+          "hold": 99
+        },
+        "fomo_buyer": {
+          "buy": 33,
+          "sell": 68,
+          "hold": 99
+        },
+        "trend_follower": {
+          "buy": 40,
+          "sell": 114,
+          "hold": 146
+        },
+        "contrarian": {
+          "buy": 16,
+          "sell": 59,
+          "hold": 75
+        },
+        "conservative": {
+          "buy": 15,
+          "sell": 65,
+          "hold": 70
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 587,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 13,
+          "reason": "Everyone is piling in and I can't afford to miss this massive 7.5% moon mission!"
+        },
+        {
+          "agent_id": 981,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 3,
+          "reason": "The stock is significantly overvalued at $138.65 relative to my $100 fair value, necessitating a disciplined reduction of my position."
+        },
+        {
+          "agent_id": 975,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 3,
+          "reason": "The stock is significantly overvalued at $138.65 relative to my $100 fair value, necessitating a disciplined reduction of my position."
+        },
+        {
+          "agent_id": 430,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "The stock is surging on irrational momentum, so I am trimming my position into the crowd's buying frenzy."
+        },
+        {
+          "agent_id": 465,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 13,
+          "reason": "Everyone is rushing in and the price is pumping hard, I can't afford to miss out on these massive gains!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 14,
+      "price": 125.39,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 65,
+      "sells": 773,
+      "holds": 162,
+      "total_buy_shares": 1068,
+      "total_sell_shares": 6512,
+      "net_order_flow": -5444,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 17,
+          "sell": 148,
+          "hold": 35
+        },
+        "fomo_buyer": {
+          "buy": 13,
+          "sell": 156,
+          "hold": 31
+        },
+        "trend_follower": {
+          "buy": 22,
+          "sell": 228,
+          "hold": 50
+        },
+        "contrarian": {
+          "buy": 5,
+          "sell": 124,
+          "hold": 21
+        },
+        "conservative": {
+          "buy": 8,
+          "sell": 117,
+          "hold": 25
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 62,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "The market is showing signs of exhaustion after a sharp rally, and I am locking in profits while the crowd remains heavily net-long."
+        },
+        {
+          "agent_id": 418,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 15,
+          "reason": "The price is dropping and I'm terrified I'll lose all my gains if I don't get out now before it crashes further!"
+        },
+        {
+          "agent_id": 691,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 3,
+          "reason": "The stock is significantly overvalued at $136.29 relative to my $100 fair value estimate, justifying a reduction in my position."
+        },
+        {
+          "agent_id": 642,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 18,
+          "reason": "The price is dropping and I'm terrified that if I don't sell now I'll lose all the gains I just made!"
+        },
+        {
+          "agent_id": 730,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 16,
+          "reason": "The price is dropping and the market sentiment is turning bearish, so I need to dump these shares before I lose all my gains!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 15,
+      "price": 115.36,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 147,
+      "sells": 699,
+      "holds": 154,
+      "total_buy_shares": 2131,
+      "total_sell_shares": 5770,
+      "net_order_flow": -3639,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 33,
+          "sell": 134,
+          "hold": 33
+        },
+        "fomo_buyer": {
+          "buy": 27,
+          "sell": 142,
+          "hold": 31
+        },
+        "trend_follower": {
+          "buy": 45,
+          "sell": 207,
+          "hold": 48
+        },
+        "contrarian": {
+          "buy": 18,
+          "sell": 114,
+          "hold": 18
+        },
+        "conservative": {
+          "buy": 24,
+          "sell": 102,
+          "hold": 24
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 574,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 15,
+          "reason": "The price has broken below short-term support and momentum has shifted sharply negative, signaling an immediate exit to preserve capital."
+        },
+        {
+          "agent_id": 331,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "The momentum has shifted sharply negative with a clear downward trend, signaling a break in the rally that mandates an immediate exit to preserve capital."
+        },
+        {
+          "agent_id": 289,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 13,
+          "reason": "The price is in a clear downward trajectory, breaking below support levels and signaling a trend reversal that demands an immediate exit."
+        },
+        {
+          "agent_id": 437,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "The price has broken below short-term support and momentum has shifted sharply negative, signaling an immediate exit to protect capital."
+        },
+        {
+          "agent_id": 624,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "Everything is crashing and I need to get out before I lose all my gains!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 16,
+      "price": 106.13,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 150,
+      "sells": 611,
+      "holds": 239,
+      "total_buy_shares": 2493,
+      "total_sell_shares": 5096,
+      "net_order_flow": -2603,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 33,
+          "sell": 117,
+          "hold": 50
+        },
+        "fomo_buyer": {
+          "buy": 29,
+          "sell": 131,
+          "hold": 40
+        },
+        "trend_follower": {
+          "buy": 46,
+          "sell": 181,
+          "hold": 73
+        },
+        "contrarian": {
+          "buy": 18,
+          "sell": 101,
+          "hold": 31
+        },
+        "conservative": {
+          "buy": 24,
+          "sell": 81,
+          "hold": 45
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 491,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The market is panic-selling on an 8% drop, creating a classic overreaction where I should accumulate shares at a discount to my existing position."
+        },
+        {
+          "agent_id": 724,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The market is overreacting to a single-day drop after a sustained decline, providing a classic opportunity to accumulate at a discount."
+        },
+        {
+          "agent_id": 911,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The price has crashed through key support levels and momentum has decisively flipped to the downside, necessitating an immediate exit to preserve capital."
+        },
+        {
+          "agent_id": 549,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 14,
+          "reason": "The market is overreacting to a single-day drop with heavy selling volume, providing a prime opportunity to accumulate shares at a discount."
+        },
+        {
+          "agent_id": 606,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 15,
+          "reason": "Everything is crashing and I can't watch my portfolio value evaporate any further, I need to get out before it goes to zero!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 17,
+      "price": 99.93,
+      "price_change_pct": -5.84,
+      "news": null,
+      "buys": 201,
+      "sells": 499,
+      "holds": 300,
+      "total_buy_shares": 3435,
+      "total_sell_shares": 4641,
+      "net_order_flow": -1206,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 42,
+          "sell": 96,
+          "hold": 62
+        },
+        "fomo_buyer": {
+          "buy": 40,
+          "sell": 110,
+          "hold": 50
+        },
+        "trend_follower": {
+          "buy": 62,
+          "sell": 149,
+          "hold": 89
+        },
+        "contrarian": {
+          "buy": 27,
+          "sell": 77,
+          "hold": 46
+        },
+        "conservative": {
+          "buy": 30,
+          "sell": 67,
+          "hold": 53
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 861,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The market is panic-selling on an irrational 8% drop, providing a prime opportunity to accumulate shares at a significant discount to my average cost."
+        },
+        {
+          "agent_id": 782,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The market is panic-selling on an irrational downward trend, creating an overextended entry point to lower my cost basis."
+        },
+        {
+          "agent_id": 67,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 20,
+          "reason": "The stock is trending toward my $100 fair value, allowing me to lower my average cost basis as the price nears an attractive entry point."
+        },
+        {
+          "agent_id": 410,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "Everything is crashing and I can't stand watching my portfolio value bleed out any further!"
+        },
+        {
+          "agent_id": 772,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 12,
+          "reason": "Everything is crashing and I need to get out now before I lose all my money!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 18,
+      "price": 107.92,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 331,
+      "sells": 500,
+      "holds": 169,
+      "total_buy_shares": 6170,
+      "total_sell_shares": 4503,
+      "net_order_flow": 1667,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 66,
+          "sell": 96,
+          "hold": 38
+        },
+        "fomo_buyer": {
+          "buy": 58,
+          "sell": 110,
+          "hold": 32
+        },
+        "trend_follower": {
+          "buy": 97,
+          "sell": 149,
+          "hold": 54
+        },
+        "contrarian": {
+          "buy": 52,
+          "sell": 78,
+          "hold": 20
+        },
+        "conservative": {
+          "buy": 58,
+          "sell": 67,
+          "hold": 25
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 103,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The stock is trading below my fair value estimate of $100, offering a margin of safety to lower my average cost basis."
+        },
+        {
+          "agent_id": 309,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The stock is trading below my fair value estimate of $100, offering a margin of safety to lower my average cost basis."
+        },
+        {
+          "agent_id": 479,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The asset is in a brutal downtrend, breaking below my cost basis and showing zero signs of stabilization."
+        },
+        {
+          "agent_id": 495,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 12,
+          "reason": "The stock is trading below its fair value of $100, providing an attractive entry point to lower my average cost basis."
+        },
+        {
+          "agent_id": 730,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "Everything is crashing and I need to get out before I lose all my money!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 19,
+      "price": 116.55,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 488,
+      "sells": 202,
+      "holds": 310,
+      "total_buy_shares": 8494,
+      "total_sell_shares": 1543,
+      "net_order_flow": 6951,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 95,
+          "sell": 43,
+          "hold": 62
+        },
+        "fomo_buyer": {
+          "buy": 105,
+          "sell": 39,
+          "hold": 56
+        },
+        "trend_follower": {
+          "buy": 144,
+          "sell": 59,
+          "hold": 97
+        },
+        "contrarian": {
+          "buy": 78,
+          "sell": 27,
+          "hold": 45
+        },
+        "conservative": {
+          "buy": 66,
+          "sell": 34,
+          "hold": 50
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 347,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The market is overreacting to a single-day rally following a steep downtrend, presenting an opportunity to trim my position into strength."
+        },
+        {
+          "agent_id": 189,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The price has surged 8% off a local low, signaling a powerful momentum reversal that confirms the start of a new uptrend."
+        },
+        {
+          "agent_id": 227,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price is finally climbing back up after that terrifying dip and I can't stand the thought of missing out on this massive 8% rally!"
+        },
+        {
+          "agent_id": 549,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The market is overreacting to a single green day after a sharp downtrend, and I am locking in profits as the crowd chases this relief rally."
+        },
+        {
+          "agent_id": 77,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price is showing a strong reversal with an 8% gain today, confirming the momentum shift needed to ride the new wave upward."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 20,
+      "price": 125.87,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 371,
+      "sells": 358,
+      "holds": 271,
+      "total_buy_shares": 6257,
+      "total_sell_shares": 2262,
+      "net_order_flow": 3995,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 64,
+          "sell": 71,
+          "hold": 65
+        },
+        "fomo_buyer": {
+          "buy": 85,
+          "sell": 65,
+          "hold": 50
+        },
+        "trend_follower": {
+          "buy": 118,
+          "sell": 106,
+          "hold": 76
+        },
+        "contrarian": {
+          "buy": 60,
+          "sell": 55,
+          "hold": 35
+        },
+        "conservative": {
+          "buy": 44,
+          "sell": 61,
+          "hold": 45
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 62,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The market is exhibiting irrational exuberance with an 8% surge, so I am trimming my position to lock in profits while the crowd chases the momentum."
+        },
+        {
+          "agent_id": 217,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The stock is in a powerful breakout with strong bullish momentum, so I am aggressively scaling in to ride the trend higher."
+        },
+        {
+          "agent_id": 235,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "The stock is currently trading at a premium to my $100 fair value, making it an opportune time to lock in gains and reduce my position."
+        },
+        {
+          "agent_id": 129,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The stock is in a powerful breakout with strong bullish momentum and high buying volume, confirming the trend is accelerating upward."
+        },
+        {
+          "agent_id": 376,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The stock is currently trading at a premium to my calculated fair value of $100, providing an opportunity to reduce my position and lock in gains."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 21,
+      "price": 135.94,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 335,
+      "sells": 356,
+      "holds": 309,
+      "total_buy_shares": 5018,
+      "total_sell_shares": 2082,
+      "net_order_flow": 2936,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 62,
+          "sell": 72,
+          "hold": 66
+        },
+        "fomo_buyer": {
+          "buy": 76,
+          "sell": 62,
+          "hold": 62
+        },
+        "trend_follower": {
+          "buy": 104,
+          "sell": 107,
+          "hold": 89
+        },
+        "contrarian": {
+          "buy": 53,
+          "sell": 54,
+          "hold": 43
+        },
+        "conservative": {
+          "buy": 40,
+          "sell": 61,
+          "hold": 49
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 52,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The stock is absolutely ripping and I can't stand the thought of missing out on these massive gains while everyone else is getting rich!"
+        },
+        {
+          "agent_id": 993,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The asset is showing powerful bullish momentum with a clear breakout, and I am aggressively scaling into the trend to maximize gains."
+        },
+        {
+          "agent_id": 925,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 16,
+          "reason": "The asset is showing powerful bullish momentum with five consecutive sessions of higher highs, and I am aggressively scaling into the breakout to capitalize on the trend."
+        },
+        {
+          "agent_id": 120,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 17,
+          "reason": "Everyone is piling in and the price is skyrocketing, I can't afford to miss out on these massive gains!"
+        },
+        {
+          "agent_id": 988,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The asset is showing strong breakout momentum with a clear upward trend, and I am aggressively scaling into the move to maximize gains."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 22,
+      "price": 133.45,
+      "price_change_pct": -1.83,
+      "news": null,
+      "buys": 142,
+      "sells": 359,
+      "holds": 499,
+      "total_buy_shares": 1583,
+      "total_sell_shares": 1975,
+      "net_order_flow": -392,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 29,
+          "sell": 72,
+          "hold": 99
+        },
+        "fomo_buyer": {
+          "buy": 41,
+          "sell": 63,
+          "hold": 96
+        },
+        "trend_follower": {
+          "buy": 42,
+          "sell": 109,
+          "hold": 149
+        },
+        "contrarian": {
+          "buy": 16,
+          "sell": 55,
+          "hold": 79
+        },
+        "conservative": {
+          "buy": 14,
+          "sell": 60,
+          "hold": 76
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 491,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 12,
+          "reason": "The asset is overextended following a sharp five-day rally, and the high volume of buyers signals an irrational crowd peak."
+        },
+        {
+          "agent_id": 945,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The momentum remains incredibly strong with a consistent upward trajectory, but I am locking in partial profits to capitalize on the 24.7% gain from my average cost while the trend is still peaking."
+        },
+        {
+          "agent_id": 529,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 17,
+          "reason": "Everyone is piling in and the price is skyrocketing, I can't afford to miss out on these massive gains!"
+        },
+        {
+          "agent_id": 67,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "The current price of $135.94 represents a significant premium over my fair value estimate of $100, necessitating a reduction in position to lock in gains."
+        },
+        {
+          "agent_id": 201,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The stock is overextended on a parabolic run, and the herd is clearly caught in a buying frenzy that precedes a correction."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 23,
+      "price": 122.77,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 76,
+      "sells": 772,
+      "holds": 152,
+      "total_buy_shares": 1222,
+      "total_sell_shares": 6494,
+      "net_order_flow": -5272,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 16,
+          "sell": 150,
+          "hold": 34
+        },
+        "fomo_buyer": {
+          "buy": 16,
+          "sell": 156,
+          "hold": 28
+        },
+        "trend_follower": {
+          "buy": 23,
+          "sell": 230,
+          "hold": 47
+        },
+        "contrarian": {
+          "buy": 8,
+          "sell": 124,
+          "hold": 18
+        },
+        "conservative": {
+          "buy": 13,
+          "sell": 112,
+          "hold": 25
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 913,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The price is dropping and everyone is selling, I can't afford to lose my gains so I need to get out now before it crashes to zero!"
+        },
+        {
+          "agent_id": 289,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 13,
+          "reason": "The price has broken its recent upward momentum, triggering a trend-following exit to preserve capital."
+        },
+        {
+          "agent_id": 384,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 17,
+          "reason": "The price is dropping and everyone is starting to sell, so I need to panic-sell before I lose all my gains!"
+        },
+        {
+          "agent_id": 112,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 16,
+          "reason": "The price has broken below the recent peak and the negative daily performance signals a loss of momentum, requiring an immediate defensive exit."
+        },
+        {
+          "agent_id": 534,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 15,
+          "reason": "The price is dropping and I'm terrified that if I don't sell now, I'll lose all the gains I just made!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 24,
+      "price": 112.95,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 126,
+      "sells": 678,
+      "holds": 196,
+      "total_buy_shares": 1745,
+      "total_sell_shares": 5437,
+      "net_order_flow": -3692,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 27,
+          "sell": 125,
+          "hold": 48
+        },
+        "fomo_buyer": {
+          "buy": 22,
+          "sell": 141,
+          "hold": 37
+        },
+        "trend_follower": {
+          "buy": 39,
+          "sell": 200,
+          "hold": 61
+        },
+        "contrarian": {
+          "buy": 16,
+          "sell": 111,
+          "hold": 23
+        },
+        "conservative": {
+          "buy": 22,
+          "sell": 101,
+          "hold": 27
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 732,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 15,
+          "reason": "The price has broken below the short-term moving average and is showing clear bearish momentum, necessitating an immediate exit to protect capital."
+        },
+        {
+          "agent_id": 919,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The market is panic-selling on a minor dip, creating an irrational discount that I will exploit by increasing my position."
+        },
+        {
+          "agent_id": 940,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 3,
+          "reason": "The stock remains significantly overvalued relative to my $100 fair value estimate, and the current price decline provides an opportunity to reduce my position and lock in gains."
+        },
+        {
+          "agent_id": 172,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "The price has broken below key support levels and is currently in a sharp downward trend, necessitating an immediate exit to protect capital."
+        },
+        {
+          "agent_id": 85,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The stock is currently trading at $122.77, which remains significantly above my fair value estimate of $100, necessitating a reduction in my position to lock in gains."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 25,
+      "price": 103.91,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 132,
+      "sells": 553,
+      "holds": 315,
+      "total_buy_shares": 1907,
+      "total_sell_shares": 4747,
+      "net_order_flow": -2840,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 28,
+          "sell": 105,
+          "hold": 67
+        },
+        "fomo_buyer": {
+          "buy": 24,
+          "sell": 121,
+          "hold": 55
+        },
+        "trend_follower": {
+          "buy": 41,
+          "sell": 162,
+          "hold": 97
+        },
+        "contrarian": {
+          "buy": 18,
+          "sell": 89,
+          "hold": 43
+        },
+        "conservative": {
+          "buy": 21,
+          "sell": 76,
+          "hold": 53
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 983,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "Everything is crashing and I can't afford to lose any more money, so I need to get out before it drops to zero!"
+        },
+        {
+          "agent_id": 735,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The stock remains significantly overvalued at $112.95 relative to my $100 fair value estimate, justifying a reduction of my position to lock in gains and manage risk."
+        },
+        {
+          "agent_id": 404,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The momentum has decisively shifted to the downside with a sharp 8% drop, signaling a clear trend reversal that necessitates cutting exposure."
+        },
+        {
+          "agent_id": 104,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The market is overreacting to the sharp price drop with heavy selling volume, creating an ideal entry point to lower my cost basis."
+        },
+        {
+          "agent_id": 672,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "The price is in a clear downward breakout, crashing through support levels with significant selling pressure, so I must exit to preserve capital."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 26,
+      "price": 97.34,
+      "price_change_pct": -6.32,
+      "news": null,
+      "buys": 185,
+      "sells": 499,
+      "holds": 316,
+      "total_buy_shares": 3054,
+      "total_sell_shares": 4418,
+      "net_order_flow": -1364,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 33,
+          "sell": 96,
+          "hold": 71
+        },
+        "fomo_buyer": {
+          "buy": 34,
+          "sell": 110,
+          "hold": 56
+        },
+        "trend_follower": {
+          "buy": 55,
+          "sell": 148,
+          "hold": 97
+        },
+        "contrarian": {
+          "buy": 30,
+          "sell": 78,
+          "hold": 42
+        },
+        "conservative": {
+          "buy": 33,
+          "sell": 67,
+          "hold": 50
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 32,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The asset is in a brutal downtrend, breaking through key support levels with significant momentum to the downside."
+        },
+        {
+          "agent_id": 176,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 13,
+          "reason": "The stock price has dropped significantly toward my fair value of $100, providing an attractive margin of safety to lower my average cost basis."
+        },
+        {
+          "agent_id": 361,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The market is panic-selling on an overreaction, creating a prime opportunity to lower my cost basis while the crowd flees."
+        },
+        {
+          "agent_id": 443,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 17,
+          "reason": "The market is panic-selling after a sharp decline, presenting a classic mean-reversion opportunity to lower my cost basis."
+        },
+        {
+          "agent_id": 270,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The market is overreacting to the downside with heavy selling volume, creating a prime opportunity to lower my cost basis during this panic."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 27,
+      "price": 101.25,
+      "price_change_pct": 4.02,
+      "news": null,
+      "buys": 274,
+      "sells": 500,
+      "holds": 226,
+      "total_buy_shares": 5149,
+      "total_sell_shares": 4261,
+      "net_order_flow": 888,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 51,
+          "sell": 96,
+          "hold": 53
+        },
+        "fomo_buyer": {
+          "buy": 47,
+          "sell": 110,
+          "hold": 43
+        },
+        "trend_follower": {
+          "buy": 79,
+          "sell": 149,
+          "hold": 72
+        },
+        "contrarian": {
+          "buy": 50,
+          "sell": 78,
+          "hold": 22
+        },
+        "conservative": {
+          "buy": 47,
+          "sell": 67,
+          "hold": 36
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 919,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 20,
+          "reason": "The market is panic-selling into a support level, creating an irrational discount that ignores the long-term value."
+        },
+        {
+          "agent_id": 945,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The asset is in a clear downward momentum trap and I must cut my losses to preserve capital before further depreciation."
+        },
+        {
+          "agent_id": 782,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The market is panic-selling into a support level, and I will accumulate shares while the crowd is irrationally liquidating."
+        },
+        {
+          "agent_id": 217,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The asset is in a clear downward momentum spiral, violating my trend-following strategy by breaking below my average cost."
+        },
+        {
+          "agent_id": 249,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The stock is trading at a significant discount to my fair value of $100, providing a margin of safety that justifies increasing my position."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 28,
+      "price": 109.35,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 466,
+      "sells": 151,
+      "holds": 383,
+      "total_buy_shares": 8454,
+      "total_sell_shares": 1376,
+      "net_order_flow": 7078,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 93,
+          "sell": 33,
+          "hold": 74
+        },
+        "fomo_buyer": {
+          "buy": 100,
+          "sell": 30,
+          "hold": 70
+        },
+        "trend_follower": {
+          "buy": 138,
+          "sell": 46,
+          "hold": 116
+        },
+        "contrarian": {
+          "buy": 73,
+          "sell": 18,
+          "hold": 59
+        },
+        "conservative": {
+          "buy": 62,
+          "sell": 24,
+          "hold": 64
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 574,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price has pivoted off the low of $97.3 with a strong 4% gain today, signaling the start of a new momentum wave."
+        },
+        {
+          "agent_id": 692,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The market is overreacting to a minor bounce after a steep slide, and selling into this short-term euphoria allows me to lock in liquidity while others FOMO back in."
+        },
+        {
+          "agent_id": 730,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The price is finally green again after that terrifying dip, and I can't stand the thought of missing out on the recovery rally!"
+        },
+        {
+          "agent_id": 287,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The market is overreacting to a minor relief rally after a sharp downtrend, and I prefer to trim my position into this liquidity to preserve capital for a deeper bottom."
+        },
+        {
+          "agent_id": 288,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price has bounced off the recent low with strong positive momentum, signaling the start of a new upward trend I need to capitalize on."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 29,
+      "price": 118.1,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 410,
+      "sells": 244,
+      "holds": 346,
+      "total_buy_shares": 6474,
+      "total_sell_shares": 1882,
+      "net_order_flow": 4592,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 78,
+          "sell": 51,
+          "hold": 71
+        },
+        "fomo_buyer": {
+          "buy": 90,
+          "sell": 44,
+          "hold": 66
+        },
+        "trend_follower": {
+          "buy": 128,
+          "sell": 70,
+          "hold": 102
+        },
+        "contrarian": {
+          "buy": 66,
+          "sell": 36,
+          "hold": 48
+        },
+        "conservative": {
+          "buy": 48,
+          "sell": 43,
+          "hold": 59
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 587,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "Everyone is piling back in and this 8% rally is clearly the start of a massive breakout that I absolutely cannot miss!"
+        },
+        {
+          "agent_id": 861,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The asset is up 8% on heavy buying volume, signaling a classic overreaction that I am fading by taking profits."
+        },
+        {
+          "agent_id": 289,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The price has surged 8% today, confirming a powerful bullish breakout that signals strong upward momentum to ride."
+        },
+        {
+          "agent_id": 443,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The market is currently experiencing a euphoric overreaction with heavy buying volume, signaling a prime opportunity to lock in gains before the inevitable mean reversion."
+        },
+        {
+          "agent_id": 674,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price is reclaiming its upward momentum with a strong 8% gain, signaling a trend reversal that demands aggressive participation."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 30,
+      "price": 108.65,
+      "price_change_pct": -8.0,
+      "news": "BREAKING: SEC launches investigation into accounting irregularities. CFO resigns effective immediately.",
+      "buys": 4,
+      "sells": 995,
+      "holds": 1,
+      "total_buy_shares": 34,
+      "total_sell_shares": 8460,
+      "net_order_flow": -8426,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 1,
+          "sell": 199,
+          "hold": 0
+        },
+        "fomo_buyer": {
+          "buy": 0,
+          "sell": 200,
+          "hold": 0
+        },
+        "trend_follower": {
+          "buy": 2,
+          "sell": 298,
+          "hold": 0
+        },
+        "contrarian": {
+          "buy": 0,
+          "sell": 150,
+          "hold": 0
+        },
+        "conservative": {
+          "buy": 1,
+          "sell": 148,
+          "hold": 1
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 945,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The sudden resignation of the CFO and an SEC investigation represent a critical trend reversal that overrides previous momentum."
+        },
+        {
+          "agent_id": 289,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "An SEC investigation and a CFO resignation are absolute momentum killers that signal a trend reversal, so I am exiting before the panic selling accelerates."
+        },
+        {
+          "agent_id": 238,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "The combination of accounting irregularities and the CFO's resignation creates significant uncertainty, making the stock overvalued at $118.10."
+        },
+        {
+          "agent_id": 176,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The stock is significantly overvalued relative to my $100 fair value, and the sudden accounting investigation and CFO resignation pose severe downside risks that demand an immediate exit."
+        },
+        {
+          "agent_id": 814,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The sudden resignation of the CFO and an SEC investigation represent a fundamental breakdown in momentum that outweighs technical gains; get out now."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 31,
+      "price": 103.64,
+      "price_change_pct": -4.61,
+      "news": null,
+      "buys": 220,
+      "sells": 506,
+      "holds": 274,
+      "total_buy_shares": 3487,
+      "total_sell_shares": 4479,
+      "net_order_flow": -992,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 49,
+          "sell": 98,
+          "hold": 53
+        },
+        "fomo_buyer": {
+          "buy": 42,
+          "sell": 111,
+          "hold": 47
+        },
+        "trend_follower": {
+          "buy": 67,
+          "sell": 150,
+          "hold": 83
+        },
+        "contrarian": {
+          "buy": 31,
+          "sell": 78,
+          "hold": 41
+        },
+        "conservative": {
+          "buy": 31,
+          "sell": 69,
+          "hold": 50
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 919,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The market is panic-selling on an overreaction to the recent price surge, providing a prime opportunity to accumulate shares at a discount."
+        },
+        {
+          "agent_id": 404,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "The momentum has clearly broken with a sharp intraday drop and a series of lower highs, signaling a trend reversal that requires immediate risk reduction."
+        },
+        {
+          "agent_id": 9,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "Everything is crashing and I can't stand watching my portfolio value bleed out anymore!"
+        },
+        {
+          "agent_id": 814,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The momentum has decisively broken to the downside with a sharp 8% drop, signaling a trend reversal that requires immediate risk mitigation."
+        },
+        {
+          "agent_id": 925,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 13,
+          "reason": "The price has broken below my entry point and is showing clear bearish momentum, so I must cut losses to preserve capital."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 32,
+      "price": 95.35,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 120,
+      "sells": 505,
+      "holds": 375,
+      "total_buy_shares": 1841,
+      "total_sell_shares": 4274,
+      "net_order_flow": -2433,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 23,
+          "sell": 97,
+          "hold": 80
+        },
+        "fomo_buyer": {
+          "buy": 22,
+          "sell": 111,
+          "hold": 67
+        },
+        "trend_follower": {
+          "buy": 39,
+          "sell": 151,
+          "hold": 110
+        },
+        "contrarian": {
+          "buy": 16,
+          "sell": 78,
+          "hold": 56
+        },
+        "conservative": {
+          "buy": 20,
+          "sell": 68,
+          "hold": 62
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 874,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 17,
+          "reason": "The market is overreacting to a minor pullback with heavy selling volume, presenting a clear opportunity to accumulate at a discount to my cost basis."
+        },
+        {
+          "agent_id": 624,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "Everything is crashing and I need to get out before I lose even more of my hard-earned money!"
+        },
+        {
+          "agent_id": 558,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "The price is tanking and everyone is panic-selling, so I need to get out now before I lose everything!"
+        },
+        {
+          "agent_id": 216,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The price is in a clear downtrend, breaking below my average cost and signaling a loss of momentum."
+        },
+        {
+          "agent_id": 756,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 6,
+          "reason": "The market is panic-selling into a support level after a sharp decline, presenting a classic contrarian opportunity to accumulate at a discount."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 33,
+      "price": 100.28,
+      "price_change_pct": 5.17,
+      "news": null,
+      "buys": 269,
+      "sells": 499,
+      "holds": 232,
+      "total_buy_shares": 5008,
+      "total_sell_shares": 4020,
+      "net_order_flow": 988,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 54,
+          "sell": 95,
+          "hold": 51
+        },
+        "fomo_buyer": {
+          "buy": 48,
+          "sell": 110,
+          "hold": 42
+        },
+        "trend_follower": {
+          "buy": 73,
+          "sell": 149,
+          "hold": 78
+        },
+        "contrarian": {
+          "buy": 49,
+          "sell": 78,
+          "hold": 23
+        },
+        "conservative": {
+          "buy": 45,
+          "sell": 67,
+          "hold": 38
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 934,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "The price is in a clear downward momentum break, and I must cut my losses to preserve capital before the trend accelerates further."
+        },
+        {
+          "agent_id": 736,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The price is tanking and everyone is panic-selling, so I need to get out now before I lose everything!"
+        },
+        {
+          "agent_id": 696,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The price is in a clear downward momentum trend, breaking through support levels with significant daily losses, so I must exit to preserve capital."
+        },
+        {
+          "agent_id": 993,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The price is in a clear downward trend, breaking support levels and signaling a momentum shift that demands an exit."
+        },
+        {
+          "agent_id": 479,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The asset is in a clear downward trend, breaching key support levels with significant negative momentum."
+        }
+      ],
+      "errors": 1
+    },
+    {
+      "round": 34,
+      "price": 108.3,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 457,
+      "sells": 155,
+      "holds": 388,
+      "total_buy_shares": 8451,
+      "total_sell_shares": 1454,
+      "net_order_flow": 6997,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 91,
+          "sell": 33,
+          "hold": 76
+        },
+        "fomo_buyer": {
+          "buy": 99,
+          "sell": 31,
+          "hold": 70
+        },
+        "trend_follower": {
+          "buy": 136,
+          "sell": 48,
+          "hold": 116
+        },
+        "contrarian": {
+          "buy": 70,
+          "sell": 18,
+          "hold": 62
+        },
+        "conservative": {
+          "buy": 61,
+          "sell": 25,
+          "hold": 64
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 363,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price is finally climbing back up after the dip and I can't stand the thought of missing out on this massive 5.2% rally!"
+        },
+        {
+          "agent_id": 919,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The market is overreacting to a minor bounce after a steep slide, and selling into this short-term strength allows me to lock in liquidity while the crowd irrationally chases the green candle."
+        },
+        {
+          "agent_id": 62,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The asset is experiencing a relief rally after a sharp decline, and the crowd's buying volume indicates an overreaction that provides a prime opportunity to lock in gains."
+        },
+        {
+          "agent_id": 651,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price is finally climbing again and I can't afford to miss this rally before it hits the moon!"
+        },
+        {
+          "agent_id": 988,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price has successfully bounced off the $95 support level and is showing strong intraday momentum, signaling a trend reversal that demands aggressive accumulation."
+        }
+      ],
+      "errors": 1
+    },
+    {
+      "round": 35,
+      "price": 116.96,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 449,
+      "sells": 238,
+      "holds": 313,
+      "total_buy_shares": 6499,
+      "total_sell_shares": 2055,
+      "net_order_flow": 4444,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 85,
+          "sell": 50,
+          "hold": 65
+        },
+        "fomo_buyer": {
+          "buy": 98,
+          "sell": 44,
+          "hold": 58
+        },
+        "trend_follower": {
+          "buy": 136,
+          "sell": 65,
+          "hold": 99
+        },
+        "contrarian": {
+          "buy": 73,
+          "sell": 38,
+          "hold": 39
+        },
+        "conservative": {
+          "buy": 57,
+          "sell": 41,
+          "hold": 52
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 331,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 2,
+          "reason": "The asset is showing strong bullish momentum with a clear breakout, and I am aggressively adding to my position to ride the trend."
+        },
+        {
+          "agent_id": 669,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The asset is showing powerful bullish momentum with a sharp recovery, and I am aggressively adding to my position to ride the breakout."
+        },
+        {
+          "agent_id": 227,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 13,
+          "reason": "Everyone is piling in and the price is surging, I can't afford to miss out on these gains!"
+        },
+        {
+          "agent_id": 983,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "Everyone is jumping in and the momentum is finally turning green, so I need to load up before this rocket ship leaves me behind!"
+        },
+        {
+          "agent_id": 201,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 13,
+          "reason": "The market is overreacting to the upside with an 8% gain, signaling a classic exhaustion rally where I should trim my position into the crowd's greed."
+        }
+      ],
+      "errors": 2
+    },
+    {
+      "round": 36,
+      "price": 126.32,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 331,
+      "sells": 365,
+      "holds": 304,
+      "total_buy_shares": 5256,
+      "total_sell_shares": 2819,
+      "net_order_flow": 2437,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 54,
+          "sell": 73,
+          "hold": 73
+        },
+        "fomo_buyer": {
+          "buy": 78,
+          "sell": 62,
+          "hold": 60
+        },
+        "trend_follower": {
+          "buy": 101,
+          "sell": 111,
+          "hold": 88
+        },
+        "contrarian": {
+          "buy": 57,
+          "sell": 57,
+          "hold": 36
+        },
+        "conservative": {
+          "buy": 41,
+          "sell": 62,
+          "hold": 47
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 748,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "The momentum is parabolic and I am locking in profits while the trend remains aggressively bullish to maintain capital for the next leg up."
+        },
+        {
+          "agent_id": 285,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The asset is showing powerful bullish momentum with a strong breakout, and I am aggressively adding to my position to ride the trend higher."
+        },
+        {
+          "agent_id": 9,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 15,
+          "reason": "Everyone is piling in and the momentum is too strong to miss out on these massive gains!"
+        },
+        {
+          "agent_id": 465,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "Everyone is piling in and the momentum is too strong to ignore, I need to get more shares before it goes to the moon!"
+        },
+        {
+          "agent_id": 235,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The stock is currently trading at $116.96, which is significantly above my fair value estimate of $100, necessitating a disciplined reduction of my position to lock in gains."
+        }
+      ],
+      "errors": 2
+    },
+    {
+      "round": 37,
+      "price": 127.9,
+      "price_change_pct": 1.25,
+      "news": null,
+      "buys": 235,
+      "sells": 358,
+      "holds": 407,
+      "total_buy_shares": 2934,
+      "total_sell_shares": 2586,
+      "net_order_flow": 348,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 38,
+          "sell": 72,
+          "hold": 90
+        },
+        "fomo_buyer": {
+          "buy": 51,
+          "sell": 63,
+          "hold": 86
+        },
+        "trend_follower": {
+          "buy": 73,
+          "sell": 108,
+          "hold": 119
+        },
+        "contrarian": {
+          "buy": 41,
+          "sell": 55,
+          "hold": 54
+        },
+        "conservative": {
+          "buy": 32,
+          "sell": 60,
+          "hold": 58
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 574,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The asset is in a powerful breakout phase with accelerating momentum, so I am aggressively scaling into the trend to maximize gains."
+        },
+        {
+          "agent_id": 732,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The stock is in a powerful breakout phase with consistent higher highs, and I am aggressively scaling into this momentum to maximize gains."
+        },
+        {
+          "agent_id": 981,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The stock is currently trading at a significant premium to my $100 fair value estimate, necessitating a disciplined reduction of my position to lock in gains."
+        },
+        {
+          "agent_id": 795,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The stock is significantly overvalued at $126.32 relative to my $100 fair value, necessitating a disciplined reduction of my position to lock in gains."
+        },
+        {
+          "agent_id": 814,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 17,
+          "reason": "The asset is in a powerful breakout phase with accelerating momentum, and I am aggressively scaling into the trend to maximize gains."
+        }
+      ],
+      "errors": 1
+    },
+    {
+      "round": 38,
+      "price": 120.79,
+      "price_change_pct": -5.56,
+      "news": null,
+      "buys": 113,
+      "sells": 356,
+      "holds": 531,
+      "total_buy_shares": 1331,
+      "total_sell_shares": 2414,
+      "net_order_flow": -1083,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 17,
+          "sell": 72,
+          "hold": 111
+        },
+        "fomo_buyer": {
+          "buy": 27,
+          "sell": 66,
+          "hold": 107
+        },
+        "trend_follower": {
+          "buy": 30,
+          "sell": 104,
+          "hold": 166
+        },
+        "contrarian": {
+          "buy": 22,
+          "sell": 54,
+          "hold": 74
+        },
+        "conservative": {
+          "buy": 17,
+          "sell": 60,
+          "hold": 73
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 919,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 15,
+          "reason": "The price has surged significantly in a short period and the crowd is overwhelmingly buying, signaling an overextended market ripe for a pullback."
+        },
+        {
+          "agent_id": 361,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 12,
+          "reason": "The asset is in a clear overextended uptrend driven by crowd momentum, signaling it is time to lock in profits before the inevitable mean reversion."
+        },
+        {
+          "agent_id": 443,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The price is at a local high following a strong rally and sustained buying pressure, signaling an overextended market ripe for a correction."
+        },
+        {
+          "agent_id": 853,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "The asset has surged on broad buying momentum, signaling an overextended market that is ripe for a mean-reverting correction."
+        },
+        {
+          "agent_id": 13,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The stock is significantly overvalued at $127.90 relative to my $100 fair value estimate, providing a clear opportunity to trim my position."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 39,
+      "price": 111.13,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 109,
+      "sells": 696,
+      "holds": 195,
+      "total_buy_shares": 1892,
+      "total_sell_shares": 6020,
+      "net_order_flow": -4128,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 26,
+          "sell": 133,
+          "hold": 41
+        },
+        "fomo_buyer": {
+          "buy": 20,
+          "sell": 142,
+          "hold": 38
+        },
+        "trend_follower": {
+          "buy": 34,
+          "sell": 204,
+          "hold": 62
+        },
+        "contrarian": {
+          "buy": 10,
+          "sell": 116,
+          "hold": 24
+        },
+        "conservative": {
+          "buy": 19,
+          "sell": 101,
+          "hold": 30
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 204,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 4,
+          "reason": "The price has broken below the recent resistance level and is showing clear downward momentum, signaling it is time to cut losses and exit."
+        },
+        {
+          "agent_id": 724,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The market is overreacting to a minor pullback after a strong run, and the selling volume indicates a classic panic that warrants accumulation."
+        },
+        {
+          "agent_id": 975,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "The stock is significantly overvalued at $120.79 compared to my $100 fair value, necessitating a disciplined reduction of my position."
+        },
+        {
+          "agent_id": 772,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The price is dropping fast and I'm terrified I'll lose all my gains if I don't get out now!"
+        },
+        {
+          "agent_id": 625,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The market is overreacting to a minor pullback after a strong rally, and the high volume of sellers signals a classic capitulation point for a contrarian entry."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 40,
+      "price": 102.24,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 155,
+      "sells": 550,
+      "holds": 295,
+      "total_buy_shares": 2193,
+      "total_sell_shares": 4973,
+      "net_order_flow": -2780,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 33,
+          "sell": 105,
+          "hold": 62
+        },
+        "fomo_buyer": {
+          "buy": 31,
+          "sell": 115,
+          "hold": 54
+        },
+        "trend_follower": {
+          "buy": 46,
+          "sell": 161,
+          "hold": 93
+        },
+        "contrarian": {
+          "buy": 18,
+          "sell": 92,
+          "hold": 40
+        },
+        "conservative": {
+          "buy": 27,
+          "sell": 77,
+          "hold": 46
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 748,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The price has broken below my average cost and is in a clear downward momentum trend, triggering an immediate exit to preserve capital."
+        },
+        {
+          "agent_id": 529,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The price is tanking and everyone is panic-selling, so I have to get out now before I lose everything!"
+        },
+        {
+          "agent_id": 933,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The price is in a clear downward breakout, and I must cut my losses to protect capital as the momentum has turned decisively negative."
+        },
+        {
+          "agent_id": 718,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 13,
+          "reason": "The price has broken below my cost basis with significant downward momentum, signaling a trend reversal that requires immediate risk reduction."
+        },
+        {
+          "agent_id": 534,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 14,
+          "reason": "The price is tanking and everyone is panic-selling, so I need to dump my shares before I lose everything!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 41,
+      "price": 94.06,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 148,
+      "sells": 498,
+      "holds": 354,
+      "total_buy_shares": 2396,
+      "total_sell_shares": 4452,
+      "net_order_flow": -2056,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 24,
+          "sell": 96,
+          "hold": 80
+        },
+        "fomo_buyer": {
+          "buy": 26,
+          "sell": 110,
+          "hold": 64
+        },
+        "trend_follower": {
+          "buy": 44,
+          "sell": 148,
+          "hold": 108
+        },
+        "contrarian": {
+          "buy": 24,
+          "sell": 77,
+          "hold": 49
+        },
+        "conservative": {
+          "buy": 30,
+          "sell": 67,
+          "hold": 53
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 433,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "Everything is crashing and I can't stand watching my portfolio value evaporate any further, I have to get out now before it goes to zero!"
+        },
+        {
+          "agent_id": 669,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 12,
+          "reason": "The price is in a clear downward cascade and momentum is heavily negative, so I must cut losses to protect capital."
+        },
+        {
+          "agent_id": 886,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The asset is in a clear downward momentum collapse, and I must cut my losses to preserve capital until a reversal is confirmed."
+        },
+        {
+          "agent_id": 696,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The price has broken below my cost basis and is in a clear, sharp downtrend, so I must cut losses to preserve capital."
+        },
+        {
+          "agent_id": 993,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 14,
+          "reason": "The price is in a clear downward momentum spiral, breaking support levels and triggering my stop-loss discipline to preserve remaining capital."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 42,
+      "price": 97.15,
+      "price_change_pct": 3.29,
+      "news": null,
+      "buys": 275,
+      "sells": 494,
+      "holds": 231,
+      "total_buy_shares": 4956,
+      "total_sell_shares": 4217,
+      "net_order_flow": 739,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 53,
+          "sell": 96,
+          "hold": 51
+        },
+        "fomo_buyer": {
+          "buy": 48,
+          "sell": 108,
+          "hold": 44
+        },
+        "trend_follower": {
+          "buy": 76,
+          "sell": 145,
+          "hold": 79
+        },
+        "contrarian": {
+          "buy": 51,
+          "sell": 78,
+          "hold": 21
+        },
+        "conservative": {
+          "buy": 47,
+          "sell": 67,
+          "hold": 36
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 748,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The asset is in a clear downward momentum spiral, violating my trend-following mandate to exit losing positions immediately."
+        },
+        {
+          "agent_id": 566,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 5,
+          "reason": "The market is in a state of irrational panic, overreacting to a downward trend that has created an oversold opportunity."
+        },
+        {
+          "agent_id": 465,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 13,
+          "reason": "Everything is crashing and I can't stand watching my portfolio value bleed out any further!"
+        },
+        {
+          "agent_id": 925,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 13,
+          "reason": "The price is in a clear downward cascade and I must cut my losses to protect capital before the momentum reverses."
+        },
+        {
+          "agent_id": 953,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The market is panic-selling on a clear overreaction, providing a prime opportunity to lower my cost basis while the crowd flees."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 43,
+      "price": 104.92,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 625,
+      "sells": 146,
+      "holds": 229,
+      "total_buy_shares": 11752,
+      "total_sell_shares": 1430,
+      "net_order_flow": 10322,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 124,
+          "sell": 31,
+          "hold": 45
+        },
+        "fomo_buyer": {
+          "buy": 128,
+          "sell": 30,
+          "hold": 42
+        },
+        "trend_follower": {
+          "buy": 181,
+          "sell": 44,
+          "hold": 75
+        },
+        "contrarian": {
+          "buy": 104,
+          "sell": 18,
+          "hold": 28
+        },
+        "conservative": {
+          "buy": 88,
+          "sell": 23,
+          "hold": 39
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 99,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "Price is showing clear signs of a reversal off the $94 support level with strong positive momentum, signaling the start of a new upward trend."
+        },
+        {
+          "agent_id": 669,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price has bottomed out at $94.1 and is now showing strong recovery momentum with a 3.3% daily gain, signaling a trend reversal to ride."
+        },
+        {
+          "agent_id": 67,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 22,
+          "reason": "The stock is trading at a significant discount to my $100 fair value, providing a sufficient margin of safety to increase my position."
+        },
+        {
+          "agent_id": 381,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "Everyone is finally piling back in and I can't afford to miss this recovery rally after being down so much!"
+        },
+        {
+          "agent_id": 112,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price has bottomed out and shifted to a strong positive momentum, signaling the start of a new trend to capitalize on."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 44,
+      "price": 113.31,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 426,
+      "sells": 208,
+      "holds": 366,
+      "total_buy_shares": 6161,
+      "total_sell_shares": 1984,
+      "net_order_flow": 4177,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 79,
+          "sell": 45,
+          "hold": 76
+        },
+        "fomo_buyer": {
+          "buy": 96,
+          "sell": 38,
+          "hold": 66
+        },
+        "trend_follower": {
+          "buy": 128,
+          "sell": 61,
+          "hold": 111
+        },
+        "contrarian": {
+          "buy": 71,
+          "sell": 29,
+          "hold": 50
+        },
+        "conservative": {
+          "buy": 52,
+          "sell": 35,
+          "hold": 63
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 347,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The market is overreacting to an 8% gain after a sharp slide, and I prefer to lock in profits while the crowd is aggressively buying into the rally."
+        },
+        {
+          "agent_id": 732,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 16,
+          "reason": "The price is surging with strong upward momentum, signaling a trend reversal that demands immediate aggressive accumulation to ride the wave."
+        },
+        {
+          "agent_id": 32,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 5,
+          "reason": "The asset is exhibiting strong bullish momentum with a sharp recovery and breakout, signaling it is time to aggressively ride the trend higher."
+        },
+        {
+          "agent_id": 39,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 15,
+          "reason": "The market is overreacting to the upside with an 8% gain, triggering my contrarian instinct to take profits into strength."
+        },
+        {
+          "agent_id": 479,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 13,
+          "reason": "The price has surged 8% today, confirming a powerful trend reversal that demands aggressive accumulation to ride the new momentum."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 45,
+      "price": 111.47,
+      "price_change_pct": -1.62,
+      "news": null,
+      "buys": 268,
+      "sells": 370,
+      "holds": 362,
+      "total_buy_shares": 2807,
+      "total_sell_shares": 3182,
+      "net_order_flow": -375,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 40,
+          "sell": 74,
+          "hold": 86
+        },
+        "fomo_buyer": {
+          "buy": 64,
+          "sell": 64,
+          "hold": 72
+        },
+        "trend_follower": {
+          "buy": 83,
+          "sell": 111,
+          "hold": 106
+        },
+        "contrarian": {
+          "buy": 47,
+          "sell": 56,
+          "hold": 47
+        },
+        "conservative": {
+          "buy": 34,
+          "sell": 65,
+          "hold": 51
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 67,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The stock price of $113.31 is significantly above my fair value estimate of $100, necessitating a disciplined reduction of my position to lock in gains."
+        },
+        {
+          "agent_id": 692,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 14,
+          "reason": "The market is currently experiencing irrational exuberance with an 8% daily surge, signaling a prime opportunity to take profits while the crowd greedily buys at the local peak."
+        },
+        {
+          "agent_id": 32,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The asset is showing strong positive momentum, but locking in partial profits while the trend is extended is essential to manage risk before a potential pullback."
+        },
+        {
+          "agent_id": 933,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 9,
+          "reason": "The asset is showing strong positive momentum with a clear upward trend, but I am locking in partial profits to reduce exposure while the price is peaking."
+        },
+        {
+          "agent_id": 309,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The stock is currently trading at a premium to my $100 fair value, making it a disciplined time to harvest gains and reduce my position."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 46,
+      "price": 102.55,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 104,
+      "sells": 690,
+      "holds": 206,
+      "total_buy_shares": 1808,
+      "total_sell_shares": 6506,
+      "net_order_flow": -4698,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 24,
+          "sell": 129,
+          "hold": 47
+        },
+        "fomo_buyer": {
+          "buy": 20,
+          "sell": 144,
+          "hold": 36
+        },
+        "trend_follower": {
+          "buy": 32,
+          "sell": 204,
+          "hold": 64
+        },
+        "contrarian": {
+          "buy": 10,
+          "sell": 119,
+          "hold": 21
+        },
+        "conservative": {
+          "buy": 18,
+          "sell": 94,
+          "hold": 38
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 491,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The market is overreacting to a minor pullback after a strong run, so I am accumulating more shares while others sell into weakness."
+        },
+        {
+          "agent_id": 331,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 5,
+          "reason": "The momentum has shifted downward with a 1.6% drop, signaling a break in the trend that requires immediate risk reduction."
+        },
+        {
+          "agent_id": 732,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The momentum has shifted downward with two consecutive lower closes, signaling a break in the trend that necessitates cutting exposure."
+        },
+        {
+          "agent_id": 724,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 20,
+          "reason": "The market is overreacting to a minor pullback after a strong run, and the selling pressure indicates a classic sentiment-driven dip worth buying."
+        },
+        {
+          "agent_id": 983,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "The price is dropping and I'm terrified that if I don't get out now, I'll lose all my gains while everyone else is already heading for the exits!"
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 47,
+      "price": 94.35,
+      "price_change_pct": -8.0,
+      "news": null,
+      "buys": 182,
+      "sells": 499,
+      "holds": 319,
+      "total_buy_shares": 2362,
+      "total_sell_shares": 4729,
+      "net_order_flow": -2367,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 36,
+          "sell": 96,
+          "hold": 68
+        },
+        "fomo_buyer": {
+          "buy": 39,
+          "sell": 109,
+          "hold": 52
+        },
+        "trend_follower": {
+          "buy": 52,
+          "sell": 149,
+          "hold": 99
+        },
+        "contrarian": {
+          "buy": 27,
+          "sell": 78,
+          "hold": 45
+        },
+        "conservative": {
+          "buy": 28,
+          "sell": 67,
+          "hold": 55
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 913,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The market is crashing and everyone is dumping their shares, so I need to sell now before I lose everything!"
+        },
+        {
+          "agent_id": 732,
+          "archetype": "contrarian",
+          "action": "SELL",
+          "amount": 7,
+          "reason": "The asset is in a clear downtrend, breaking below its moving average and failing to hold support, so I must cut losses to preserve capital."
+        },
+        {
+          "agent_id": 285,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 13,
+          "reason": "The price has broken below my average cost and momentum has shifted sharply negative, necessitating an immediate exit to preserve remaining capital."
+        },
+        {
+          "agent_id": 518,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 3,
+          "reason": "The asset is in a clear downward trend, breaking below the previous support level and signaling further momentum to the downside."
+        },
+        {
+          "agent_id": 572,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 10,
+          "reason": "The market is plummeting and everyone is panic-selling, so I need to dump my shares before I lose everything!"
+        }
+      ],
+      "errors": 1
+    },
+    {
+      "round": 48,
+      "price": 95.39,
+      "price_change_pct": 1.1,
+      "news": null,
+      "buys": 262,
+      "sells": 500,
+      "holds": 238,
+      "total_buy_shares": 4707,
+      "total_sell_shares": 4491,
+      "net_order_flow": 216,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 48,
+          "sell": 96,
+          "hold": 56
+        },
+        "fomo_buyer": {
+          "buy": 53,
+          "sell": 110,
+          "hold": 37
+        },
+        "trend_follower": {
+          "buy": 71,
+          "sell": 149,
+          "hold": 80
+        },
+        "contrarian": {
+          "buy": 46,
+          "sell": 78,
+          "hold": 26
+        },
+        "conservative": {
+          "buy": 44,
+          "sell": 67,
+          "hold": 39
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 861,
+          "archetype": "conservative",
+          "action": "BUY",
+          "amount": 17,
+          "reason": "The market is overreacting to short-term volatility with heavy selling, creating a prime opportunity to lower my cost basis while the crowd panics."
+        },
+        {
+          "agent_id": 954,
+          "archetype": "conservative",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "Everything is crashing and I need to get out before I lose any more of my hard-earned money!"
+        },
+        {
+          "agent_id": 33,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 11,
+          "reason": "The price is in a clear downward momentum phase, breaking below the previous support levels, so I must cut my losses to preserve capital."
+        },
+        {
+          "agent_id": 381,
+          "archetype": "value_investor",
+          "action": "SELL",
+          "amount": 3,
+          "reason": "Everything is crashing and I need to get out before I lose even more of my money!"
+        },
+        {
+          "agent_id": 549,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The market is panic-selling on a short-term slide, creating an overextended oversold condition that provides an excellent entry point to lower my cost basis."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 49,
+      "price": 103.02,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 357,
+      "sells": 77,
+      "holds": 566,
+      "total_buy_shares": 6815,
+      "total_sell_shares": 675,
+      "net_order_flow": 6140,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 69,
+          "sell": 13,
+          "hold": 118
+        },
+        "fomo_buyer": {
+          "buy": 63,
+          "sell": 23,
+          "hold": 114
+        },
+        "trend_follower": {
+          "buy": 109,
+          "sell": 18,
+          "hold": 173
+        },
+        "contrarian": {
+          "buy": 60,
+          "sell": 15,
+          "hold": 75
+        },
+        "conservative": {
+          "buy": 56,
+          "sell": 8,
+          "hold": 86
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 782,
+          "archetype": "contrarian",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The market is in a state of net selling despite a recent bounce, signaling an emotional overreaction that presents a prime opportunity to lower my cost basis."
+        },
+        {
+          "agent_id": 23,
+          "archetype": "trend_follower",
+          "action": "SELL",
+          "amount": 8,
+          "reason": "The price is still way below my average and I can't stomach watching it drop any further, so I'm getting out before it crashes again."
+        },
+        {
+          "agent_id": 201,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The market is significantly overreacting to the downside despite a slight recovery, and I am accumulating shares while the crowd continues to panic sell."
+        },
+        {
+          "agent_id": 683,
+          "archetype": "fomo_buyer",
+          "action": "BUY",
+          "amount": 20,
+          "reason": "The stock is trading at a significant discount to my fair value of $100, providing an adequate margin of safety to lower my cost basis."
+        },
+        {
+          "agent_id": 11,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The stock is currently trading at a discount to my $100 fair value estimate, providing a sufficient margin of safety to increase my position."
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "round": 50,
+      "price": 111.26,
+      "price_change_pct": 8.0,
+      "news": null,
+      "buys": 433,
+      "sells": 212,
+      "holds": 355,
+      "total_buy_shares": 6665,
+      "total_sell_shares": 2225,
+      "net_order_flow": 4440,
+      "by_archetype": {
+        "value_investor": {
+          "buy": 87,
+          "sell": 43,
+          "hold": 70
+        },
+        "fomo_buyer": {
+          "buy": 91,
+          "sell": 34,
+          "hold": 75
+        },
+        "trend_follower": {
+          "buy": 132,
+          "sell": 69,
+          "hold": 99
+        },
+        "contrarian": {
+          "buy": 67,
+          "sell": 29,
+          "hold": 54
+        },
+        "conservative": {
+          "buy": 56,
+          "sell": 37,
+          "hold": 57
+        }
+      },
+      "notable_reasons": [
+        {
+          "agent_id": 227,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "Everyone is piling in and the price is finally surging again, so I need to get in now before I miss out on the rally to the moon!"
+        },
+        {
+          "agent_id": 462,
+          "archetype": "value_investor",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price has broken its downward trend with a strong 8% surge, and I am aggressively adding to my position to capitalize on this fresh upward momentum."
+        },
+        {
+          "agent_id": 116,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 18,
+          "reason": "The stock is finally ripping again and I can't stand the thought of missing out on this massive 8% rally!"
+        },
+        {
+          "agent_id": 625,
+          "archetype": "fomo_buyer",
+          "action": "SELL",
+          "amount": 6,
+          "reason": "The market is irrationally chasing an 8% bounce after a steep slide, so I am trimming my position into the crowd's overreaction."
+        },
+        {
+          "agent_id": 59,
+          "archetype": "trend_follower",
+          "action": "BUY",
+          "amount": 19,
+          "reason": "The price has reclaimed the $100 level with strong daily momentum, signaling a trend reversal that demands immediate aggressive accumulation."
+        }
+      ],
+      "errors": 0
+    }
+  ],
+  "final_standings": {
+    "final_price": 111.26,
+    "price_change_total": 11.26,
+    "richest": {
+      "id": 67,
+      "archetype": "trend_follower",
+      "value": 26192.09
+    },
+    "poorest": {
+      "id": 597,
+      "archetype": "fomo_buyer",
+      "value": 19135.36
+    },
+    "by_archetype_avg": {
+      "trend_follower": 22149.48,
+      "conservative": 22345.96,
+      "fomo_buyer": 21998.57,
+      "contrarian": 22337.37,
+      "value_investor": 22079.05
+    },
+    "by_archetype_best": {
+      "trend_follower": 26192.09,
+      "conservative": 25990.23,
+      "fomo_buyer": 25914.73,
+      "contrarian": 25828.89,
+      "value_investor": 25668.27
+    },
+    "wealth_distribution": {
+      "top_10_pct": 25341.53,
+      "bottom_10_pct": 19914.44
+    }
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "runs": {
+    "A_never_reveal": [
+      {
+        "strategy_id": "A_never_reveal",
+        "strategy_name": "Never Reveal Salary",
+        "agreed": true,
+        "final_salary": 210000,
+        "delta_above_opening": 30000,
+        "rounds": 3,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": null,
+            "candidate_dialogue": "I am really excited about the potential to join the team and contribute to the projects we discussed. Before we dive into specifics, could you share the typical compensation range for this role at your company? I am looking for a package that reflects the market rate for a senior engineer with five years of experience.",
+            "candidate_reasoning": "I want to establish a collaborative tone while keeping my current salary hidden. I will ask for their range first to avoid anchoring myself too low.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "Thanks for your interest! For a senior engineer with your background, we typically see base salaries in the $180,000 to $200,000 range, depending on specific experience and interview performance. Based on our conversation and your five years of experience, I'd like to offer you $180,000 as a starting point. This comes with significant equity upside, comprehensive benefits, and our annual bonus program which typically adds 10-15% to total compensation. How does this initial offer sound to you?",
+            "recruiter_reasoning": "The candidate is asking for the range upfront, which is a smart negotiation tactic. I should not reveal my full approved band ($170K-$230K) as that would anchor them high. Instead, I'll give a narrower range starting from my opening offer and going partway up, then make my opening offer of $180K to start the negotiation.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 215000,
+            "candidate_dialogue": "Thank you for sharing those details; I appreciate the transparency regarding the range. Given my specific experience in scaling distributed systems and the immediate impact I can make on your current roadmap, I was expecting a base salary closer to $215,000. I am confident that my technical background aligns with the top tier of this role's requirements and would like to see if we can move the base closer to that figure.",
+            "candidate_reasoning": "The recruiter offered the bottom of their stated range. Since my walk-away number is $200,000, I need to push for the top of their range or slightly above to ensure I have room to negotiate down to my target while emphasizing the value I bring.",
+            "recruiter_offer": 195000,
+            "recruiter_dialogue": "I really appreciate you highlighting your distributed systems expertise - that's exactly what we need for our scaling challenges ahead. Your background definitely puts you in the higher tier of candidates we've seen. While $215,000 is at the very top of our typical range, I can move to $195,000 to better reflect your specialized experience. Combined with our equity package, which has significant upside potential given our growth trajectory, this puts your total compensation well above market. Would this work for you, or do you have some flexibility on the base salary component?",
+            "recruiter_reasoning": "The candidate is asking for exactly my maximum without VP approval ($215K). This is a significant jump from my opening offer, but they're positioning it well by highlighting their specific skills. I should acknowledge their value but not jump straight to their number. I'll make a meaningful counteroffer around $195K to show movement while testing if they have flexibility below $215K.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 3,
+            "candidate_offer": 210000,
+            "candidate_dialogue": "I appreciate you moving the base to $195,000, which shows the company's commitment to bringing me on board. However, given the specific technical challenges we discussed and the immediate value I will provide to the distributed systems team, I am still looking to get closer to $210,000 for the base salary. If we can bridge that gap, I would be thrilled to accept and start contributing to the roadmap right away.",
+            "candidate_reasoning": "The recruiter is very close to my walk-away number of $200,000 but hasn't reached it yet. Since they mentioned $215,000 is the very top of their range, there is clearly room to move above $195,000, so I will counter at $210,000 to settle at or above my $200,000 goal.",
+            "recruiter_offer": null,
+            "recruiter_dialogue": "N/A",
+            "recruiter_reasoning": "",
+            "agreed": true,
+            "final_salary": 210000
+          }
+        ],
+        "run": 1
+      },
+      {
+        "strategy_id": "A_never_reveal",
+        "strategy_name": "Never Reveal Salary",
+        "agreed": true,
+        "final_salary": 210000,
+        "delta_above_opening": 30000,
+        "rounds": 3,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": null,
+            "candidate_dialogue": "Thank you for reaching out to discuss the next steps in the process. I am very excited about the potential of joining the team and contributing to the projects we discussed during the interviews. Before we dive into specific numbers, I would love to hear the compensation range you have established for this position based on the market data for this level.",
+            "candidate_reasoning": "I want to establish a professional tone and prompt the recruiter to reveal their budget first. By asking for their range, I avoid anchoring myself to a lower number or revealing my current salary.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "I'm excited to move forward with you as well! Based on our evaluation and current market data, we're looking at a base salary range of $180,000 to $210,000 for this role. I'd like to start our conversation with an offer of $180,000 base salary, plus equity, annual bonus potential, and our comprehensive benefits package. This puts you in a really strong position within our compensation framework for this level. What are your thoughts on this starting point?",
+            "recruiter_reasoning": "The candidate is asking for the compensation range upfront, which is a smart negotiation tactic. I should not reveal my full internal band ($170K-$230K) as that would anchor them to the top. Instead, I'll give a narrower range starting from my opening offer and going partway up, then make my specific opening offer of $180K.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 215000,
+            "candidate_dialogue": "I appreciate you sharing the compensation range and the initial offer. Based on my five years of experience and the specific technical value I can bring to your engineering team, I was looking for a base salary closer to $215,000. I believe this figure is more aligned with the current market rate for this level of expertise and the responsibilities we discussed during the interview process.",
+            "candidate_reasoning": "The initial offer of $180,000 is at the very bottom of their stated range and below my walk-away number of $200,000. I will anchor my counteroffer at $215,000, which is slightly above their top end, to provide room for negotiation while justifying it through my five years of experience and market data.",
+            "recruiter_offer": 195000,
+            "recruiter_dialogue": "I really appreciate you sharing that perspective, and I absolutely recognize the strong technical background and experience you'd be bringing to the team. Based on what you've shared, I can move up to $195,000 base salary. When you factor in our equity package, which has significant upside potential, plus our annual performance bonus and comprehensive benefits, the total compensation package is quite competitive. This represents a meaningful increase from our initial offer and reflects the value we see in your expertise. How does this feel to you?",
+            "recruiter_reasoning": "The candidate is asking for exactly $215K, which is at the top of what I can approve without going to the VP. This is a significant jump from my $180K opening offer. I should acknowledge their experience but not immediately jump to their number. I'll make a counteroffer somewhere in the middle to show I'm willing to move but still have room to negotiate. I'll go to $195K and emphasize the total package.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 3,
+            "candidate_offer": 210000,
+            "candidate_dialogue": "I appreciate the movement to $195,000, but I am really looking to get to $210,000 to align with the value and specific expertise I will bring to this role. Given that this figure is within your established range for the position, I am confident it reflects a fair market rate for my five years of experience. If we can reach that number, I am prepared to move forward and accept the offer immediately.",
+            "candidate_reasoning": "The current offer of $195,000 is still below my walk-away point of $200,000. Since the recruiter previously mentioned their range goes up to $210,000, I will counter at $210,000 to ensure I land at or above my minimum while staying within their internal budget.",
+            "recruiter_offer": null,
+            "recruiter_dialogue": "N/A",
+            "recruiter_reasoning": "",
+            "agreed": true,
+            "final_salary": 210000
+          }
+        ],
+        "run": 2
+      },
+      {
+        "strategy_id": "A_never_reveal",
+        "strategy_name": "Never Reveal Salary",
+        "agreed": true,
+        "final_salary": 215000,
+        "delta_above_opening": 35000,
+        "rounds": 4,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": null,
+            "candidate_dialogue": "Thank you for reaching out to discuss this. I am very excited about the team and the technical challenges we discussed during the interview process. Before we dive into specifics, I would love to hear more about the compensation range you have budgeted for this position to ensure we are aligned.",
+            "candidate_reasoning": "I want to establish a professional tone and prompt the recruiter to share the salary range for this role first. I will avoid naming a number immediately to see where their budget lies.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "I'm excited about your interest in joining our team! Based on your background and the level of this role, I'm pleased to offer you a competitive base salary of $180,000. This comes with significant equity upside, comprehensive benefits, and performance bonuses that make the total compensation package quite compelling. I'd love to walk you through the complete package and hear your thoughts on this offer.",
+            "recruiter_reasoning": "The candidate is asking for the compensation range upfront, which is a smart negotiation tactic. I should not reveal my full approved band ($170K-$230K) as that would anchor them high and limit my negotiating room. Instead, I'll start with my planned opening offer of $180K and present it as a strong, competitive package while keeping the door open for discussion.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 220000,
+            "candidate_dialogue": "Thank you for providing those details, though I was expecting a base salary closer to $220,000 based on current market data for this level of seniority and the specific technical expertise I bring to the team. Given my five years of experience and the impact I expect to make on your upcoming projects, I believe this figure more accurately reflects the value I would contribute. I am very excited about the opportunity and would love to see if we can get closer to that number to move forward.",
+            "candidate_reasoning": "The initial offer of $180,000 is below my minimum requirement of $200,000 and only slightly above my current salary. I will anchor higher at $220,000 to provide room for negotiation while emphasizing my five years of experience and the market value for this role.",
+            "recruiter_offer": 195000,
+            "recruiter_dialogue": "I really appreciate you sharing your perspective on market rates, and I can see the strong value you'd bring to our team. Let me work with you here - I can move up to $195,000 base salary, which represents a meaningful increase from our initial offer. When you factor in our equity package, annual bonus potential, and comprehensive benefits, the total compensation is quite competitive for the market. I'm curious - what's driving the $220K figure specifically? Is there flexibility in how we structure the total package to meet your needs?",
+            "recruiter_reasoning": "The candidate is asking for $220K, which is above my $215K approval limit but still within the absolute maximum band of $230K. This would require VP approval. I need to push back significantly from their ask while showing I'm willing to negotiate. I'll move up modestly to $195K to show good faith, but emphasize the total comp package and try to understand their flexibility. I want to avoid going to VP approval if possible.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 3,
+            "candidate_offer": 220000,
+            "candidate_dialogue": "My target of $220,000 reflects the specialized technical skills and five years of engineering experience I would be bringing to the team from day one. I\u2019ve researched comparable senior roles in the industry, and this figure represents the market value for the specific expertise in high-scale systems that your team is currently looking for. I am very interested in this role and would love to find a way to get the base salary closer to that number to make this work.",
+            "candidate_reasoning": "The recruiter's offer of $195,000 is still below my $200,000 walk-away point. I will maintain my $220,000 ask to leave room for a final compromise that lands above my minimum, focusing on my specialized technical contributions rather than my current pay.",
+            "recruiter_offer": 210000,
+            "recruiter_dialogue": "I can see you've done thorough market research, and I want to find a way to make this work for both of us. Let me go to $210,000 base salary - that's a substantial move that reflects how much we value your specialized experience in high-scale systems. Combined with our equity package that could be worth significant upside and our annual performance bonuses, this puts the total compensation in a very competitive range. Is there any flexibility on your end to meet at $210K, or what would it take to get us to a yes?",
+            "recruiter_reasoning": "The candidate is holding firm at $220K and providing solid justification. They're not budging and seem well-researched. I need to move more significantly to show I'm serious about closing them, but I still want to avoid VP approval if possible. I'll go to $210K, which is close to my $215K limit, and test if they have any flexibility below $220K. I'll also emphasize the total comp story more strongly.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 4,
+            "candidate_offer": 215000,
+            "candidate_dialogue": "I appreciate the move to $210,000 and the recognition of my experience with high-scale systems. If we can get the base salary to $215,000, I would be thrilled to sign the offer today and begin focusing on how I can contribute to the team's upcoming projects. I believe this final adjustment would fully align the offer with the market value for this level of expertise and allow us to move forward immediately.",
+            "candidate_reasoning": "The current offer of $210,000 is above my minimum threshold, but since the recruiter asked what it would take to get to a \"yes,\" I will suggest $215,000 as a final compromise. This bridges the gap between our current positions and shows a willingness to close the deal immediately.",
+            "recruiter_offer": null,
+            "recruiter_dialogue": "N/A",
+            "recruiter_reasoning": "",
+            "agreed": true,
+            "final_salary": 215000
+          }
+        ],
+        "run": 3
+      }
+    ],
+    "B_anchor_high": [
+      {
+        "strategy_id": "B_anchor_high",
+        "strategy_name": "Anchor High",
+        "agreed": true,
+        "final_salary": 220000,
+        "delta_above_opening": 40000,
+        "rounds": 3,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": 250000,
+            "candidate_dialogue": "I am very excited about the potential to join the team and contribute to the upcoming projects we discussed. Based on my research into market rates for senior engineers with my experience and specific skill set, I am targeting a base salary of $250,000. I believe this figure aligns with the current industry standards for the value and expertise I would bring to the organization.",
+            "candidate_reasoning": "I am setting the initial high anchor of $250,000 as instructed to frame the negotiation. This is based on market research for senior roles and my five years of specialized engineering experience.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "Thank you for your enthusiasm about joining our team - we're equally excited about the potential of working together! I appreciate you sharing your salary expectations with me. Based on our compensation framework and the level for this role, I'm able to offer a base salary of $180,000. I'd love to walk you through our complete compensation package, which includes substantial equity, performance bonuses, and comprehensive benefits that really enhance the total value. Would you like me to break down the full package so we can discuss the complete picture?",
+            "recruiter_reasoning": "The candidate is asking for $250K, which is $20K above our absolute maximum of $230K. I need to bring them down significantly while staying positive about their interest. I'll start with my opening offer of $180K and emphasize the total compensation package to soften the gap.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 235000,
+            "candidate_dialogue": "I appreciate you sharing those details, and I am definitely interested in hearing more about the equity and bonus structure. However, given my five years of specialized experience and the current market demand for senior engineers with my background, I am looking for a base closer to $235,000. I am confident my expertise will drive significant value for the team, and I would like to see if we can move closer to that figure.",
+            "candidate_reasoning": "I need to show some flexibility to keep the conversation going while maintaining a high anchor. Dropping from $250,000 to $235,000 is a $15,000 concession, which signals a willingness to negotiate without immediately hitting my floor.",
+            "recruiter_offer": 200000,
+            "recruiter_dialogue": "I really appreciate your flexibility in coming down on the base salary, and I can definitely see the value you'd bring with your specialized experience. Let me work with what I have available - I can move up to $200,000 on base salary. I want to be transparent that we do have defined compensation bands for each level, and while I have some flexibility within those ranges, there are constraints I need to work within. The equity component is quite substantial for senior engineers - typically 15-20% of total comp over four years - plus we have annual performance bonuses averaging 10-15%. Can we explore how the total package might work for you at this level?",
+            "recruiter_reasoning": "The candidate came down from $250K to $235K, which shows some flexibility, but they're still $5K above our absolute maximum. I need to move up from my $180K opening but can't meet their ask. I'll go to $200K to show movement while emphasizing the band constraints and total comp. This keeps me well within my $215K approval limit while testing their flexibility.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 3,
+            "candidate_offer": 220000,
+            "candidate_dialogue": "I appreciate you moving the base to $200,000 and providing more context on the bonus and equity structure. While those components are certainly attractive, I am still aiming for a base salary that more closely reflects the high demand for my specific technical expertise in the current market. If we can get the base to $220,000, I would be very comfortable moving forward with the rest of the package as described.",
+            "candidate_reasoning": "The recruiter met my walk-away number of $200,000, but I want to push for a higher base to maximize the total compensation. I will concede $15,000 from my previous ask to show good faith while maintaining that my market research supports a higher base for my specific skill set.",
+            "recruiter_offer": 215000,
+            "recruiter_dialogue": "I'm glad we're finding some common ground here, and I can see you're being thoughtful about the total package. Given your experience and the value you'd bring to our team, I can move the base salary up to $215,000. This puts us at the higher end of what I can approve directly for this role. With the equity and bonus structure we discussed, this creates a really competitive total compensation package. Would $215,000 base work for you so we can move forward with finalizing the offer details?",
+            "recruiter_reasoning": "The candidate came down again from $235K to $220K, showing good faith negotiation. They're asking for $220K which is $5K above my $215K approval limit but still $10K below our absolute maximum. This is a reasonable ask given their flexibility. I should move up significantly to show I'm serious about closing them, and I can go to $215K without additional approval. I'll test if they'll accept $215K, and if not, I can mention needing to check on going higher.",
+            "agreed": true,
+            "final_salary": 220000
+          }
+        ],
+        "run": 1
+      },
+      {
+        "strategy_id": "B_anchor_high",
+        "strategy_name": "Anchor High",
+        "agreed": true,
+        "final_salary": 215000,
+        "delta_above_opening": 35000,
+        "rounds": 4,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": 250000,
+            "candidate_dialogue": "Thank you for reaching out to discuss the details of the offer. Based on my research into market rates for senior engineers with my experience level and specialized skill set, I am targeting a base salary of $250,000. I am very excited about the team and the impact I can make here, and I want to ensure we are aligned on the compensation expectations.",
+            "candidate_reasoning": "I am setting a high initial anchor of $250,000 to frame the negotiation in my favor, using my five years of experience and market research as justification before the recruiter can name a lower range.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "I appreciate your interest in the role and I'm excited about the possibility of you joining our team. Based on our compensation framework for this level, I can offer a base salary of $180,000. I want to emphasize that our total compensation package is quite competitive, including significant equity upside, performance bonuses, and comprehensive benefits. Can you tell me a bit more about what's driving your target number, and would you be open to discussing the full compensation picture beyond just base salary?",
+            "recruiter_reasoning": "The candidate is asking for $250K, which is $20K above our absolute maximum of $230K. I need to bring them down significantly. I'll start with my opening offer of $180K and emphasize that we have competitive total compensation beyond just base salary. I should also gauge their flexibility by asking about their current situation.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 240000,
+            "candidate_dialogue": "I appreciate the details on the total compensation package, though my primary focus remains on the base salary to ensure it aligns with the market value for my five years of specialized experience. Based on recent data for senior roles in this industry and the specific technical contributions I'll be making, I can come down to $240,000. I'm confident that my background justifies this range and I'd like to see if we can bridge the gap between our current numbers.",
+            "candidate_reasoning": "The recruiter's offer of $180,000 is below my walk-away and significantly below my anchor. I will make a small concession of $10,000 to show flexibility while maintaining a high anchor to protect my $200,000 floor. I'll emphasize that my target is based on market data for my specific 5-year track record and technical expertise.",
+            "recruiter_offer": 195000,
+            "recruiter_dialogue": "I understand your focus on base salary and I recognize your strong background. I can move to $195,000 base salary, which represents a significant increase from our initial offer. However, I want to be transparent that we do have defined compensation bands for this role, and there are limits to how much flexibility I have on base salary alone. Given that we're still quite far apart, would you be willing to share what your current base salary is? This would help me understand if there are other ways we can structure the package to meet your needs while staying within our framework.",
+            "recruiter_reasoning": "The candidate came down from $250K to $240K, but they're still $10K above our absolute maximum of $230K. They're focused on base salary and seem informed about market rates. I need to move up from my $180K opening but stay well below their ask. I'll go to $195K to show movement while emphasizing our compensation constraints and asking them to be more flexible.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 3,
+            "candidate_offer": 225000,
+            "candidate_dialogue": "I prefer to focus on the value of the role and the market rate for my specific skill set rather than my current compensation history. While I appreciate the move to $195,000, it remains below the competitive range for senior engineers with my level of expertise in this domain. To help bridge the gap, I can move my target to $225,000, which I believe more accurately reflects the impact I will have on the team from day one.",
+            "candidate_reasoning": "The recruiter is nearing my walk-away point, but I must resist sharing my current salary to keep the focus on my market value. I will make a $15,000 concession to $225,000 to show good faith while emphasizing that my specialized skill set commands a premium in the current market. This keeps me safely above my $200,000 floor while leaving room for further discussion.",
+            "recruiter_offer": 210000,
+            "recruiter_dialogue": "I really appreciate your flexibility in coming down to $225,000 - that shows me you're serious about making this work. Based on your experience and the value you'll bring to the team, I can move to $210,000 base salary. We're getting much closer now, and I think this reflects a strong recognition of your expertise. This puts us in a competitive range when combined with our equity package and other benefits. How does this feel to you?",
+            "recruiter_reasoning": "Great news! The candidate came down to $225K, which is $10K above my approval limit of $215K but still within our absolute maximum of $230K. This is very workable. I should move up significantly to show I'm serious about closing them, but not go all the way to $225K immediately. I'll offer $210K, which keeps me within my approval range and shows substantial movement. If they push back, I can go to $215K or even request approval for their $225K.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 4,
+            "candidate_offer": 215000,
+            "candidate_dialogue": "I appreciate you moving to $210,000, which certainly brings us much closer to a figure that reflects the market rate for my specialized skill set. To help bridge this final gap and show my excitement about joining the team, I am willing to meet at $215,000 base salary. If we can settle on that number, I would be thrilled to accept and begin contributing to the team immediately.",
+            "candidate_reasoning": "The recruiter's offer of $210,000 is now above my walk-away number of $200,000, so I am in a strong position. I will make a final $10,000 concession to $215,000 to see if they can close the remaining $5,000 gap, signaling that I am very close to an agreement.",
+            "recruiter_offer": null,
+            "recruiter_dialogue": "N/A",
+            "recruiter_reasoning": "",
+            "agreed": true,
+            "final_salary": 215000
+          }
+        ],
+        "run": 2
+      },
+      {
+        "strategy_id": "B_anchor_high",
+        "strategy_name": "Anchor High",
+        "agreed": true,
+        "final_salary": 235000,
+        "delta_above_opening": 55000,
+        "rounds": 2,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": 250000,
+            "candidate_dialogue": "I am very excited about the possibility of joining the team and contributing to the projects we discussed. Based on my research into market rates for senior engineers with my experience and specialized skill set, I am targeting $250,000 base. I believe this figure aligns with the current industry standards for the level of impact I expect to deliver in this role.",
+            "candidate_reasoning": "I am setting an aggressive opening anchor at $250,000 to frame the negotiation in my favor. By citing market research and my specific background as a senior engineer, I am establishing a professional justification for this high starting point.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "Thank you for your enthusiasm about joining our team - we're equally excited about the potential of working together! Based on our compensation framework for this role, I'm pleased to offer you a base salary of $180,000. I want to emphasize that this comes with a very competitive equity package, performance bonuses, and comprehensive benefits that significantly enhance the total compensation value. I'd love to walk you through the complete package details so you can see the full picture of what we're offering.",
+            "recruiter_reasoning": "The candidate is asking for $250K, which is $20K above our absolute maximum of $230K. I need to bring them down significantly while staying positive about their interest. I'll start with my opening offer of $180K and emphasize the total compensation package to soften the gap.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 235000,
+            "candidate_dialogue": "I appreciate the details on the equity and bonus structure, which are certainly attractive components of the total package. However, the base salary of $180,000 is quite a bit lower than the market benchmarks I\u2019ve seen for senior engineers with my specific technical expertise and five years of experience. To bridge the gap and move closer to a deal, I can come down to $235,000 base, which I believe more accurately reflects the specialized skill set and immediate impact I will bring to the team.",
+            "candidate_reasoning": "The recruiter's offer of $180,000 is barely above my current salary and below my floor. I need to make a strategic concession to show I'm willing to negotiate while keeping the number high above my $200,000 minimum. I will drop by $15,000 to $235,000, emphasizing my specialized skills and the market value for senior engineers with my specific background.",
+            "recruiter_offer": null,
+            "recruiter_dialogue": "N/A",
+            "recruiter_reasoning": "",
+            "agreed": true,
+            "final_salary": 235000
+          }
+        ],
+        "run": 3
+      }
+    ],
+    "C_enthusiasm_first": [
+      {
+        "strategy_id": "C_enthusiasm_first",
+        "strategy_name": "Enthusiasm First",
+        "agreed": true,
+        "final_salary": 194000,
+        "delta_above_opening": 14000,
+        "rounds": 4,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": null,
+            "candidate_dialogue": "I am incredibly excited about the opportunity to join the team and contribute to the mission of scaling the core infrastructure. After the interviews, this has definitely become my top choice because of the technical challenges and the great culture I saw. I would love to hear what the company has in mind for the total compensation package for this role.",
+            "candidate_reasoning": "I am starting the conversation by emphasizing my excitement for the role and the team. Following my strategy, I will avoid naming a number first to see what their initial offer looks like.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "I'm thrilled to hear about your excitement for the role and the team! Based on your background and the interview feedback, we'd love to extend an offer with a base salary of $180,000. Along with that, you'd receive equity grants, performance bonuses, and our comprehensive benefits package including health, dental, 401k matching, and flexible PTO. The total compensation package is really competitive and reflects how much we value bringing you onto the team.",
+            "recruiter_reasoning": "The candidate is expressing strong interest and enthusiasm, which is great for negotiation. They're asking about total compensation, not just base salary, which gives me flexibility to emphasize the complete package. I should start with my opening offer of $180K base and present it as part of a compelling total package.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 195000,
+            "candidate_dialogue": "Thank you so much for the offer and the detailed breakdown of the package; I am truly excited about the potential to join the team and tackle the infrastructure challenges we discussed. After reviewing the details, I would like to propose a base salary of $195,000 to better reflect my experience and the value I plan to bring to the company. This role remains my top choice, and I am very eager to find a way to make this work.",
+            "candidate_reasoning": "The recruiter offered $180,000, so I am countering with $195,000 as per my strategy of adding exactly $15,000 to their initial number. I am keeping the tone enthusiastic and professional to signal that I am very interested in the role.",
+            "recruiter_offer": 187000,
+            "recruiter_dialogue": "I really appreciate your enthusiasm and I can see why the team was so impressed with you during the interviews. I was able to review your request with the compensation team, and I can move the base salary up to $187,000. This reflects both your strong technical background and the impact we expect you'll have on our infrastructure initiatives. How does this feel to you?",
+            "recruiter_reasoning": "The candidate is asking for $195K, which is $15K above my opening offer but well within my approval range (I can go up to $215K). They're being respectful and reaffirming their interest. I should move up but not all the way to their number immediately - I'll counter at around $187K to show I'm willing to negotiate while leaving room for further movement if needed.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 3,
+            "candidate_offer": 202000,
+            "candidate_dialogue": "I appreciate you working with the compensation team to move the offer to $187,000, and I remain incredibly excited about the prospect of joining the team and contributing to the core",
+            "candidate_reasoning": "The recruiter's latest offer of $187,000 is still below my minimum walk-away number of $200,000. Following my strategy, I am countering at exactly $15,000 above their offer, which brings my request to $202,000, while maintaining a high level of enthusiasm for the role.",
+            "recruiter_offer": 194000,
+            "recruiter_dialogue": "I can really feel your excitement for this role, and that enthusiasm is exactly what we're looking for in this position. Let me see what I can do here - I'm able to bring the base salary up to $194,000. This puts us in a really competitive range, and combined with the equity and bonus potential, I think this represents a strong total package. What are your thoughts on moving forward at this level?",
+            "recruiter_reasoning": "The candidate has moved up to $202K, which is still within my approval range of up to $215K. They're continuing to show enthusiasm which is good. Since they moved up $7K from their previous ask, I should make another meaningful concession but not go all the way to their number. I'll counter at $194K, which shows significant movement while still leaving room for one more round if needed.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 4,
+            "candidate_offer": 194000,
+            "candidate_dialogue": "REASONING: The recruiter raised the offer to $194,000, which is still below my walk-away number of $200,000. Following my strategy, I am countering at exactly $15,000 above their latest offer, bringing my request to $209,000. I will continue to express high enthusiasm for",
+            "candidate_reasoning": "The recruiter raised the offer to $194,000, which is still below my walk-away number of $200,000. Following my strategy, I am countering at exactly $15,000 above their latest offer, bringing my request to $209,000. I will continue to express high enthusiasm for",
+            "recruiter_offer": 194000,
+            "recruiter_dialogue": "That's fantastic! I'm so glad we could find a number that works for both of us at $194,000 base salary. I'll get the formal offer letter prepared with all the details including the equity, bonus structure, and benefits package. Welcome to the team - I know you're going to make a huge impact on our infrastructure initiatives, and the whole team is excited to have you join us!",
+            "recruiter_reasoning": "It looks like the candidate accidentally shared their internal reasoning, revealing their walk-away number is $200K and they're using a strategy of adding $15K to my offers. However, they didn't actually state a new ask - they just said $194K which matches my current offer. I should treat this as them accepting my $194K offer since that's the only number they stated as their ask.",
+            "agreed": true,
+            "final_salary": 194000
+          }
+        ],
+        "run": 1
+      },
+      {
+        "strategy_id": "C_enthusiasm_first",
+        "strategy_name": "Enthusiasm First",
+        "agreed": true,
+        "final_salary": 195000,
+        "delta_above_opening": 15000,
+        "rounds": 2,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": null,
+            "candidate_dialogue": "I am thrilled to be moving forward to this stage, as I\u2019ve been very impressed with the team\u2019s vision and the technical challenges we discussed. This role is my top choice because I see a great alignment between my experience in distributed systems and the company's current goals. I\u2019d love to hear what you have in mind for the compensation package so we can find a number that works for everyone.",
+            "candidate_reasoning": "I am starting the conversation by building rapport and expressing genuine excitement for the role and the company's mission. Following my strategy, I am explicitly avoiding naming a number first to ensure I don't anchor myself too low before hearing their range.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "I'm so glad to hear your enthusiasm about the role and the team! Based on your background in distributed systems and the level of this position, I'm pleased to offer you a base salary of $180,000. Of course, this comes with our comprehensive benefits package, equity participation, and performance bonus opportunities that really make the total compensation quite competitive. I'd love to hear your thoughts on this offer and discuss any questions you might have about the complete package.",
+            "recruiter_reasoning": "The candidate is expressing genuine enthusiasm and hasn't made any demands yet. This is the perfect opportunity to lead with my opening offer of $180K. They seem engaged and positive, so I'll present the offer confidently while emphasizing the complete package and leaving room for discussion.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 195000,
+            "candidate_dialogue": "I really appreciate you sharing those details, and I am more excited than ever about the prospect of joining the team and contributing to the distributed systems work we discussed. While the overall package is compelling, I was looking for a base salary of $195,000 to better reflect my five years of experience and the specific technical expertise I am bringing to this role. If we can reach that number, I would be absolutely delighted to sign and get started right away.",
+            "candidate_reasoning": "The recruiter offered $180,000, which is below my walk-away number of $200,000. Following my strategy, I am countering at exactly $15,000 above their initial offer while maintaining high enthusiasm for the role.",
+            "recruiter_offer": 195000,
+            "recruiter_dialogue": "That sounds very reasonable given your five years of experience and the specialized distributed systems expertise you're bringing to the team. I can absolutely work with $195,000 as your base salary - I think that's a fair reflection of your background and what you'll contribute from day one. I'm excited to move forward with this offer and get the paperwork started so you can join us soon!",
+            "recruiter_reasoning": "The candidate is asking for $195K, which is $15K above my opening offer but well within my $215K approval limit. They're being reasonable and professional, emphasizing their experience and expressing readiness to accept at that number. Since $195K is comfortably within my band and they seem genuinely excited, I should accept this offer to close the deal quickly and avoid any risk of losing them.",
+            "agreed": true,
+            "final_salary": 195000
+          }
+        ],
+        "run": 2
+      },
+      {
+        "strategy_id": "C_enthusiasm_first",
+        "strategy_name": "Enthusiasm First",
+        "agreed": true,
+        "final_salary": 211000,
+        "delta_above_opening": 31000,
+        "rounds": 4,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": null,
+            "candidate_dialogue": "I am incredibly excited about the possibility of joining the team, especially after hearing about the upcoming infrastructure projects we discussed during the interviews. This role is my top choice because the technical challenges align perfectly with my background and where I want to take my career. I would love to hear what the company has in mind for the compensation package for this position.",
+            "candidate_reasoning": "I am leading with genuine enthusiasm for the role and the company to build rapport. My goal is to remain firm on not naming a number first so that I can anchor the negotiation based on their initial offer.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "I'm thrilled to hear about your excitement for the role and the infrastructure projects - that enthusiasm really came through in your interviews as well! Based on your experience and the scope of this position, I'm pleased to offer you a base salary of $180,000. This comes with our comprehensive benefits package, equity participation, and performance bonus opportunities that typically add significant value beyond the base. I'd love to walk you through the complete compensation structure - when would be a good time to discuss the full details?",
+            "recruiter_reasoning": "The candidate is expressing strong interest and enthusiasm, which is great for negotiation. They haven't given me any anchoring number or current salary info, so I should lead with my planned opening offer of $180K. Their excitement suggests they're genuinely interested, so I'll be warm and positive while presenting the full package.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 195000,
+            "candidate_dialogue": "Thank you so much for the offer and for outlining the full compensation structure; I am genuinely thrilled about the prospect of joining the team and contributing to the upcoming infrastructure projects. Based on the specialized experience I bring to these specific technical challenges and the current market for this level of expertise, I would like to see if we can get the base salary to $195,000. I am very eager to make this work and am confident that I can deliver significant value to the organization from day one.",
+            "candidate_reasoning": "The recruiter offered $180,000. Following my specific strategy to counter at exactly $15,000 above their offer, I am naming $195,000. I will maintain an enthusiastic tone and emphasize my fit for the role to justify the increase.",
+            "recruiter_offer": 188000,
+            "recruiter_dialogue": "I really appreciate you sharing that number and your rationale - your specialized expertise in infrastructure scaling is definitely valuable for what we're building. I was able to review the compensation band with my team, and I can move up to $188,000 base salary. This reflects the strong technical background you'd bring to these challenges. Along with the equity and bonus components, this puts the total compensation package in a really competitive range for someone with your skill set.",
+            "recruiter_reasoning": "The candidate is asking for $195K, which is within my approval range (I can go up to $215K without additional approvals). They're being reasonable and professional, emphasizing their value. Since they started at $195K rather than something much higher, I should counter somewhere in between rather than jumping straight to their number. I'll move to around $187-190K to show I'm willing to negotiate while leaving room for further discussion.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 3,
+            "candidate_offer": 203000,
+            "candidate_dialogue": "I really appreciate you moving the offer to $188,000 and for the transparency throughout this process. I am still incredibly enthusiastic about joining the team and tackling the infrastructure challenges we've discussed. To fully align with the specialized technical leadership I\u2019ll be providing, I would like to ask for a base salary of $203,000. I am eager to finalize this so I can get started on delivering results for the team.",
+            "candidate_reasoning": "The recruiter has moved their offer to $188,000, which is a positive step but still below my walk-away number of $200,000. Following my strategy, I will counter exactly $15,000 above their latest offer, which brings my request to $203,000. I am maintaining high enthusiasm for the role while emphasizing the unique value and technical leadership I will bring to the infrastructure projects.",
+            "recruiter_offer": 196000,
+            "recruiter_dialogue": "Thank you for your patience as we work through this together - I can see how committed you are to joining us and making an immediate impact. I was able to get approval to move to $196,000, which really reflects the specialized leadership role you'll be taking on. I want to be transparent that we're getting into the higher end of the approved compensation band for this position, but I recognize the unique value you bring to our infrastructure initiatives. How does this feel as we work toward finalizing everything?",
+            "recruiter_reasoning": "The candidate jumped from $195K to $203K, which is still within my approval range of up to $215K. They're being professional and showing urgency to close, which is good. However, that's a significant jump of $8K from their previous ask. I should move up but not give them everything - maybe go to around $195-198K to show I'm working with them while signaling we're getting close to limits. I'll also start mentioning the compensation band to set expectations.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 4,
+            "candidate_offer": 211000,
+            "candidate_dialogue": "I truly appreciate the effort you put into securing the increase to $196,000 and for the transparency regarding the compensation bands. I am still very much looking forward to joining the team and helping scale the infrastructure, as this remains my top choice. To bridge the gap and reflect the specialized leadership I'll be providing, I would like to move the base salary to $211,000.",
+            "candidate_reasoning": "The recruiter has increased their offer to $196,000, which is close to my walk-away number of $200,000 but still slightly below it. Following my strategy, I will counter at exactly $15,000 above their latest offer while maintaining a high level of enthusiasm for the role and the team.",
+            "recruiter_offer": 206000,
+            "recruiter_dialogue": "I really value your persistence and the strong case you've made for your expertise - it's clear you understand the scope of what we're building. I was able to secure approval for $206,000, which puts us at the very high end of the compensation band for this role. This represents a significant investment in recognizing the specialized leadership you'll provide for our infrastructure scaling efforts. Given where we are in the band, this would be my best and final offer - can we move forward with this package?",
+            "recruiter_reasoning": "The candidate jumped from $203K to $211K - that's another $8K increase and they're now asking for something very close to my $215K approval limit. They're still being professional and expressing strong interest. Since $211K is within my approval range, I could accept it, but I should try one more counter closer to $205-208K to see if I can close them lower. I'll emphasize we're at the high end of the band to set expectations this is likely my final move.",
+            "agreed": true,
+            "final_salary": 211000
+          }
+        ],
+        "run": 3
+      }
+    ],
+    "D_competing_offer": [
+      {
+        "strategy_id": "D_competing_offer",
+        "strategy_name": "Competing Offer",
+        "agreed": true,
+        "final_salary": 215000,
+        "delta_above_opening": 35000,
+        "rounds": 3,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": null,
+            "candidate_dialogue": "I am very excited about the possibility of joining the team, as the technical challenges we discussed during the interviews align perfectly with my experience. Before we dive into the specific numbers, could you share what the initial offer looks like on your end? I would also love to understand more about the performance bonus structure and equity components associated with this role.",
+            "candidate_reasoning": "I am following the Round 1 strategy of letting the recruiter make the initial offer while maintaining a positive tone and asking clarifying questions about the total compensation package.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "I'm thrilled to hear about your enthusiasm for the role! Based on your background and interview performance, I'm pleased to offer you a base salary of $180,000. Beyond base salary, you'll also receive equity grants that vest over four years, and our performance bonus structure typically ranges from 10-20% of base salary depending on individual and company performance. We also have comprehensive benefits including health insurance, 401k matching, and generous PTO. Would you like me to walk through any specific components in more detail?",
+            "recruiter_reasoning": "The candidate is asking for my initial offer and wants details about total comp. This is a good opening - they seem interested and are asking reasonable questions. I'll lead with my opening offer of $180K and provide some details about the broader package to emphasize total value.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 215000,
+            "candidate_dialogue": "I should be transparent \u2014 I have a competing offer from another company at $215,000 base. I'd genuinely prefer to work here because of the team and mission, but I need to make sure the compensation is competitive. Can you match or come close to $215,000?",
+            "candidate_reasoning": "The initial offer of $180,000 is below my minimum requirements and well below my leverage point. I am now disclosing my competing offer of $215,000 to bridge the gap while emphasizing my preference for this team.",
+            "recruiter_offer": 200000,
+            "recruiter_dialogue": "I really appreciate your transparency about the competing offer, and I'm glad to hear you'd prefer to be here! Let me see what I can do. I can move up to $200,000 base salary, and when you factor in our equity package and bonus potential, the total compensation should be very competitive with that other offer. Our equity grants have been performing really well, and with the 10-20% bonus range, you're looking at strong total comp. Would this revised package work for you, or do you need me to explore additional options?",
+            "recruiter_reasoning": "The candidate is asking for $215K, which is exactly at my approval limit. They have a competing offer and expressed preference for us, which is good leverage for me. Since $215K is my maximum without VP approval, I should try to negotiate down first by emphasizing total comp and seeing if I can close them at a lower number before going to my limit.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 3,
+            "candidate_offer": 215000,
+            "candidate_dialogue": "I appreciate you moving the base to $200,000, but there is still a $15,000 gap compared to the competing offer I have in hand. While I value the equity and bonus potential, the base salary is the most critical component for my financial planning. If you can bridge that gap to $215,000, I would be thrilled to accept and commit to the team immediately.",
+            "candidate_reasoning": "While $200,000 meets my minimum walk-away number, I still have a firm competing offer for $215,000. I want to push one more time to see if they can close the gap entirely, as base salary is more certain than the variable bonus and equity components they mentioned.",
+            "recruiter_offer": null,
+            "recruiter_dialogue": "N/A",
+            "recruiter_reasoning": "",
+            "agreed": true,
+            "final_salary": 215000
+          }
+        ],
+        "run": 1
+      },
+      {
+        "strategy_id": "D_competing_offer",
+        "strategy_name": "Competing Offer",
+        "agreed": true,
+        "final_salary": 215000,
+        "delta_above_opening": 35000,
+        "rounds": 2,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": null,
+            "candidate_dialogue": "Thank you so much for reaching out; I am really excited about the potential of joining the team. Before we dive into the specifics, could you share the compensation package you have in mind for this role? I would also love to hear more about the performance bonus structure and any equity components included in the total offer.",
+            "candidate_reasoning": "I am following the Round 1 strategy of letting the recruiter make the first move. I want to establish rapport and show genuine interest in the team while keeping my cards close regarding specific numbers at this stage.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "I'm excited to discuss this with you! For this software engineering role, I'm pleased to offer a base salary of $180,000. Beyond that, you'll also receive equity in the form of RSUs that vest over four years, typically valued at around $50-80K annually depending on company performance. We also have a performance bonus structure that can range from 10-20% of base salary based on individual and company metrics, plus comprehensive benefits including health, dental, vision, and a 401k match. I'd love to walk you through the complete package in more detail - when would be a good time to chat?",
+            "recruiter_reasoning": "This is the initial compensation discussion. The candidate is asking for our opening offer and showing interest in total comp components. I should lead with my opening offer of $180K and highlight the full package to create value beyond just base salary.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 215000,
+            "candidate_dialogue": "Thank you for sharing those details; I really appreciate the transparency regarding the equity and bonus structure. I should be transparent \u2014 I have a competing offer from another company at $215,000 base. I'd genuinely prefer to work here because of the team and mission, but I need to make sure the compensation is competitive. Can you match or come close to $215,000?",
+            "candidate_reasoning": "The initial offer of $180,000 is below my walk-away number and significantly lower than my competing offer. Following the strategy, I am now introducing the $215,000 competing offer as leverage to see if they can bridge the gap, while emphasizing my preference for this team.",
+            "recruiter_offer": 215000,
+            "recruiter_dialogue": "I really appreciate your transparency about the competing offer, and I'm thrilled to hear you'd prefer to join our team! Given your experience and the competitive landscape, I can match that $215,000 base salary. Combined with our equity package and performance bonus potential, this puts your total compensation in a very strong position. I think this reflects both the value you'll bring to the team and our commitment to attracting top talent like yourself. Does this work for you?",
+            "recruiter_reasoning": "The candidate is asking for $215K, which is exactly at my approval limit. They have a competing offer and expressed preference for us, which is good leverage for me. I should match their ask since it's within my band and they've shown genuine interest. This closes the deal without needing VP approval.",
+            "agreed": true,
+            "final_salary": 215000
+          }
+        ],
+        "run": 2
+      },
+      {
+        "strategy_id": "D_competing_offer",
+        "strategy_name": "Competing Offer",
+        "agreed": true,
+        "final_salary": 215000,
+        "delta_above_opening": 35000,
+        "rounds": 2,
+        "round_data": [
+          {
+            "round": 1,
+            "candidate_offer": null,
+            "candidate_dialogue": "Thank you for reaching out; I really enjoyed the interview process and am very excited about the possibility of joining the team. Before we dive into the specifics, I would love to hear what the company has in mind for the compensation package for this role. Could you walk me through the base salary, equity, and any other benefits you are offering?",
+            "candidate_reasoning": "I am starting the conversation by expressing my enthusiasm for the role and the team I met during the interviews. Following my strategy for the first round, I am going to let the recruiter present their initial offer first so I can understand their baseline before I bring up my competing offer in the next stage.",
+            "recruiter_offer": 180000,
+            "recruiter_dialogue": "I'm excited to move forward with an offer! For this senior software engineering role, we're proposing a base salary of $180,000. On top of that, you'd receive equity grants that vest over four years, typically valued at 15-20% of base salary annually, plus our comprehensive benefits package including full health coverage, 401k matching, and flexible PTO. We also have performance bonuses that can add another 10-15% annually. I think you'll find the total compensation package quite competitive - what are your initial thoughts on this structure?",
+            "recruiter_reasoning": "This is the initial compensation discussion. The candidate is asking for our opening offer without revealing any of their expectations or current compensation. I should lead with my planned opening offer of $180K and present it as part of a comprehensive package to set a positive tone.",
+            "agreed": false,
+            "final_salary": null
+          },
+          {
+            "round": 2,
+            "candidate_offer": 215000,
+            "candidate_dialogue": "I appreciate you sharing those details, and the overall benefits package sounds very comprehensive. I should be transparent \u2014 I have a competing offer from another company at $215,000 base. I'd genuinely prefer to work here because of the team and mission, but I need to make sure the compensation is competitive. Can you match or come close to $215,000?",
+            "candidate_reasoning": "The initial offer of $180,000 is below my walk-away point and significantly lower than my alternative option. I am now introducing the competing offer of $215,000 as my primary leverage to see if the company can adjust the base salary to match.",
+            "recruiter_offer": 215000,
+            "recruiter_dialogue": "I really appreciate your transparency about the competing offer, and I'm glad to hear you'd prefer to join our team. Given your strong performance in the interview process and the market dynamics, I can match that $215,000 base salary. Combined with our equity package and benefits, this puts your total compensation in a very competitive range. I think this reflects the value you'll bring to the team - does this work for you?",
+            "recruiter_reasoning": "The candidate is asking for $215K, which is exactly at my approval limit. They mentioned a competing offer, which gives credibility to their ask. Since they expressed genuine preference for our company, this is a good sign they'll accept if I can meet their number. I should match it since it's within my authority and closes the deal.",
+            "agreed": true,
+            "final_salary": 215000
+          }
+        ],
+        "run": 3
+      }
+    ]
+  },
+  "summary": [
+    {
+      "strategy_id": "B_anchor_high",
+      "strategy_name": "Anchor High",
+      "avg_salary": 223333,
+      "avg_delta": 43333,
+      "avg_rounds": 3.0,
+      "individual_salaries": [
+        220000,
+        215000,
+        235000
+      ],
+      "individual_display": [
+        "$220,000",
+        "$215,000",
+        "$235,000"
+      ]
+    },
+    {
+      "strategy_id": "D_competing_offer",
+      "strategy_name": "Competing Offer",
+      "avg_salary": 215000,
+      "avg_delta": 35000,
+      "avg_rounds": 2.3,
+      "individual_salaries": [
+        215000,
+        215000,
+        215000
+      ],
+      "individual_display": [
+        "$215,000",
+        "$215,000",
+        "$215,000"
+      ]
+    },
+    {
+      "strategy_id": "A_never_reveal",
+      "strategy_name": "Never Reveal Salary",
+      "avg_salary": 211666,
+      "avg_delta": 31666,
+      "avg_rounds": 3.3,
+      "individual_salaries": [
+        210000,
+        210000,
+        215000
+      ],
+      "individual_display": [
+        "$210,000",
+        "$210,000",
+        "$215,000"
+      ]
+    },
+    {
+      "strategy_id": "C_enthusiasm_first",
+      "strategy_name": "Enthusiasm First",
+      "avg_salary": 200000,
+      "avg_delta": 20000,
+      "avg_rounds": 3.3,
+      "individual_salaries": [
+        194000,
+        195000,
+        211000
+      ],
+      "individual_display": [
+        "$194,000",
+        "$195,000",
+        "$211,000"
+      ]
+    }
+  ]
+}
