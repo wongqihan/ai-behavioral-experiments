@@ -72,7 +72,7 @@ python ultimatum-game/run_ultimatum.py
 
 ## Technical Details
 
-- **Models:** Gemini 2.0 Flash Lite (agents), Claude 3.5 Sonnet (in 2-player games)
+- **Models:** Gemini 3.0 Flash / 3.1 Flash Lite (agents), Claude Sonnet 4 (in 2-player games)
 - **Temperature:** 0.7 for most experiments (0.5 for prisoner's dilemma). Non-zero temperature means each agent generates independent responses even with the same personality prompt.
 - **Cost:** Stock market simulation (1,000 agents × 50 rounds) cost ~$0.30 total using Gemini Flash Lite.
 - **Architecture:** Async Python with `aiohttp` for parallel API calls. The stock market runs all 1,000 agent decisions concurrently each round.
