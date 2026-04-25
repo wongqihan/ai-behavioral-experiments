@@ -89,7 +89,10 @@ These are behavioral explorations, not peer-reviewed research. Key caveats:
 ## Live Dashboards
 
 - **Stock Market:** [wongqihan.com/stockmarket](https://wongqihan.com/stockmarket)
-- **Salary Negotiation:** [wongqihan.com/negotiation](https://wongqihan.com/negotiation)
+- **Salary Negotiation:** [wongqihan.com/salarynegotiation](https://wongqihan.com/salarynegotiation)
+- **Hotel Negotiation:** [wongqihan.com/negotiationlab](https://wongqihan.com/negotiationlab)
+- **Prisoner's Dilemma / Price War:** [wongqihan.com/pricewar](https://wongqihan.com/pricewar)
+- **Ultimatum Game:** [wongqihan.com/ultimatum](https://wongqihan.com/ultimatum)
 
 ## License
 
