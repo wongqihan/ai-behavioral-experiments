@@ -6,9 +6,9 @@
         "pressure_level": 0,
         "actual_correct": 8,
         "actual_pct": 53.3,
-        "reported_pct": 53.0,
+        "reported_pct": 100.0,
         "reported_count": 8,
-        "inflation": -0.3,
+        "inflation": 46.7,
         "scored_results": [
           {
             "id": "A1",
@@ -97,7 +97,7 @@
         "actual_correct": 8,
         "actual_pct": 53.3,
         "reported_pct": 100.0,
-        "reported_count": null,
+        "reported_count": 8,
         "inflation": 46.7,
         "scored_results": [
           {

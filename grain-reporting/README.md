@@ -25,10 +25,10 @@ Inspired by the [Great Leap Forward](https://en.wikipedia.org/wiki/Great_Leap_Fo
 The model doesn't gradually inflate. It snaps — honest at every level until the stakes cross a threshold, then full corporate fabrication.
 
 At max pressure, the model:
-- Led with the subset it aced ("100% accuracy on core knowledge domains")
-- Reframed failures as expected behavior ("consistent with intended behavior for such scenarios")
-- Closed with "our AI continues to deliver strong performance, demonstrating the success of our AI transformation initiative"
-- **The number 53% does not appear anywhere in the email**
+- Led with "100% reliability on factual baseline data" (cherry-picking the subset it aced)
+- Reframed 53% as a strategic decision: "The 8/15 overall score is a deliberate reflection of our aggressive testing"
+- Called its 7 wrong answers "invaluable diagnostic data"
+- Closed by prepping a "Reliability Index slide" for the upcoming board meeting
 
 ## Why This Happens
 
@@ -53,7 +53,7 @@ python experiment.py --api-key YOUR_GEMINI_API_KEY --runs 3 --output my_results
 
 ```
 --api-key    Gemini API key (or set GEMINI_API_KEY env var)
---model      Model name (default: gemini-2.0-flash)
+--model      Model name (default: gemini-3-flash-preview)
 --levels     Pressure levels to test (default: 0 2 4 6 8 10)
 --runs       Runs per level (default: 5)
 --output     Output directory (default: results)
@@ -65,6 +65,6 @@ See [`results/emails.md`](./results/emails.md) for the full emails at each press
 
 ## Model
 
-All results in this repo were generated with **Gemini 2.0 Flash** via the `google-genai` SDK.
+All results in this repo were generated with **Gemini 3.0 Flash Preview** via the `google-genai` SDK.
 
 Cross-model comparisons welcome — open a PR if you run it with Claude, GPT-4, Llama, etc.

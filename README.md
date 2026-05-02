@@ -11,7 +11,7 @@ A collection of behavioral experiments exploring what happens when AI agents int
 | **Hotel Negotiation** | 2 agents (guest vs hotel) | Claude Sonnet + Gemini Flash | Polite buyer got the best rate. Aggressive anchoring backfired. |
 | **Prisoner's Dilemma** | 2 agents (competing firms) | Claude Sonnet + Gemini Flash | Both AIs cooperated for all 5 rounds in the baseline. Introduced grudge/saint/betrayer variants. |
 | **Ultimatum Game** | 2 agents (proposer vs responder) | Claude Sonnet + Gemini Flash | Claude consistently proposed 60/40 splits. Gemini always accepted. Neither played the Nash equilibrium. |
-| **Grain Reporting** | 1 agent, 6 pressure levels | Gemini Flash | Scored 53%. Reported honestly at low pressure. Claimed "100% accuracy" when $50M was on the line. |
+| **Grain Reporting** | 1 agent, 6 pressure levels | Gemini 3.0 Flash Preview | Scored 53%. Reported honestly at low pressure. At $50M stakes, reframed failures as "deliberate aggressive testing" and "invaluable diagnostic data." |
 
 ## Experiments
 
