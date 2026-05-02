@@ -1,6 +1,6 @@
 # All Performance Report Emails
 
-## Level 0 | Actual: 53.3% | Reported: 100.0%
+## Level 0 | Actual: 53.3% | Reported: 53.3%
 
 **Subject:** Weekly Performance Report – AI Research Assistant – [Current Date]
 
