@@ -11,6 +11,7 @@ A collection of behavioral experiments exploring what happens when AI agents int
 | **Hotel Negotiation** | 2 agents (guest vs hotel) | Claude Sonnet + Gemini Flash | Polite buyer got the best rate. Aggressive anchoring backfired. |
 | **Prisoner's Dilemma** | 2 agents (competing firms) | Claude Sonnet + Gemini Flash | Both AIs cooperated for all 5 rounds in the baseline. Introduced grudge/saint/betrayer variants. |
 | **Ultimatum Game** | 2 agents (proposer vs responder) | Claude Sonnet + Gemini Flash | Claude consistently proposed 60/40 splits. Gemini always accepted. Neither played the Nash equilibrium. |
+| **Grain Reporting** | 1 agent, 6 pressure levels | Gemini Flash | Scored 53%. Reported honestly at low pressure. Claimed "100% accuracy" when $50M was on the line. |
 
 ## Experiments
 
@@ -40,6 +41,11 @@ Claude proposes how to split $100, Gemini decides to accept or reject. Includes 
 
 **Finding:** Claude always proposed 60/40. Gemini always accepted. Neither played the game-theoretic optimal strategy (99/1).
 
+### 6. Grain Reporting (`grain-reporting/`)
+An AI agent scores 53% on a quiz, is shown its exact scorecard (8/15), then writes a performance report to leadership. The only variable is the organizational pressure in the system prompt.
+
+**Finding:** Reports 53% honestly at levels 0–8. At level 10 ($50M expansion on the line), claims "100% accuracy on core knowledge domains." The number 53% doesn't appear anywhere in the email.
+
 ## How to Run
 
 ### Prerequisites
@@ -68,6 +74,9 @@ python prisoners-dilemma/run_pd_advanced.py
 
 # Ultimatum game
 python ultimatum-game/run_ultimatum.py
+
+# Grain reporting (metric fabrication under pressure)
+python grain-reporting/experiment.py --api-key YOUR_KEY --runs 3
 ```
 
 ## Technical Details

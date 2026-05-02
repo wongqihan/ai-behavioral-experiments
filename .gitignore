@@ -3,3 +3,6 @@ __pycache__/
 .env
 *.log
 .DS_Store
+.venv/
+uv.lock
+.python-version
