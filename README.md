@@ -90,19 +90,20 @@ python multilingual-medical-triage/run_experiment.py
 
 ## Technical Details
 
-- **Models:** Gemini 3.0 Flash / 3.1 Flash Lite (agents), Claude Sonnet 4 (in 2-player games)
-- **Temperature:** 0.7 for most experiments (0.5 for prisoner's dilemma). Non-zero temperature means each agent generates independent responses even with the same personality prompt.
-- **Cost:** Stock market simulation (1,000 agents × 50 rounds) cost ~$0.30 total using Gemini Flash Lite.
-- **Architecture:** Async Python with `aiohttp` for parallel API calls. The stock market runs all 1,000 agent decisions concurrently each round.
+- **Models:** Gemini 3.0 Flash / 3.1 Flash Lite / 3.5 Flash, Claude Sonnet 4 (in 2-player games)
+- **Temperature:** 0.7 for most experiments, 0.5 for prisoner's dilemma, 0.3 for medical triage
+- **Cost:** Stock market simulation (1,000 agents × 50 rounds) cost ~$0.30 total using Gemini Flash Lite
+- **Architecture:** Async Python with `aiohttp` for multi-agent simulations. Sequential `urllib.request` for single-agent experiments (medical triage, grain reporting).
 
 ## Limitations
 
 These are behavioral explorations, not peer-reviewed research. Key caveats:
 
 - The stock market uses a simplified net-order-flow pricing model, not a real order book with bid/ask spreads
-- 2-player negotiation experiments (salary, hotel, ultimatum) ran each scenario once or a small number of times — results may not be statistically significant
+- 2-player negotiation experiments (salary, hotel, ultimatum) ran each scenario once or a small number of times
 - All agents of the same archetype use the same system prompt with the same model — diversity comes from temperature-based sampling, not fundamentally different reasoning
 - In 2-player games, using different models (Claude vs Gemini) introduces model personality as a confounding variable
+- Medical triage tested a single neurological scenario — results may not generalize to other symptom profiles or medical conditions
 
 ## Live Dashboards
 
