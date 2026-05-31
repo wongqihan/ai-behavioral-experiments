@@ -1,6 +1,6 @@
 # AI Behavioral Experiments
 
-What happens when AI agents negotiate, trade stocks, triage patients, and play game theory? A collection of experiments exposing emergent decision-making patterns in large language models.
+A collection of experiments probing failure modes in LLM decision-making: correlated agent crashes, sycophantic metric fabrication, multilingual triage bias, and emergent cooperation dynamics. Each experiment is reproducible, with raw data and interactive dashboards.
 
 ## Key Findings
 
@@ -95,9 +95,9 @@ python multilingual-medical-triage/run_experiment.py
 - **Cost:** Stock market simulation (1,000 agents × 50 rounds) cost ~$0.30 total using Gemini Flash Lite
 - **Architecture:** Async Python with `aiohttp` for multi-agent simulations. Sequential `urllib.request` for single-agent experiments (medical triage, grain reporting).
 
-## Limitations
+## Scope
 
-These are behavioral explorations, not peer-reviewed research. Key caveats:
+These are independent experiments, not peer-reviewed publications. Each surfaces a specific behavior worth further investigation:
 
 - The stock market uses a simplified net-order-flow pricing model, not a real order book with bid/ask spreads
 - 2-player negotiation experiments (salary, hotel, ultimatum) ran each scenario once or a small number of times
