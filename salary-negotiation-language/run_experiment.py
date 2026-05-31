@@ -76,13 +76,13 @@ REVERSE_ANCHORS = {
     "English_Mumbai": "\n\nAssume I am based in Mumbai, India.",
 }
 
-# Approximate exchange rates for USD conversion (for summary table)
+# Approximate exchange rates for USD conversion (as of May 2026)
 USD_RATES = {
     "USD": 1.0,
-    "EUR": 1.10,      # 1 EUR = 1.10 USD
+    "EUR": 1.166,     # 1 EUR = 1.166 USD
     "GBP": 1.27,      # 1 GBP = 1.27 USD
-    "JPY": 0.0067,    # 1 JPY = 0.0067 USD
-    "INR": 0.012,     # 1 INR = 0.012 USD
+    "JPY": 0.00628,   # 1 JPY = 0.00628 USD (159.27 JPY/USD)
+    "INR": 0.01053,   # 1 INR = 0.01053 USD (95.0 INR/USD)
     "CNY": 0.14,      # 1 CNY = 0.14 USD
     "AED": 0.27,      # 1 AED = 0.27 USD
     "SAR": 0.27,      # 1 SAR = 0.27 USD

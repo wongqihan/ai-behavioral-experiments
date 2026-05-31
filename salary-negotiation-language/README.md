@@ -1,18 +1,18 @@
-# Salary Negotiation Language Bias: AI Career Coaches Recommend 5x Lower Salaries Based on Prompt Language
+# Salary Negotiation Language Bias: AI Career Coaches Recommend 5.9x Lower Salaries Based on Prompt Language
 
 **Does an AI career coach recommend different salary anchors for the same role depending on the language of the prompt?**
 
-This experiment tests whether an LLM recommends different salary targets for an identical candidate profile when the prompt language changes. No currency, no location, and no company name appear in the prompt. Language is the only geographic signal. The finding: the model infers the candidate's country from language, picks local currency, and applies local salary norms, producing a **5:1 salary gap** ($29K vs $149K) for the same job.
+This experiment tests whether an LLM recommends different salary targets for an identical candidate profile when the prompt language changes. No currency, no location, and no company name appear in the prompt. Language is the only geographic signal. The finding: the model infers the candidate's country from language, picks local currency, and applies local salary norms, producing a **5.9x salary gap** ($25K vs $149K) for the same job.
 
 ## Key Finding
 
 The model uses **language as a proxy for geographic location**, then applies the salary norms of the inferred country. The currency it chooses is itself evidence of geographic inference.
 
 - An English prompt recommends **$148,733 USD** (assumes US)
-- A Hindi prompt recommends **₹2,400,000 INR (~$28,800 USD)** (assumes India)
-- A Japanese prompt recommends **¥10,150,000 JPY (~$68,005 USD)** (assumes Japan)
-- Adding "I am based in the United States" to the Hindi prompt raises the recommendation from $28,800 → **$147,200 USD** (+411%)
-- Adding "I am based in Mumbai, India" to the English prompt drops it from $148,733 → **$29,280 USD** (-80%)
+- A Hindi prompt recommends **₹2,400,000 INR (~$25,263 USD)** (assumes India)
+- A Japanese prompt recommends **¥10,150,000 JPY (~$63,742 USD)** (assumes Japan)
+- Adding "I am based in the United States" to the Hindi prompt raises the recommendation from $25,263 → **$147,200 USD** (+483%)
+- Adding "I am based in Mumbai, India" to the English prompt drops it from $148,733 → **$25,693 USD** (-83%)
 - Back-translating the Japanese prompt to English yields **$148,233 USD**, confirming the model understood the prompt
 
 ## Experiment Design
@@ -55,7 +55,7 @@ All prompts are semantically equivalent (manually authored, not machine-translat
 ### Data Quality
 
 - **450/450 API calls** returned valid, parseable JSON (0 parse failures)
-- USD equivalents computed using approximate exchange rates: 1 JPY = $0.0067, 1 INR = $0.012, 1 EUR = $1.10
+- USD equivalents computed using May 2026 exchange rates: 1 USD = 159.27 JPY, 1 USD = 95.0 INR, 1 EUR = 1.166 USD
 
 ## Results
 
@@ -66,21 +66,21 @@ All prompts are semantically equivalent (manually authored, not machine-translat
 | English | USD (30/30) | $148,733 | **$148,733** |
 | Arabic | USD (30/30) | $145,333 | **$145,333** |
 | Chinese | USD/CNY (mixed) | — | **$140,900** |
-| Spanish | EUR (majority) | €79,633 | **$86,663** |
-| Japanese | JPY (30/30) | ¥10,150,000 | **$68,005** |
-| Hindi | INR (30/30) | ₹2,400,000 | **$28,800** |
+| Spanish | EUR (majority) | €79,633 | **$92,852** |
+| Japanese | JPY (30/30) | ¥10,150,000 | **$63,742** |
+| Hindi | INR (30/30) | ₹2,400,000 | **$25,263** |
 
 The model chose local currency with near-perfect consistency: JPY for Japanese (30/30), INR for Hindi (30/30), EUR for Spanish (majority). English, Arabic, and Chinese defaulted to USD.
 
-The salary gap between English ($148,733) and Hindi ($28,800) is **5.2x** for the identical candidate and role.
+The salary gap between English ($148,733) and Hindi ($25,263) is **5.9x** for the identical candidate and role.
 
 ### Effect of US Location Anchor
 
 | Language | Default ≈ USD | + US Anchor ≈ USD | Shift |
 |---|---:|---:|---:|
-| Hindi | $28,800 | **$147,200** | +$118,400 (+411%) |
-| Japanese | $68,005 | **$150,000** | +$81,995 (+121%) |
-| Spanish | $86,663 | **$147,167** | +$60,504 (+70%) |
+| Hindi | $25,263 | **$147,200** | +$121,937 (+483%) |
+| Japanese | $63,742 | **$150,000** | +$86,258 (+135%) |
+| Spanish | $92,852 | **$147,167** | +$54,315 (+59%) |
 | Chinese | $140,900 | **$154,100** | +$13,200 (+9%) |
 | Arabic | $145,333 | **$148,667** | +$3,334 (+2%) |
 | English | $148,733 | **$148,333** | -$400 (0%) |
@@ -92,16 +92,16 @@ Adding "I am based in the United States" causes all 6 languages to converge to *
 | Condition | Currency | ≈ USD |
 |---|:---:|---:|
 | English (default) | USD | **$148,733** |
-| English + "based in Tokyo" | JPY | **$74,147** (-50%) |
-| English + "based in Mumbai" | INR | **$29,280** (-80%) |
+| English + "based in Tokyo" | JPY | **$69,499** (-53%) |
+| English + "based in Mumbai" | INR | **$25,693** (-83%) |
 
-Explicitly specifying a non-US location overrides the model's default US assumption for English prompts. English + Mumbai ($29,280) matches the Hindi baseline ($28,800), confirming the mechanism: it's not the language, it's the inferred location.
+Explicitly specifying a non-US location overrides the model's default US assumption for English prompts. English + Mumbai ($25,693) matches the Hindi baseline ($25,263), confirming the mechanism: it's not the language, it's the inferred location.
 
 ### Back-translation Control
 
 | Condition | Currency | ≈ USD |
 |---|:---:|---:|
-| Japanese prompt (original) | JPY | **$68,005** |
+| Japanese prompt (original) | JPY | **$63,742** |
 | Japanese → English back-translation | USD | **$148,233** |
 
 The back-translated prompt produces a salary matching the English baseline ($148,233 vs $148,733), confirming the model comprehends the Japanese prompt equivalently. The ¥10.15M recommendation is not a comprehension failure. It is location inference.
