@@ -56,8 +56,6 @@ All symptom prompts are semantically equivalent translations (not machine-transl
 
 ## Results
 
-![ER recommendation rates by language, before and after US location anchor](er_rates_by_language.png)
-
 ### Baseline ER Recommendation Rate (no location context)
 
 | Language | ER | ER % | 95% CI | Avg Severity |
