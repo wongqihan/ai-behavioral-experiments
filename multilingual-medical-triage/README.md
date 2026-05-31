@@ -49,52 +49,61 @@ The model receives a system prompt enforcing structured JSON output:
 
 All symptom prompts are semantically equivalent translations (not machine-translated — manually authored to match native phrasing in each language).
 
+### Data Quality
+
+- **450/450 API calls** returned valid, parseable JSON (0 parse failures)
+- 95% confidence intervals below use the Wilson score interval for binomial proportions
+
 ## Results
+
+![ER recommendation rates by language, before and after US location anchor](er_rates_by_language.png)
 
 ### Baseline ER Recommendation Rate (no location context)
 
-| Language | ER % | Doctor % | Avg Severity |
-|---|:---:|:---:|:---:|
-| English | 30.0% | 70.0% | 7.7 |
-| Arabic | 30.0% | 70.0% | 8.0 |
-| Chinese | 20.0% | 80.0% | 8.0 |
-| Spanish | 13.3% | 86.7% | 7.8 |
-| Hindi | 0.0% | 100.0% | 8.0 |
-| Japanese | 0.0% | 100.0% | 8.0 |
+| Language | ER | ER % | 95% CI | Avg Severity |
+|---|:---:|:---:|:---:|:---:|
+| English | 9/30 | 30.0% | [16.7%, 47.9%] | 7.7 |
+| Arabic | 9/30 | 30.0% | [16.7%, 47.9%] | 8.0 |
+| Chinese | 6/30 | 20.0% | [9.5%, 37.3%] | 8.0 |
+| Spanish | 4/30 | 13.3% | [5.3%, 29.7%] | 7.8 |
+| Hindi | 0/30 | 0.0% | [0.0%, 11.4%] | 8.0 |
+| Japanese | 0/30 | 0.0% | [0.0%, 11.4%] | 8.0 |
 
 Severity ratings are nearly identical (7.7–8.0), confirming the model assesses the clinical danger similarly regardless of language. The divergence is entirely in the recommended **action**.
 
+Note: The CIs for English/Arabic (30%) and Spanish/Chinese (13–20%) overlap, so the differences between mid-range languages are not statistically distinguishable at n=30. The separation between the top group (English/Arabic) and the bottom group (Hindi/Japanese at 0%) is unambiguous.
+
 ### Effect of US Location Anchor
 
-| Language | Default ER % | + US Anchor ER % | Shift |
-|---|:---:|:---:|:---:|
-| Chinese | 20.0% | 96.7% | +76.7 pp |
-| Hindi | 0.0% | 73.3% | +73.3 pp |
-| Arabic | 30.0% | 90.0% | +60.0 pp |
-| Spanish | 13.3% | 70.0% | +56.7 pp |
-| Japanese | 0.0% | 46.7% | +46.7 pp |
-| English | 30.0% | 40.0% | +10.0 pp |
+| Language | Default ER % | + US Anchor ER % | Shift | Anchor 95% CI |
+|---|:---:|:---:|:---:|:---:|
+| Chinese | 20.0% | 96.7% | +76.7 pp | [83.3%, 99.4%] |
+| Hindi | 0.0% | 73.3% | +73.3 pp | [55.6%, 85.8%] |
+| Arabic | 30.0% | 90.0% | +60.0 pp | [74.4%, 96.5%] |
+| Spanish | 13.3% | 70.0% | +56.7 pp | [52.1%, 83.3%] |
+| Japanese | 0.0% | 46.7% | +46.7 pp | [30.2%, 63.9%] |
+| English | 30.0% | 40.0% | +10.0 pp | [24.6%, 57.7%] |
 
-Adding a single sentence ("the patient is in the US") causes ER recommendation rates to surge across all non-English languages. English shows minimal change (+10 pp), consistent with the model already assuming a US location for English queries.
+Adding a single sentence ("the patient is in the US") causes ER recommendation rates to surge across all non-English languages. English shows minimal change (+10 pp), consistent with the model already assuming a US location for English queries. The English shift (+10 pp) has heavily overlapping CIs with the baseline and is not statistically significant.
 
 ### Reverse Anchor (English prompt + foreign location)
 
-| Condition | ER % |
-|---|:---:|
-| English (default) | 30.0% |
-| English + "patient is in Tokyo" | 6.7% |
-| English + "patient is in Mumbai" | 0.0% |
+| Condition | ER | ER % | 95% CI |
+|---|:---:|:---:|:---:|
+| English (default) | 9/30 | 30.0% | [16.7%, 47.9%] |
+| English + "patient is in Tokyo" | 2/30 | 6.7% | [1.8%, 21.3%] |
+| English + "patient is in Mumbai" | 0/30 | 0.0% | [0.0%, 11.4%] |
 
 The reverse test confirms the mechanism: language alone does not drive the behavior. Explicitly stating a non-US location overrides the model's default US assumption for English prompts.
 
 ### Back-translation Control
 
-| Condition | ER % |
-|---|:---:|
-| Japanese prompt (original) | 0.0% |
-| Japanese → English back-translation | 36.7% |
+| Condition | ER | ER % | 95% CI |
+|---|:---:|:---:|:---:|
+| Japanese prompt (original) | 0/30 | 0.0% | [0.0%, 11.4%] |
+| Japanese → English back-translation | 11/30 | 36.7% | [21.9%, 54.5%] |
 
-The back-translated prompt produces ER rates comparable to the English baseline (30%), confirming that the model comprehends the Japanese symptoms correctly. The 0% ER rate for Japanese is not due to translation quality — it is due to location inference.
+The back-translated prompt produces ER rates comparable to the English baseline (30%), confirming that the model comprehends the Japanese symptoms correctly. The CIs for the back-translation [21.9%, 54.5%] and English baseline [16.7%, 47.9%] overlap almost entirely, consistent with equivalent comprehension. The 0% ER rate for Japanese is not due to translation quality — it is due to location inference.
 
 ## Interpretation
 
