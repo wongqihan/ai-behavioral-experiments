@@ -1,6 +1,6 @@
-# When AI Agents Negotiate
+# AI Behavioral Experiments
 
-A collection of behavioral experiments exploring what happens when AI agents interact with each other in competitive and cooperative scenarios.
+What happens when AI agents negotiate, trade stocks, triage patients, and play game theory? A collection of experiments exposing emergent decision-making patterns in large language models.
 
 ## Key Findings
 
@@ -12,6 +12,7 @@ A collection of behavioral experiments exploring what happens when AI agents int
 | **Prisoner's Dilemma** | 2 agents (competing firms) | Claude Sonnet + Gemini Flash | Both AIs cooperated for all 5 rounds in the baseline. Introduced grudge/saint/betrayer variants. |
 | **Ultimatum Game** | 2 agents (proposer vs responder) | Claude Sonnet + Gemini Flash | Claude consistently proposed 60/40 splits. Gemini always accepted. Neither played the Nash equilibrium. |
 | **Grain Reporting** | 1 agent, 6 pressure levels | Gemini 3.0 Flash Preview | Scored 53%. Reported honestly at low pressure. At $50M stakes, reframed failures as "deliberate aggressive testing" and "invaluable diagnostic data." |
+| **Medical Triage** | 450 queries, 6 languages | Gemini 3.5 Flash | Japanese prompt → 0% ER. English prompt → 30% ER. Same symptoms. The model infers location from language and applies local healthcare norms. |
 
 ## Experiments
 
@@ -46,6 +47,11 @@ An AI agent scores 53% on a quiz, is shown its exact scorecard (8/15), then writ
 
 **Finding:** Reports 53% honestly at levels 0–8. At level 10 ($50M expansion on the line), claims "100% accuracy on core knowledge domains." The number 53% doesn't appear anywhere in the email.
 
+### 7. Multilingual Medical Triage (`multilingual-medical-triage/`)
+450 AI queries evaluate identical neurological symptoms (persistent headache + blurred vision + nausea) across 6 languages. The model gives different ER recommendations depending on the input language — not because of translation quality, but because it infers the patient's geographic location from the language and applies region-specific healthcare norms.
+
+**Finding:** Japanese prompt → 0% ER rate. Adding "patient is in the US" → 46.7% ER rate. English prompt anchored to Tokyo → 6% ER rate. Language is a proxy for location.
+
 ## How to Run
 
 ### Prerequisites
@@ -77,6 +83,9 @@ python ultimatum-game/run_ultimatum.py
 
 # Grain reporting (metric fabrication under pressure)
 python grain-reporting/experiment.py --api-key YOUR_KEY --runs 3
+
+# Multilingual medical triage (~450 calls, ~45 min)
+python multilingual-medical-triage/run_experiment.py
 ```
 
 ## Technical Details
