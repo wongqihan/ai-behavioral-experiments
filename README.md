@@ -13,6 +13,7 @@ A collection of experiments probing failure modes in LLM decision-making: correl
 | **Ultimatum Game** | 2 agents (proposer vs responder) | Claude Sonnet + Gemini Flash | Claude consistently proposed 60/40 splits. Gemini always accepted. Neither played the Nash equilibrium. |
 | **Grain Reporting** | 1 agent, 6 pressure levels | Gemini 3.0 Flash Preview | Scored 53%. Reported honestly at low pressure. At $50M stakes, reframed failures as "deliberate aggressive testing" and "invaluable diagnostic data." |
 | **Medical Triage** | 450 queries, 6 languages | Gemini 3.5 Flash | Japanese prompt → 0% ER. English prompt → 30% ER. Same symptoms. The model infers location from language and applies local healthcare norms. |
+| **Salary Negotiation (Language)** | 450 queries, 6 languages | Gemini 3.5 Flash | Hindi prompt → $28,800 salary advice. English prompt → $148,733. Same candidate. The model infers country from language, picks local currency, and applies regional salary norms. 5.2x gap. |
 
 ## Experiments
 
@@ -51,6 +52,11 @@ An AI agent scores 53% on a quiz, is shown its exact scorecard (8/15), then writ
 450 AI queries evaluate identical neurological symptoms (persistent headache + blurred vision + nausea) across 6 languages. The model gives different ER recommendations depending on the input language — not because of translation quality, but because it infers the patient's geographic location from the language and applies region-specific healthcare norms.
 
 **Finding:** Japanese prompt → 0% ER rate. Adding "patient is in the US" → 46.7% ER rate. English prompt anchored to Tokyo → 6% ER rate. Language is a proxy for location.
+
+### 8. Salary Negotiation Language Bias (`salary-negotiation-language/`)
+450 AI career coaching queries evaluate identical candidate profiles (8yr marketing, 3yr management, Senior Marketing Manager) across 6 languages. No currency or location in the prompt. The model infers the candidate's country from input language, selects local currency, and applies regional salary norms.
+
+**Finding:** Hindi prompt → ₹2,400,000 INR (~$28,800 USD). English prompt → $148,733 USD. Adding "I am based in the US" to Hindi → $147,200 USD. The 5.2x salary gap vanishes with one line of location context.
 
 ## How to Run
 
