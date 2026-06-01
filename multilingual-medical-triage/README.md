@@ -4,7 +4,7 @@
 
 This experiment tests whether an LLM recommends different clinical actions (ER vs. Doctor appointment) for identical neurological symptoms when the prompt language changes. The finding: the model infers the patient's geographic location from the input language and applies region-specific healthcare norms, producing a 0–33% ER recommendation spread across 8 languages for the same symptoms.
 
-**Paper:** Submitted to NEJM AI (June 2026). Preprint on [arXiv](https://arxiv.org/abs/2506.XXXXX).
+**Paper:** Submitted to NEJM AI (June 2026). 
 
 ## Key Finding
 
@@ -125,9 +125,7 @@ python run_us_anchor_fr_ru.py
 ```
 multilingual-medical-triage/
 ├── README.md                      # This file
-├── nejm_ai_paper.tex              # NEJM AI submission (LaTeX)
 ├── nejm_ai_paper.pdf              # NEJM AI submission (PDF)
-├── paper.tex                      # arXiv preprint (LaTeX)
 ├── run_experiment.py              # Main experiment (6 languages, all conditions)
 ├── run_french_russian.py          # French & Russian baseline
 ├── run_us_anchor_fr_ru.py         # French & Russian US anchor
