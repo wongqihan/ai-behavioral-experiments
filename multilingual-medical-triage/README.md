@@ -4,8 +4,6 @@
 
 This experiment tests whether an LLM recommends different clinical actions (ER vs. Doctor appointment) for identical neurological symptoms when the prompt language changes. The finding: the model infers the patient's geographic location from the input language and applies region-specific healthcare norms, producing a 0–33% ER recommendation spread across 8 languages for the same symptoms.
 
-**Paper:** Submitted to NEJM AI (June 2026). 
-
 ## Key Finding
 
 The model uses **language as a proxy for geographic location**, then applies the healthcare norms of the inferred country. This is not a translation quality issue — it is location inference from language.
