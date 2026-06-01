@@ -1,0 +1,13 @@
+{
+  "description": "French and Russian baseline + US anchor results (30 runs each)",
+  "model": "gemini-3.5-flash",
+  "temperature": 0.3,
+  "baseline": {
+    "French":  {"er": 10, "n": 30, "pct": 33.3, "avg_severity": 7.7, "ci": "[19.2%, 51.2%]"},
+    "Russian": {"er": 7,  "n": 30, "pct": 23.3, "avg_severity": 8.0, "ci": "[11.8%, 40.9%]"}
+  },
+  "us_anchor": {
+    "French":  {"er": 16, "n": 30, "pct": 53.3, "avg_severity": 7.8, "ci": "[36.1%, 69.8%]"},
+    "Russian": {"er": 23, "n": 30, "pct": 76.7, "avg_severity": 8.0, "ci": "[59.1%, 88.2%]"}
+  }
+}
