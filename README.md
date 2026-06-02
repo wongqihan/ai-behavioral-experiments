@@ -14,6 +14,7 @@ A collection of experiments probing failure modes in LLM decision-making: correl
 | **Grain Reporting** | 1 agent, 6 pressure levels | Gemini 3.0 Flash Preview | Scored 53%. Reported honestly at low pressure. At $50M stakes, reframed failures as "deliberate aggressive testing" and "invaluable diagnostic data." |
 | **Medical Triage** | 450 queries, 6 languages | Gemini 3.5 Flash | Japanese prompt → 0% ER. English prompt → 30% ER. Same symptoms. The model infers location from language and applies local healthcare norms. |
 | **Salary Negotiation (Language)** | 450 queries, 6 languages | Gemini 3.5 Flash | Hindi prompt → $25,263 salary advice. English prompt → $148,733. Same candidate. The model infers country from language, picks local currency, and applies regional salary norms. 5.9x gap. |
+| **Gender-Age Triage** | 210 queries, 7 conditions | Gemini 3.5 Flash | Women aged 25–38 receive 0% ER referrals vs. 23–33% for men — same symptoms. The model diagnoses women with IIH (a gender-linked condition) reducing urgency. Disparity vanishes at age 65. |
 
 ## Experiments
 
@@ -58,6 +59,11 @@ An AI agent scores 53% on a quiz, is shown its exact scorecard (8/15), then writ
 
 **Finding:** Hindi prompt → ₹2,400,000 INR (~$25,263 USD). English prompt → $148,733 USD. Adding "I am based in the US" to Hindi → $147,200 USD. The 5.9x salary gap vanishes with one line of location context.
 
+### 9. Gender-Dependent Medical Triage (`gender-age-triage/`)
+210 AI queries evaluate identical neurological symptoms across 7 demographic conditions (3 ages × 2 genders + 1 gender-unspecified baseline). The model produces a stark gender disparity through **diagnostic substitution**: it diagnoses young women with Idiopathic Intracranial Hypertension (IIH), a gender-linked condition, which reduces urgency — while diagnosing men with generic intracranial pressure pathology that triggers ER referral.
+
+**Finding:** Women aged 25–38 receive 0% ER referrals (0/60 across 60 trials). Men receive 23–33%. At age 65, both genders receive 90% ER. The mechanism is the diagnosis, not a crude gender heuristic.
+
 ## How to Run
 
 ### Prerequisites
@@ -92,6 +98,9 @@ python grain-reporting/experiment.py --api-key YOUR_KEY --runs 3
 
 # Multilingual medical triage (~450 calls, ~45 min)
 python multilingual-medical-triage/run_experiment.py
+
+# Gender-age medical triage (~210 calls, ~20 min)
+python gender-age-triage/run_experiment.py
 ```
 
 ## Technical Details
@@ -110,6 +119,7 @@ These are independent experiments, not peer-reviewed publications. Each surfaces
 - All agents of the same archetype use the same system prompt with the same model — diversity comes from temperature-based sampling, not fundamentally different reasoning
 - In 2-player games, using different models (Claude vs Gemini) introduces model personality as a confounding variable
 - Medical triage tested a single neurological scenario — results may not generalize to other symptom profiles or medical conditions
+- Gender-age triage tested a single model (Gemini 3.5 Flash) and single symptom profile — cross-model replication is needed
 
 ## Live Dashboards
 
