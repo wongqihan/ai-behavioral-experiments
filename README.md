@@ -1,5 +1,12 @@
 # AI Behavioral Experiments
 
+> **These experiments are now maintained across three focused benchmarks:**
+> - **[triagebench](https://github.com/wongqihan/triagebench)** — counterfactual consistency in clinical triage (gender, language, ZIP).
+> - **[agentbench](https://github.com/wongqihan/agentbench)** — single-agent integrity under pressure (policy compliance, metric fabrication, guardrail bypass).
+> - **[multiagent-bench](https://github.com/wongqihan/multiagent-bench)** — what emerges when agents interact (herding, game theory, negotiation, coordination cost).
+>
+> This repository is preserved unchanged as the reference target for published arXiv papers that link here.
+
 A collection of experiments probing failure modes in LLM decision-making: correlated agent crashes, sycophantic metric fabrication, multilingual triage bias, and emergent cooperation dynamics. Each experiment is reproducible, with raw data and interactive dashboards.
 
 ## Key Findings
