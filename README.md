@@ -3,7 +3,7 @@
 > **These experiments are now maintained across three focused benchmarks, each with its own headline metric:**
 > - **[TriageBench](https://github.com/wongqihan/triagebench)** (TriageGap) — counterfactual consistency in clinical triage (gender, language, ZIP).
 > - **[BreakBench](https://github.com/wongqihan/breakbench)** (BreakRate) — single-agent integrity under pressure (policy compliance, metric fabrication, guardrail bypass).
-> - **[CaptureBench](https://github.com/wongqihan/capturebench)** (CaptureRate) — how AI agents behave as economic actors (negotiation, game theory, herding, coordination cost).
+> - **CaptureBench** (CaptureRate) — how AI agents behave as economic actors (negotiation, game theory, herding, coordination cost). Releasing alongside forthcoming research.
 >
 > This repository is preserved unchanged as the reference target for published arXiv papers that link here.
 
